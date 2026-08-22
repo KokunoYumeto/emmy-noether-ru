@@ -1,0 +1,76 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0010",
+  "recorded_at": "2026-08-14T18:29:00+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "project_authority_source_identity_rebase_with_bounded_russian_surface_editing",
+  "scope": "Paper45 only: atomically replace four coupled later-redaction spans with the active ED0014/Math.-Annalen reading; preserve every byte outside those spans.",
+  "summary": "Russian Paper45 now matches its displayed Math. Annalen 97 (1927) source identity across Theorem II through Lemma II, Zusatz II/Bertini, the specialization exponent, and Satz IV through Bemerkung II. No equation-only or partial hybrid state was sealed.",
+  "human_auditable_considerations": {
+    "question": "Whether to preserve the coherent later selected-papers redaction under a Math.-Annalen title, splice one equation, or restore one coherent source identity.",
+    "evidence_weighed": [
+      "All four inherited spans match the admitted later alternate witness, so the old Russian text is coherent but misidentified.",
+      "The title and bibliography identify the 1927 Math.-Annalen work, while active ED0014 and the primary print establish the four coupled Math.-Annalen spans.",
+      "Theorem II, equations (1)-(3), Lemma II, Satz IV, and their proofs depend on one another and cannot be mixed safely."
+    ],
+    "alternatives_rejected": [
+      "Equation-(3)-only or token-only splice, because it creates a third hybrid redaction.",
+      "Silent retention under the Math.-Annalen title, because title and body witness disagree.",
+      "Whole-component retranslation, because four exact spans preserve compatible Russian house prose.",
+      "Silent emendation of the four retained ED0014 uncertainties, because each needs separate source adjudication."
+    ],
+    "claim_boundary": "Project source-identity alignment and bounded Russian editing; not native/community validation or critical-edition certification."
+  },
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0009",
+    "ledger_rows": 9,
+    "ledger_bytes": 11059,
+    "ledger_sha256": "3E22E1E81607A898AFCE055C8C7A9FF5224344EE217BAC97DD50C027A308E15A",
+    "sidecar_bytes": 6672,
+    "sidecar_sha256": "C10054F9CE29C3CDA19670450D9C3EDF61E6A0DE76A4AD3A3E3AB70605EF4A27"
+  },
+  "source_identity_decision": {
+    "displayed_work": "Math. Annalen 97 (1927), pages 559-567",
+    "before": "four exact spans translated a later selected-papers redaction under the Math.-Annalen title",
+    "after": "all four coupled spans use the active ED0014/Math.-Annalen reading",
+    "atomicity": "all four spans applied in one component-level transaction; equation-(3)-only splice rejected"
+  },
+  "blocks": {
+    "A": {"scope": "Theorem II through Lemma II proof", "input_lines": [160,275], "input_bytes": 7213, "input_sha256": "31C8EF73625AB913B428B48048475C124CE842CAED84BAC95A7385D7D4A7A05C", "output_lines": [160,274], "output_bytes": 7247, "output_sha256": "F007C64F0711454FA8BC91137DD5D5240AE40BEE408C01B7C9C18B823BC5EA6C"},
+    "B": {"scope": "Zusatz II and Bertini apparatus", "input_lines": [287,301], "input_bytes": 1076, "input_sha256": "56DA4005C38442CE7C4593AC5DD8BF34CD8C8AE9541D40B2FA52C39D1D646740", "output_lines": [286,299], "output_bytes": 1055, "output_sha256": "579D68356D64AFC31F916B551AA13C473F545472D4393C6297E9E9A561C380C0"},
+    "C": {"scope": "specialization exponent q=(phi,psi,p^e)", "input_lines": [328,328], "input_bytes": 74, "input_sha256": "D27766C9DB5968F4E180DFCCE0046F57A87BB012CEE39363D89F0CF9185B0B2A", "output_lines": [326,326], "output_bytes": 68, "output_sha256": "BD59CBB58B20711CE5854B063FD10D8D5B84C9B33D70E94B4EE02238B1CED4B1"},
+    "D": {"scope": "Satz IV through Bemerkung II", "input_lines": [436,586], "input_bytes": 8950, "input_sha256": "2A436B222C13B6188A02D01ACB3D6F7EA0F8249B10838A07C6A6BD2D13DA8C92", "output_lines": [434,602], "output_bytes": 9014, "output_sha256": "E71DF75F911F20C732013DFE53F468F2FA2571A13C4831523704609537531357"}
+  },
+  "source_inputs": {
+    "source/base-papers1-43-ru.tex": {"bytes": 2861211, "sha256": "E3E43CE290C147F468902C112E18EDDED23F2A665DA10FA6CA814F79283D7790"},
+    "source/44-book-ru.tex": {"bytes": 245150, "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"},
+    "source/45-ru.tex": {"bytes": 37077, "sha256": "C8F0722D92B241EC41DC92355808E380A3CAB9A8F0D4CE417542E578913F9453"},
+    "source/bib-ru.tex": {"bytes": 13037, "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"}
+  },
+  "source_outputs": {
+    "source/base-papers1-43-ru.tex": {"bytes": 2861211, "sha256": "E3E43CE290C147F468902C112E18EDDED23F2A665DA10FA6CA814F79283D7790"},
+    "source/44-book-ru.tex": {"bytes": 245150, "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"},
+    "source/45-ru.tex": {"bytes": 37148, "sha256": "F80341BF083F6092333F98A4C51CC33E270ACE2535B5CE9188EEA85EF53D7A22"},
+    "source/bib-ru.tex": {"bytes": 13037, "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"}
+  },
+  "bounded_editorial_normalizations": [
+    {"locus": "equation (3), first two explicit right-hand sides", "accepted": "xK_2 and xK_3", "classification": "probable_original_print_defect", "disclosure": "active ED0014 project-editorial correction; no manuscript or separate erratum located"},
+    {"locus": "Lemma-II necessity paragraph", "primary_and_ed0014": "q_i", "accepted": "q^(i)", "classification": "probable_original_print_notation_defect", "reason": "only q^(i) is defined and used by the surrounding criterion and conclusion", "disclosure": "primary page 566 retained as adverse evidence; no manuscript or separate erratum located"}
+  ],
+  "retained_authority_uncertainties": [
+    "d(y) versus d_i(y) naming",
+    "bare f(0,y) coefficient",
+    "P overloaded as ambient object and displayed product",
+    "Bemerkung-II h_i y^(K) before lambda=(K)"
+  ],
+  "authority": {
+    "project_active_german": {"authority_id": "NOETH-DE-ED-0014", "source_bytes": 2154011, "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "pointer_bytes": 152755, "pointer_sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE", "activation_receipt_bytes": 28837, "activation_receipt_sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436", "version_doi": "10.5281/zenodo.21908301", "anonymous_all_file_readback": "PASS_53_OF_53", "canonical_claim": false},
+    "scope_machine": {"bytes": 7921, "sha256": "00B8C1B0C657E1971F70DC3E0C6B69302A741A2001B904B282A65948D7F1D2B9"},
+    "scope_human": {"bytes": 4480, "sha256": "DECFC131AC5FEF0252FE4EFDA9B85548A8769069153FA082D644B21F41D20290"}
+  },
+  "applicator": {"path": "apply_ru_p45_math_annalen_rebase_v001.py", "bytes": 56072, "sha256": "AE50E1330C31A9B43564203D7822DA715F4FB5F936441C7C41E42BB2B821332A", "default_mode": "dry_run", "apply_mode": "explicit_atomic_one_shot"},
+  "qa": {"independent_preapply_verdict": "ACCEPT; exact defects 0", "outside_span_identity": "PASS", "reverse_replay": "PASS", "mathematical_signatures": "PASS", "labels_xrefs_footnotes_environments": "PASS", "transport": "PASS", "frozen_and_public_immutability": "PASS", "no_write_dry_run_snapshot": "PASS"},
+  "open_dispositions": [{"defect_id": "NOETH-DEF-P24-0003", "status": "OPEN_RENDERED_PAGE_ADJUDICATION", "bundled_here": false}],
+  "explicit_holds": ["RU001-HOLD-PAPER14-PRIMARY-SENSES-0001", "RU001-HOLD-GLOBAL-PRIMARN-REPLACEMENT-0001"],
+  "publication": {"published_v018_unchanged": true, "public_r35_unchanged": true, "working_successor_published": false, "publication_effect": "none", "doi_effect": "none"}
+}

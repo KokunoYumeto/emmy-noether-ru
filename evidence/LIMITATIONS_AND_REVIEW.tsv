@@ -1,0 +1,6 @@
+item_id	status	description
+GENERAL-001	disclosed	Машинно-ассистированное научное рабочее издание; последующие исправления публикуются новыми версиями. / Machine-assisted scholarly working edition; later corrections are released as successor versions.
+REVIEW-001	not_completed_not_a_gate	Нет заявления о внешней, общественной или носительской сертификации русского текста. / No external, community, or native-speaker certification is claimed.
+CRITICAL-001	not_claimed	Ни немецкая опора проекта, ни русский перевод не объявляются критическим изданием. / Neither the project German authority nor this Russian translation is claimed as a critical edition.
+OPEN-HOLDS	zero	На голове RU001-EDIT-0017 нет открытых редакционных блокировок или диспозиций. / No open editorial holds or dispositions at RU001-EDIT-0017.
+MATH-FONT-001	disclosed	Традиционные математические символьные шрифты не везде имеют ToUnicode; текстовые и кириллические шрифты его имеют. / Traditional math-symbol fonts do not all carry ToUnicode; text and Cyrillic fonts do.

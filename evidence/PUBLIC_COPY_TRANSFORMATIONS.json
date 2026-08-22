@@ -1,0 +1,179 @@
+{
+  "schema": "noether-public-copy-transformations/1.0",
+  "policy": "Only public derivatives are path-sanitized; canonical controlled-workspace bytes and hashes remain unchanged.",
+  "logical_roots": {
+    "interlanguage-workspace://": "repository/project-relative custody root",
+    "user-filesystem://": "non-workspace user-file root; resolve from the cited evidence record rather than a private path"
+  },
+  "files": [
+    {
+      "path": "evidence/decisions/RU001-EDIT-0001.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 5,
+      "canonical": {
+        "bytes": 7843,
+        "sha256": "D98D84E365246D5BF264C789F07F8497A06FCB71A9BCEAAA7051FC23B87D1EB6"
+      },
+      "public_copy": {
+        "bytes": 7773,
+        "sha256": "9C1F47094ED88251B7100EED618A847F533CB1DC5C7BAA811C2FA49538FF1184"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0002.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 3,
+      "canonical": {
+        "bytes": 6348,
+        "sha256": "83B37B09E4A1A1A2179F3BD2A9AC51D495E1BE6C95649F5171A5635102139F64"
+      },
+      "public_copy": {
+        "bytes": 6306,
+        "sha256": "001AD14D0EB5B125859FFC5B32E957041096479CDFC4613C016E2513CDE00DAB"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0003.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 3,
+      "canonical": {
+        "bytes": 7430,
+        "sha256": "28797E5FD0D991D66A650FC7E23BFD1E2E06156A39BD9B44080670453BB4DD71"
+      },
+      "public_copy": {
+        "bytes": 7388,
+        "sha256": "4FF9E496F9E8421E71B674F8777A37B367FB532D257DC97D9EB94C7F15CCD469"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0006.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 10,
+      "canonical": {
+        "bytes": 10607,
+        "sha256": "CD8111E2209E85C39E579095F9E966D42EBAD4CD192C39B2B52D3927BD1F07A6"
+      },
+      "public_copy": {
+        "bytes": 10467,
+        "sha256": "841AE47BE46FCDB4CA8C3ABF0BA5FC244640DD23F107D0A8F1C8552B9D3E4B77"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0007.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 4,
+      "canonical": {
+        "bytes": 9617,
+        "sha256": "3B15536DBCD706861EC92C93F41584A4A747E4CB19B51E4E0778810F66E8B8FF"
+      },
+      "public_copy": {
+        "bytes": 9561,
+        "sha256": "B5179145983F84E2AA8C5535A160D485023C4D50D2F510ABEDD181AE53F9E0D1"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0008.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 1,
+      "canonical": {
+        "bytes": 6378,
+        "sha256": "93AF83C695DDA23341CD7B34739F8EB0B675C175C0043F43BC7512D7871C9E51"
+      },
+      "public_copy": {
+        "bytes": 6364,
+        "sha256": "EFB99320C011AE52615A67B1D2A9A6C3483CC16CF61BE3506CCB38A3598CA74E"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0009.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 1,
+      "canonical": {
+        "bytes": 6672,
+        "sha256": "C10054F9CE29C3CDA19670450D9C3EDF61E6A0DE76A4AD3A3E3AB70605EF4A27"
+      },
+      "public_copy": {
+        "bytes": 6658,
+        "sha256": "90EE791F2C542E0198BEACF68EEAA1D03C4083CB2F7BF3B1409DA82EB160F50E"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0011.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 4,
+      "canonical": {
+        "bytes": 13527,
+        "sha256": "ED9D7F7C58FF030DA06B0BE256D3102015514E674B130E7361767FEEFFB5BF5A"
+      },
+      "public_copy": {
+        "bytes": 13487,
+        "sha256": "618A617EFE82FA34D3985032D3C4AFBEA64621EF419AFF2EFDCCB8D0CAD84C8A"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0014.md",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 1,
+      "canonical": {
+        "bytes": 3850,
+        "sha256": "282FA31C808D01E0B60BE8DD0FB1F7397A7A2B83D01777E5EE50DA2273FA3341"
+      },
+      "public_copy": {
+        "bytes": 3836,
+        "sha256": "D3696F1819BB43E15D511B65EDD6FA42B3F1D48774537F8BE4FA907537016183"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0016.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 2,
+      "canonical": {
+        "bytes": 9388,
+        "sha256": "40ADA7EC99DE43191892957B13FB100AF87647736749B1F47D9CC7E0C9769B35"
+      },
+      "public_copy": {
+        "bytes": 9360,
+        "sha256": "40018ADFBC7F05BECEBDDF797896FE91528E5C235D402C5CBDD29A5BD61BD792"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0017.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 2,
+      "canonical": {
+        "bytes": 4160,
+        "sha256": "1C12C6AE86885A1E72D4F8308CEBF9318C6E7AFEC7BE2B4E309EC8B3B3AABDDC"
+      },
+      "public_copy": {
+        "bytes": 4149,
+        "sha256": "D3AEF4AE7E9D1C8733E3AD3A5F5CE2803D6B50A069B7E976FF2699955B6DD081"
+      }
+    },
+    {
+      "path": "evidence/decisions/RU001-EDIT-0017.md",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 2,
+      "canonical": {
+        "bytes": 2968,
+        "sha256": "3A6A75E02F6A7B8F9BB18C73BD6EBF6D586175AD9564690B82BC34EAD486526D"
+      },
+      "public_copy": {
+        "bytes": 2940,
+        "sha256": "2C82F4B275205B8E6DCAFFFDDF58941793785892CC0362D576B3DC819D0AECB2"
+      }
+    },
+    {
+      "path": "evidence/reference_sources/INDEX.json",
+      "policy": "private Windows custody root to logical public locator; canonical bytes retained only in controlled workspace",
+      "replacements": 1,
+      "canonical": {
+        "bytes": 6029,
+        "sha256": "89366DAED44759BA64ECD94F4B458E4A939D15AF004BECF9BB19E5822146BB29"
+      },
+      "public_copy": {
+        "bytes": 6015,
+        "sha256": "15AA0E17C35C0A6AB9418996281B1C8E07E37B3AD8E4626A9DE3AC679C43FC4E"
+      }
+    }
+  ]
+}

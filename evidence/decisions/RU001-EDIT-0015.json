@@ -1,0 +1,160 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0015",
+  "recorded_at": "2026-08-16T18:52:00+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "primary_and_project_authority_mathematical_source_fidelity_repair",
+  "defect_id": "RU-P30-SECTION08-N-CONGRUENCE-SIGN-0001",
+  "scope": "Paper30 Section08 item 2, Unit122; two inherited negative n-congruences only, plus local-producer receipts",
+  "scope_correction": "The proof is in Section08 item 2 and cites the lemma in Section07 item 3; the cited lemma is not the defect location.",
+  "summary": "Remove exactly two erroneous \\not controls so n is congruent to zero modulo the prime ideal at both loci; preserve every neighboring formula and all prose.",
+  "human_companion": {
+    "path": "decision_records/RU001-EDIT-0015.md",
+    "bytes": 5489,
+    "sha256": "A58C0079BEF332522D09AECA98A00C30479B0FD782D98D73FD1AF03A8BD0D9B1"
+  },
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0014",
+    "ledger_rows": 14,
+    "ledger_bytes": 21239,
+    "ledger_sha256": "30FD7E554E3BE54932D6A8AFCEDF8759DA3C0065B11FFF193A35CD19567E7654",
+    "sidecar_bytes": 6221,
+    "sidecar_sha256": "D6123F379D7A64F5BA0DAED07F52DE6451444A73E5BA020069E010B8FC44C819",
+    "human_bytes": 3850,
+    "human_sha256": "282FA31C808D01E0B60BE8DD0FB1F7397A7A2B83D01777E5EE50DA2273FA3341",
+    "state_bytes": 10124,
+    "state_sha256": "9539365622FFFFB6B7C1FEB0667E3F946B5AFE9DE8081C3EF8E55972B3BFA8EA",
+    "verifier_bytes": 25435,
+    "verifier_sha256": "54AAE5A97A118DCABD7838F3C97A452F1CF8D73834AA769213C19C43B9C6AC29"
+  },
+  "authority_and_primary_evidence": {
+    "active_german": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "pointer_id": "NOETH-DE-AUTH-v052-20260815",
+      "version_doi": "10.5281/zenodo.21940320",
+      "source": {"bytes": 2154017, "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907"},
+      "loci": {"section": 8, "item": 2, "narrative_line": 15174, "display_line": 15177, "reading": "positive n congruent 0 modulo p"}
+    },
+    "primary_pdf": {
+      "path": "../../../../noether/07_german_canon_control/evidence/P30/print.pdf",
+      "bytes": 3218412,
+      "sha256": "4259EF9054DE32AE81BA1A6A66481BF951F4C33B306AA15817F841BB75FABCE2",
+      "pdf_page_1_based": 28,
+      "printed_page": 52,
+      "finding": "positive n congruent 0 modulo p at both loci"
+    },
+    "primary_intake": {
+      "path": "../../../../noether/07_german_canon_control/evidence/P30/intake.json",
+      "bytes": 1711,
+      "sha256": "118898CA98B7370FC32B7CA332DE507DB1C4ED366B1D34BC9A875A1577918050"
+    }
+  },
+  "producer_projection": {
+    "immutable_origin": {
+      "path": "../../../../noether/02_slavic_working_corpus/translations/paper30/section08/russian/v001/Noether_Paper30_Section08_Russian_v001.tex",
+      "bytes": 11124,
+      "sha256": "3C9868BEBE4AD33E538F43C4C0F75443EEDB1D539E21FB026CAD7157CC53E7D1"
+    },
+    "output": {
+      "path": "producer_units/P30-section08-ru.tex",
+      "bytes": 11116,
+      "sha256": "ABEBFE663C8284C039A73269D9F73BFC088C28BF0B8C594C0D4D2AAFF6F41BFB"
+    },
+    "changed_lines": [108, 111],
+    "locators": [
+      {"line": 108, "unicode_column_start_1": 42, "utf8_byte_column_start_1": 49, "predecessor_raw_offset_0": 6629, "removed": "\\not"},
+      {"line": 111, "unicode_column_start_1": 16, "utf8_byte_column_start_1": 16, "predecessor_raw_offset_0": 6963, "removed": "\\not"}
+    ],
+    "exact_reverse_to_immutable_origin": "PASS"
+  },
+  "base_projection": {
+    "input": {"bytes": 2861993, "sha256": "F9F8D0E17C2B93A6A8129C8F496A0F5917521498892FEAA69AB30D0D0D3C8C5D"},
+    "output": {"path": "source/base-papers1-43-ru.tex", "bytes": 2861852, "sha256": "EAC5F03C2749F12F1D6250A2EEDF97C430B4FAFEB7576669AA55EFDC5894018B"},
+    "changed_lines": [16842, 16843, 16940, 16943],
+    "formula_locators": [
+      {"line": 16940, "unicode_column_start_1": 42, "utf8_byte_column_start_1": 49, "predecessor_raw_offset_0": 1992396, "removed": "\\not"},
+      {"line": 16943, "unicode_column_start_1": 16, "utf8_byte_column_start_1": 16, "predecessor_raw_offset_0": 1992730, "removed": "\\not"}
+    ],
+    "receipt_lines": [16842, 16843],
+    "exact_reverse_to_RU001_EDIT_0014": "PASS"
+  },
+  "body_identity": {
+    "predecessor_origin": {"bytes": 10170, "sha256": "25A5FA4037FE4C762E5DC93D9FF4DBEC9EA3272F92DAB90C727E5349480BC9D6", "result": "PASS"},
+    "successor_local_producer": {"bytes": 10162, "sha256": "B791017B97039B26CD389D72BDB7646575C205FE6DF02A8F80F627C1F75FDAF3", "result": "PASS"}
+  },
+  "structure_and_sign_controls": {
+    "producer_not_census": [17, 15],
+    "base_not_census": [125, 123],
+    "exact_control_stream_delta": "only the two declared \\not controls",
+    "protected_streams": ["logical lines", "environments", "labels", "references", "citations", "tags", "math delimiters", "braces", "dollars", "nonreceipt comments"],
+    "retained_controls": ["m noncongruence", "m-squared noncongruence", "positive c congruence", "c noncongruence modulo p-squared", "bn=mc"]
+  },
+  "transaction_history": {
+    "rejected_candidate": {
+      "bytes": 47571,
+      "sha256": "CDEBC0CBD22B81B23509E4A9FAE611990E25CA5CBD7B9A4563092A2169F36A76",
+      "disposition": "REJECTED_BEFORE_PRODUCTION_APPLY",
+      "reason": "independent review required stronger committed-output/cleanup separation, coherent-pair recovery, aggregated failure diagnostics, inode/type ownership, and exact-byte third-state preservation",
+      "source_mutation": "none"
+    },
+    "accepted_fix": {
+      "applicator_bytes": 57852,
+      "applicator_sha256": "2C511FEE0B978834DB26AF9A0AD74F75C3D5A61F801F282860F9E2C8ED3820DD",
+      "commit_boundary": "after pair re-derivation, pins, topology, and two owned inode witnesses",
+      "postcommit_cleanup_failure": "verified coherent new/new outputs retained; no rollback",
+      "precommit_recovery": "restore predecessor pair or preserve/roll forward owned successor pair; retain artifacts on incomplete recovery",
+      "third_state_policy": "never overwrite or delete a non-owned type, inode, or exact-byte replacement"
+    },
+    "independent_final_preapply_qa": {
+      "agent_identity": "/root/qa_ru_p30_final",
+      "model_or_effort": "not exposed",
+      "brief": "independently reconstruct producer/base and audit reverse, body, loci, TeX structure, custody, write exclusion, and repaired transaction semantics",
+      "result": "ACCEPT",
+      "default_run": {"runs": 1, "exit_code": 0, "controlled_snapshot_sha256": "FE6A73F6FD8CD9ACDE10CF1C3C551F82E4C0A98FF0A2FB581972B3E43F21A9B9", "write_effect": "none"},
+      "parent_disposition": "accepted and applied only after exact parent-side source and residue checks"
+    },
+    "production_apply": {
+      "status": "PASS",
+      "base": {"bytes": 2861852, "sha256": "EAC5F03C2749F12F1D6250A2EEDF97C430B4FAFEB7576669AA55EFDC5894018B"},
+      "producer": {"bytes": 11116, "sha256": "ABEBFE663C8284C039A73269D9F73BFC088C28BF0B8C594C0D4D2AAFF6F41BFB"},
+      "residue": []
+    }
+  },
+  "applicator": {
+    "path": "apply_ru_p30_section08_n_congruence_v001.py",
+    "bytes": 57852,
+    "sha256": "2C511FEE0B978834DB26AF9A0AD74F75C3D5A61F801F282860F9E2C8ED3820DD",
+    "default_mode": "strict_no_write_dry_run",
+    "write_gate": "explicit --apply only"
+  },
+  "verifier": {
+    "path": "verify_session_independent_state_ru_v001.py",
+    "bytes": 39800,
+    "sha256": "E45DA7BDFAA952AAE7606522756B292884369759B7F94192F87896572236885B"
+  },
+  "qa": {
+    "postapply_output_pins": "PASS",
+    "exact_reverse_replay": "PASS base to RU001-EDIT-0014 and producer to immutable origin",
+    "producer_and_base_body_identity": "PASS predecessor and successor",
+    "authority_and_primary_sign_agreement": "PASS",
+    "protected_structure_transport": "PASS",
+    "transaction_residue": [],
+    "verifier_runs": {"runs": 2, "result": "MATCH", "stdout_bytes": 1285, "stdout_sha256": "F91AD9DF0348F8C65E76FF668453466B004AE95B90A5A45E0A158FC667174A6D", "stderr_bytes_each": 0}
+  },
+  "preservation": {
+    "source_44_source_45_bibliography": "byte-exact",
+    "18_predecessor_producers": "byte-exact",
+    "producer_count_after": 19,
+    "sealed_asset": "byte-exact",
+    "frozen_v018_public_r35_and_standalone_record": "byte-exact",
+    "source_build_output_exclusion": "source/$out remains excluded and untouched"
+  },
+  "open_dispositions": [],
+  "explicit_holds_after": 2,
+  "build_effect": "none",
+  "working_successor_published": false,
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "native_validation_claim": false,
+  "critical_edition_claim": false
+}

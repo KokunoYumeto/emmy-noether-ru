@@ -1,0 +1,160 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0007",
+  "recorded_at": "2026-08-14T13:54:31+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "primary_source_and_project_authority_formula_and_source_fidelity_repair",
+  "scope": "Four bounded producer units and their assembled Russian reader projections: Paper02 Section11, Paper08, Paper22, and Paper34 Section23.",
+  "summary": "Mirror four already-adjudicated ED0014 source-fidelity repairs into Russian: remove the stale Paper02 reduction minus, restore rational scalar symbols and domain in Paper08, restore the lambda index in Paper22, and restore the Paper34 W_nu/simple-left-ideal identities.",
+  "human_auditable_considerations": {
+    "question": "Whether four inherited Russian formula/source readings agree with the printed evidence, project-active German authority, adjacent mathematics, and the edition's own controls.",
+    "evidence_weighed": [
+      "Paper02: ED0014 line 1796 and the adjacent identity theta_eta^2 ~ -1/3(...) force the substituted reduction term to be +1/3; the later genuinely negative relation remains unchanged.",
+      "Paper08: ED0014 line 6043, the accepted checker packet, and primary-page witness require rational c_1,c_2, not rational-integer theta_1,theta_2.",
+      "Paper22: ED0014 lines 12839-12843 and the primary-page witness bind B_lambda throughout the lambda-indexed filtration; B_i is incoherent at the selected locus.",
+      "Paper34: ED0014 lines 18065-18069 require W_nu, name l_nu twice, and specify a simple left ideal; an independent legacy scan agrees. The curated German witness is itself defective here and is retained only as adverse evidence.",
+      "The live German pointer is byte-identical to the activated r33 pointer for NOETH-DE-ED-0014, version DOI 10.5281/zenodo.21908301; all 53 files passed anonymous SHA-256 readback."
+    ],
+    "alternatives_rejected": [
+      "Treat the four generated Russian producers or corpus rows as native-language certification.",
+      "Change the later genuine Paper02 negative control.",
+      "Globally replace theta, i, W_i, or corresponding-ideal wording outside the exact source-bound loci.",
+      "Change the two legitimate Paper34 block-index W_i controls.",
+      "Follow the defective curated Paper34 witness instead of ED0014 and the corroborating scan.",
+      "Mutate historical producers, frozen v018, public r35, or any unrelated Russian terminology."
+    ],
+    "uncertainty": "The mathematical/source readings are directly controlled; no admitted native Russian corpus or human/community review is claimed. Russian wording is bounded to the existing edition register.",
+    "holds": [
+      "RU001-HOLD-PAPER14-PRIMARY-SENSES-0001",
+      "RU001-HOLD-GLOBAL-PRIMARN-REPLACEMENT-0001"
+    ]
+  },
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0006",
+    "ledger_rows": 6,
+    "ledger_bytes": 6716,
+    "ledger_sha256": "BF39EBE1492DCFDC56946A202853DD6837CE8E3F397B9AEFDF9C7055F911DB8A",
+    "sidecar_bytes": 10607,
+    "sidecar_sha256": "CD8111E2209E85C39E579095F9E966D42EBAD4CD192C39B2B52D3927BD1F07A6"
+  },
+  "exact_changes": [
+    {
+      "unit": "P02-S11",
+      "producer_locator": "producer_units/P02-section11-ru.tex:167:1",
+      "assembled_locator": "source/base-papers1-43-ru.tex:1587:1",
+      "before": "\\sim-\\frac13(\\vartheta\\R x)-\\frac16s_\\vartheta(\\theta su),",
+      "after": "\\sim\\frac13(\\vartheta\\R x)-\\frac16s_\\vartheta(\\theta su),",
+      "reason": "The adjacent substitution identity and ED0014 require a positive first term."
+    },
+    {
+      "unit": "P08",
+      "producer_locator": "producer_units/P08-ru.tex:95:413",
+      "assembled_locator": "source/base-papers1-43-ru.tex:6798:413",
+      "before": "рационально-целых $\\theta_1,\\theta_2$",
+      "after": "рациональных $c_1,c_2$",
+      "reason": "The source requires rational scalar coefficients c_1,c_2 and no integrality condition."
+    },
+    {
+      "unit": "P22",
+      "producer_locator": "producer_units/P22-ru.tex:181:10",
+      "assembled_locator": "source/base-papers1-43-ru.tex:14346:10",
+      "before": "\\Bmod_i",
+      "after": "\\Bmod_\\lambda",
+      "reason": "The surrounding filtration and primary print bind the index lambda."
+    },
+    {
+      "unit": "P34-S23",
+      "producer_locators": ["producer_units/P34-section23-ru.tex:13:1", "producer_units/P34-section23-ru.tex:86:18", "producer_units/P34-section23-ru.tex:86:239", "producer_units/P34-section23-ru.tex:88:147"],
+      "assembled_locators": ["source/base-papers1-43-ru.tex:22076:1", "source/base-papers1-43-ru.tex:22149:18", "source/base-papers1-43-ru.tex:22149:239", "source/base-papers1-43-ru.tex:22151:147"],
+      "before": "W_i with unnamed corresponding ideals and no local ml macro",
+      "after": "W_nu with named l_nu identities and corresponding simple left ideal l_nu",
+      "reason": "ED0014 fixes the block index, ideal identity, and one-sided ideal category."
+    }
+  ],
+  "producer_successors": [
+    {
+      "unit": "P02-S11",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper02/russian/v001/Noether_Paper02_Section11_Russian_v001.tex",
+      "local": "producer_units/P02-section11-ru.tex",
+      "input": {"bytes": 18036, "sha256": "EF43B6B1F8C66BF0E38D31F0CE80B3ABA71B074F33884C54DC2EF8766281423D"},
+      "output": {"bytes": 18035, "sha256": "A359423AA52678C49539B287074265B415116E75A051F0026A093FA2C853C879"}
+    },
+    {
+      "unit": "P08",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper08/russian/v001/Noether_Paper08_Russian_v001.tex",
+      "local": "producer_units/P08-ru.tex",
+      "input": {"bytes": 35100, "sha256": "5E572F40A1137FED84435F198C7161703454D279DAF3A41763C76BEFECEB5881"},
+      "output": {"bytes": 35081, "sha256": "41B640FFA1403B72265F03AECB889EA7A6A5D0C9BE47DFC3144B07F24903A3D6"}
+    },
+    {
+      "unit": "P22",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper22/russian/v001/Noether_Paper22_Russian_v001.tex",
+      "local": "producer_units/P22-ru.tex",
+      "input": {"bytes": 115631, "sha256": "AD9A9C83F14B6929AFBF89C0F5CE00EF3B83C9A638C285B4BDBD3D3E5D76D7EC"},
+      "output": {"bytes": 115637, "sha256": "B095FFC30822D528AE72E652C8B6390EB1561255646B3E712548EC453C635A11"}
+    },
+    {
+      "unit": "P34-S23",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/russian/v001/Noether_Paper34_Section23_SourceFidelity_Russian_v001.tex",
+      "local": "producer_units/P34-section23-ru.tex",
+      "input": {"bytes": 7388, "sha256": "4ECB2A43CB85C0482DC5572BB010589067EDBA6973741ED3EDA6364FAEA0E6EA"},
+      "output": {"bytes": 7455, "sha256": "FE99F445E07E7DABB92436F0D1A6922880EE3A2F4CA72E1632A28E9750EFE202"}
+    }
+  ],
+  "source_inputs": {
+    "source/base-papers1-43-ru.tex": {"bytes": 2861914, "sha256": "AF92A2D5CFCBD235509EBF7E5A920D612DEC6BE11606D647867758C42C205EF4"},
+    "source/44-book-ru.tex": {"bytes": 245150, "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"},
+    "source/45-ru.tex": {"bytes": 37077, "sha256": "C8F0722D92B241EC41DC92355808E380A3CAB9A8F0D4CE417542E578913F9453"},
+    "source/bib-ru.tex": {"bytes": 13037, "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"}
+  },
+  "source_outputs": {
+    "source/base-papers1-43-ru.tex": {"bytes": 2861434, "sha256": "42419302D457D526EE977D02F28882872FA50ED29D6354D4C5212B4E5A9C8C35"},
+    "unchanged_components": ["source/44-book-ru.tex", "source/45-ru.tex", "source/bib-ru.tex"]
+  },
+  "authority": {
+    "project_active_german": {
+      "authority_id": "NOETH-DE-ED-0014",
+      "source_bytes": 2154011,
+      "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "pointer_bytes": 152755,
+      "pointer_sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE",
+      "activation_receipt_bytes": 28837,
+      "activation_receipt_sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436",
+      "version_doi": "10.5281/zenodo.21908301",
+      "anonymous_all_file_readback": "PASS_53_OF_53",
+      "canonical_claim": false
+    },
+    "corpus_catalog": {"bytes": 10642398, "sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC"}
+  },
+  "applicator": {
+    "path": "apply_ru_ed0014_source_fidelity_tranche_v001.py",
+    "bytes": 47328,
+    "sha256": "D1A6351713247EBC4D4E58BAC3EA70A745AAF503B6F3F56C1001239A2F38FE9E",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT; exact defects 0",
+    "producer_body_projection": "PASS_BEFORE_AND_AFTER",
+    "reverse_replay": "PASS",
+    "double_run_identity": "PASS",
+    "protected_structure_transport": "PASS",
+    "semantic_holds": 0
+  },
+  "evidence_boundary": {
+    "native_validation_claim": false,
+    "human_or_community_review": "none",
+    "authority_claim": "project-active editorial authority; not a canonical or critical edition"
+  },
+  "explicit_holds": [
+    "RU001-HOLD-PAPER14-PRIMARY-SENSES-0001",
+    "RU001-HOLD-GLOBAL-PRIMARN-REPLACEMENT-0001"
+  ],
+  "publication": {
+    "published_v018_unchanged": true,
+    "public_r35_unchanged": true,
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

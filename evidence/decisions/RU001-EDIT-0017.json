@@ -1,0 +1,95 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0017",
+  "recorded_at": "2026-08-22T06:05:00+02:00",
+  "status": "applied_and_independently_verified_rebuild_required",
+  "epistemic_type": "provenance_only_portability_normalization",
+  "scope": "Exactly 211 private-machine Source-comment prefixes in the assembled Papers 1-43 source; no rendered prose, mathematics, or other source file changed.",
+  "summary": "Replace the private user-filesystem:// workspace prefix with a stable noether-corpus logical URI while preserving every unit-level path suffix and all eight already-relative producer locators.",
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0016",
+    "ledger_rows": 16,
+    "ledger_bytes": 26744,
+    "ledger_sha256": "B037062B32F484CF14EB8B7E4F0645B3AE3FE90203A39746E773C3A2A76E18BA",
+    "base_bytes": 2861872,
+    "base_sha256": "DE0621CD3C773B31603CD9BC743DE19BB266B6973A70865F448E1870604593CD"
+  },
+  "exact_change": {
+    "file": "source/base-papers1-43-ru.tex",
+    "first_line": 33,
+    "last_line": 24741,
+    "prefix_occurrences": 211,
+    "before": "% Source: interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/",
+    "after": "% Source: noether-corpus://corpus/02_slavic_working_corpus/",
+    "byte_delta": -7596,
+    "outside_declared_prefixes": "BYTE_IDENTICAL",
+    "rendered_content_change": false
+  },
+  "locator_policy": {
+    "scheme_root": "noether-corpus://corpus/",
+    "workspace_relative_resolution": "03_projects/noether/",
+    "public_resolution": "Use the edition provenance index and linked German/global-source DOI objects; never infer a private workstation path.",
+    "local_producer_prefix": "../producer_units/",
+    "logical_uri_headers_after": 211,
+    "local_producer_headers_after": 8,
+    "absolute_source_headers_after": 0
+  },
+  "inputs": {
+    "base": {
+      "bytes": 2861872,
+      "sha256": "DE0621CD3C773B31603CD9BC743DE19BB266B6973A70865F448E1870604593CD"
+    },
+    "unchanged_sources": {
+      "source/44-book-ru.tex": {
+        "bytes": 245150,
+        "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+      },
+      "source/45-ru.tex": {
+        "bytes": 37143,
+        "sha256": "06DC908C13904FFF06C6638D6F5DC192E29EFD8C3CFC9C6F6F7A34F61A812F48"
+      },
+      "source/bib-ru.tex": {
+        "bytes": 13037,
+        "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+      }
+    }
+  },
+  "outputs": {
+    "base": {
+      "path": "source/base-papers1-43-ru.tex",
+      "bytes": 2854276,
+      "sha256": "D53F4E0E1D24623B353A562480A53BE8478BB6CB39BBDC36ED0E820D73495B9A",
+      "reverse_to_RU001_EDIT_0016": "PASS"
+    }
+  },
+  "applicator": {
+    "path": "apply_ru_portable_provenance_locators_v001.py",
+    "bytes": 7468,
+    "sha256": "15AD1781FBB35B7CEF207FCD77C944B67F2591099B76A7FD839656786617E215",
+    "read_only_projection_runs": 2,
+    "read_only_outputs_byte_identical": true,
+    "apply": "PASS",
+    "transaction_residue": []
+  },
+  "human_companion": {
+    "path": "decision_records/RU001-EDIT-0017.md",
+    "bytes": 2968,
+    "sha256": "3A6A75E02F6A7B8F9BB18C73BD6EBF6D586175AD9564690B82BC34EAD486526D"
+  },
+  "qa": {
+    "independent_projection": "PASS: 211 exact comment-prefix replacements and successor SHA-256 D53F4E0E...",
+    "exact_reverse_replay": "PASS: restoring only the old prefix reproduces RU001-EDIT-0016 byte-for-byte",
+    "source_header_census": "PASS: 219 total; 211 noether-corpus logical URIs; 8 relative producer locators; 0 absolute paths",
+    "other_source_immutability": "PASS",
+    "transaction_residue": "PASS: zero"
+  },
+  "explicit_holds_after": [],
+  "open_dispositions": [],
+  "build_effect": "The EDIT-0016 candidate release source copy and build manifest are superseded. Rebuild against the portable source head; PDF bytes are expected but not assumed to remain unchanged because the TeX input identity changed.",
+  "publication_effect": "none yet",
+  "doi_effect": "none yet",
+  "published_v018_unchanged": true,
+  "working_successor_published": false,
+  "native_validation_claim": false,
+  "critical_edition_claim": false
+}

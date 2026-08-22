@@ -1,0 +1,151 @@
+{
+  "schema": "interlanguage-language-edition-index/1.1-public",
+  "index_id": "NOETHER-RU-v001-RU001-EDIT-0017",
+  "updated_at": "2026-08-22T00:00:00Z",
+  "language": {
+    "canonical_key": "ru-Cyrl",
+    "name_english": "Russian",
+    "name_native": "русский",
+    "iso_639_1": "ru",
+    "iso_15924": "Cyrl",
+    "direction": "ltr"
+  },
+  "work": {
+    "creator": "Emmy Noether",
+    "edition_title": "Избранные математические работы Эмми Нётер — полное русское издание",
+    "content_scope": "Papers 1-43, the 1929/30 hypercomplex-quantities lectures, Paper 45, and the Russian bibliography",
+    "reader_pages": 609,
+    "global_concept_doi": "10.5281/zenodo.20412587",
+    "standalone_language_concept_doi": "10.5281/zenodo.21926366",
+    "published_predecessor_version_doi": "10.5281/zenodo.21926367",
+    "repository": "https://github.com/KokunoYumeto/emmy-noether-ru",
+    "current_version_doi": "10.5281/zenodo.22052699"
+  },
+  "canonical_lane_head": {
+    "meaning": "Canonical for this Russian edition lane only; not a prescriptive canon of Russian mathematical language and not native certification.",
+    "decision_id": "RU001-EDIT-0017",
+    "decision_rows": 17,
+    "ledger": {
+      "path": "evidence/RUSSIAN_DECISIONS_v001.jsonl",
+      "bytes": 28864,
+      "sha256": "4469369DCA60F66F82E2AF9B81FCC72CAE24A665C46AAB3FF8B6D4D0B2EDFED3"
+    },
+    "head_record": {
+      "path": "evidence/decisions/RU001-EDIT-0017.json",
+      "bytes": 4160,
+      "sha256": "1C12C6AE86885A1E72D4F8308CEBF9318C6E7AFEC7BE2B4E309EC8B3B3AABDDC"
+    },
+    "open_dispositions": 0,
+    "explicit_holds": 0
+  },
+  "editable_sources": [
+    {
+      "role": "cumulative_papers_1_43",
+      "path": "source/base-papers1-43-ru.tex",
+      "bytes": 2854276,
+      "sha256": "D53F4E0E1D24623B353A562480A53BE8478BB6CB39BBDC36ED0E820D73495B9A"
+    },
+    {
+      "role": "book_44_hypercomplex_lectures",
+      "path": "source/44-book-ru.tex",
+      "bytes": 245150,
+      "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+    },
+    {
+      "role": "paper_45",
+      "path": "source/45-ru.tex",
+      "bytes": 37143,
+      "sha256": "06DC908C13904FFF06C6638D6F5DC192E29EFD8C3CFC9C6F6F7A34F61A812F48"
+    },
+    {
+      "role": "bibliography",
+      "path": "source/bib-ru.tex",
+      "bytes": 13037,
+      "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    }
+  ],
+  "derived_reader": {
+    "relationship": "deterministic serial two-pass XeLaTeX build from the four authenticated sources plus one authenticated rosette asset",
+    "path": "reader/00_NOETHER_RUSSIAN_COMPLETE_LINKED_READER.pdf",
+    "pages": 609,
+    "bytes": 3419673,
+    "sha256": "976B0AEC3FFAC0E26AFA28C962606A40B94492AB6DCFE3A9454F5362CF969FF4",
+    "build_manifest": {
+      "path": "evidence/build-manifest.json",
+      "bytes": 12715,
+      "sha256": "9EE862038B5FC71F0EA56010733AD4F3D7E6AE64C54AF11774D8ECEF235BCD9B"
+    },
+    "release_audit": {
+      "path": "evidence/RELEASE_AUDIT_VISUAL_QA_RU001_EDIT0017.json",
+      "bytes": 6863,
+      "sha256": "8C3CA9591AA68A08D6E2E56C08B4C724D0F4D3A7E728C5E034DBA644003626BE"
+    }
+  },
+  "authority_chain": {
+    "project_german_authority": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "source_bytes": 2154017,
+      "source_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "version_doi": "10.5281/zenodo.21940320",
+      "claim_boundary": "Project editorial authority, not a critical or canonical German edition."
+    },
+    "translation_status": "Russian translation/typesetting lane assembled from versioned translation witnesses and subsequently source-fidelity audited.",
+    "native_canon_status": "No harvested corpus or reference file is admitted as a general native-Russian canon.",
+    "human_review_status": "No native-Russian community review has been completed; this is disclosed and was not used as a release gate."
+  },
+  "logical_locator_resolution": {
+    "scheme": "noether-corpus://corpus/",
+    "meaning": "A stable logical root for the Noether source/translation corpus; suffixes retain work, structural unit, language, version, and witness filename.",
+    "workspace_resolution": "03_projects/noether/",
+    "public_resolution": "Resolve through this index, the evidence/provenance package, and the linked global/German DOI objects; never reconstruct a private user-directory path.",
+    "local_producer_scheme": "../producer_units/",
+    "source_header_census": {
+      "logical_noether_corpus": 211,
+      "relative_producer": 8,
+      "private_absolute": 0
+    }
+  },
+  "evidence_classes": {
+    "project_authority": "German ED0015 and directly cited primary/source objects",
+    "translation_witnesses": "Versioned Russian translation units; evidence of this edition's lineage, not automatically native canon",
+    "terminology_evidence": "Adjudicated dictionary, catalogue, research, and parallel-language evidence with source-role boundaries in decision records",
+    "generated_comparators": "Other translation lanes may be comparison evidence only and never native-Russian authority",
+    "deterministic_outputs": "PDF and public archives derived from pinned editable sources; not independent textual witnesses"
+  },
+  "extension_protocol": [
+    "Read this index, the current decision ledger, and the head record before editing.",
+    "Pin every input by byte count and SHA-256; never edit German or another language lane from this lane.",
+    "Add one monotonic decision row with exact locators, before/after text or formula, evidence roles, rejected alternatives, uncertainty, and reverse replay.",
+    "Preserve immutable witnesses; write a local producer successor when a source unit must diverge.",
+    "Regenerate the cumulative reader serially, require two byte-identical builds, and repeat affected-page plus boundary visual QA.",
+    "Update this index only after the successor source, ledger, build, and QA identities are sealed.",
+    "Publish only a meaningful non-duplicative successor in the existing repository and DOI lineage, then anonymously rehash every public artifact."
+  ],
+  "public_artifact_contract": [
+    "00 complete Russian reader PDF",
+    "01 editable source archive",
+    "02 evidence/provenance archive",
+    "03 SHA-256 manifest"
+  ],
+  "nonclaims": [
+    "not a critical edition",
+    "not native-Russian certification",
+    "not a comprehension study",
+    "not a prescriptive canon for Russian mathematics",
+    "the deterministic PDF is not an independent translation witness"
+  ],
+  "release": {
+    "version": "2026.08.22-r2",
+    "publication_date": "2026-08-22",
+    "concept_doi": "10.5281/zenodo.21926366",
+    "version_doi": "10.5281/zenodo.22052699",
+    "repository": "https://github.com/KokunoYumeto/emmy-noether-ru",
+    "public_record": "https://zenodo.org/records/22052699",
+    "artifact_contract": [
+      "00_NOETHER_RUSSIAN_COMPLETE_LINKED_READER.pdf",
+      "01_NOETHER_RUSSIAN_EDITABLE_SOURCES.zip",
+      "02_NOETHER_RUSSIAN_EVIDENCE_AND_PROVENANCE.zip",
+      "03_NOETHER_RUSSIAN_SHA256_MANIFEST.txt"
+    ]
+  }
+}

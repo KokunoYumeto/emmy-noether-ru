@@ -1,0 +1,135 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0002",
+  "recorded_at": "2026-08-14T02:00:19+02:00",
+  "status": "applied_and_verified",
+  "scope": "Paper 24 formula (3) and individual-norm display in the Russian producer unit and assembled base of the separate noether_ru_v001 working tree",
+  "summary": "Restore the source-authoritative highest-elementary-divisor notation E^(i) at two loci and reproduce the printed unnumbered individual-norm display with equation*.",
+  "supersedes_hold": "RU001-HOLD-P24-AUTO-NUMBER-0001",
+  "authority_findings": [
+    {
+      "logical_site": "Paper 24 formula (3)",
+      "classification": "later_transcription_subscript_insertion",
+      "printed_authority": "Printed p. 234 / official PDF page 7 has E^(i) zeta_0, not E_0^(i) zeta_0.",
+      "german_control": "ED0014 line 13710 has E^(i) zeta_0.",
+      "english_boundary": "Corrected English ED0014 line 14012 corroborates E^(i); it is not used as numbering authority."
+    },
+    {
+      "logical_site": "Paper 24 individual norm",
+      "classification": "later_transcription_subscript_insertion_and_spurious_auto_number",
+      "printed_authority": "Printed p. 234 / official PDF page 7 has E^(i)E_1^(i)... and no displayed equation number.",
+      "german_control": "ED0014 lines 13718-13721 use equation* and E^(i)E_1^(i)... exactly.",
+      "english_limitation": "Corrected English line 14021 corroborates E^(i), but active lines 14020-14023 retain unstarred equation and therefore are explicitly excluded as numbering authority."
+    }
+  ],
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:102",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15318",
+      "before": "\\frakM_{i-1}&=(E_0^{(i)}\\zeta_0,E_1^{(i)}\\zeta_1,\\ldots,E_\\sigma^{(i)}\\zeta_\\sigma,",
+      "after": "\\frakM_{i-1}&=(E^{(i)}\\zeta_0,E_1^{(i)}\\zeta_1,\\ldots,E_\\sigma^{(i)}\\zeta_\\sigma,"
+    },
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:110-113",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15326-15329",
+      "before": "\\begin{equation}\n R^{(i)}=E_0^{(i)}E_1^{(i)}\\cdots E_\\sigma^{(i)}\n =N(\\frakG_{i-1}\\mid\\frakM_{i-1})=N(\\frakg_{i-1}\\mid\\frakg_i).\n\\end{equation}",
+      "after": "\\begin{equation*}\n R^{(i)}=E^{(i)}E_1^{(i)}\\cdots E_\\sigma^{(i)}\n =N(\\frakG_{i-1}\\mid\\frakM_{i-1})=N(\\frakg_{i-1}\\mid\\frakg_i).\n\\end{equation*}"
+    },
+    {
+      "assembled_locator": "source/base-papers1-43-ru.tex:15228",
+      "before": "% Identity: 157332 B / SHA-256 D1278B0C5EEC6F622822747A77CA8CCC0A0A35ED50EDB05BFEB481892288342F",
+      "after": "% Identity: 157330 B / SHA-256 163A426F98F40E93B125AB46632F0969029018B07A8FC0CC508CCA6C81A3912B"
+    }
+  ],
+  "input_pins": {
+    "producer_units/P24-through-section07-ru.tex": {
+      "bytes": 157332,
+      "sha256": "D1278B0C5EEC6F622822747A77CA8CCC0A0A35ED50EDB05BFEB481892288342F"
+    },
+    "source/base-papers1-43-ru.tex": {
+      "bytes": 2861896,
+      "sha256": "E272C5649AA4F0E5880170A4DB93FD3FFA38B372B3A920BC148C2386E4EB0006"
+    },
+    "source/44-book-ru.tex": {
+      "bytes": 245150,
+      "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+    },
+    "source/45-ru.tex": {
+      "bytes": 37077,
+      "sha256": "9E69EC613B5A5EBBFB74D2C4515AC909ACDA4AF31D0049A7E2A263AC52F23E97"
+    },
+    "source/bib-ru.tex": {
+      "bytes": 13037,
+      "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    }
+  },
+  "output_pins": {
+    "producer_units/P24-through-section07-ru.tex": {
+      "bytes": 157330,
+      "sha256": "163A426F98F40E93B125AB46632F0969029018B07A8FC0CC508CCA6C81A3912B"
+    },
+    "source/base-papers1-43-ru.tex": {
+      "bytes": 2861894,
+      "sha256": "28969CF58BE9E16DB759B39FEB0E5E6148E98F81A35AF93E7EB2E138C9ECBBAD"
+    },
+    "source/44-book-ru.tex": {
+      "bytes": 245150,
+      "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+    },
+    "source/45-ru.tex": {
+      "bytes": 37077,
+      "sha256": "9E69EC613B5A5EBBFB74D2C4515AC909ACDA4AF31D0049A7E2A263AC52F23E97"
+    },
+    "source/bib-ru.tex": {
+      "bytes": 13037,
+      "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    }
+  },
+  "applicator": {
+    "path": "apply_ru_p24_formula3_norm_repairs_v001.py",
+    "bytes": 13415,
+    "sha256": "4302C81497080AF2B8423D8B795E371B3BE31E3B513C932CE714A9D7DC3E9532",
+    "default_mode": "dry_run",
+    "write_mode": "--apply",
+    "write_scope": [
+      "producer_units/P24-through-section07-ru.tex",
+      "source/base-papers1-43-ru.tex"
+    ]
+  },
+  "authority_inputs": [
+    {
+      "path": "interlanguage-workspace://03_projects/noether/07_german_canon_control/evidence/P24_primary_20260811/authority/Noether_1927_P24_GDZ_official.pdf",
+      "bytes": 3159565,
+      "sha256": "BB8D15C70DB720BB816E0A10DE738D9DE35E48B1DD32182E1CF83D89AC0CF83C"
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/noether/08_zenodo/r35/20-de.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "relevant_lines": [13710, 13718, 13719, 13720, 13721]
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/noether/08_zenodo/work/english-language-doi/final-source/generated/Noether_English_ED0014.tex",
+      "bytes": 2855590,
+      "sha256": "9C0A496687F3E92611D922FAE1528AA1F9A0550F0E2AB93DF6F973813C9A7B3C",
+      "use_boundary": "formula-content corroboration only; not numbering authority"
+    }
+  ],
+  "qa": {
+    "independent_preapply_review": "ACCEPT; no defects found",
+    "independent_applicator_pin": "13415 B / 4302C81497080AF2B8423D8B795E371B3BE31E3B513C932CE714A9D7DC3E9532",
+    "exact_changed_lines": {
+      "producer": [102, 110, 111, 113],
+      "base": [15228, 15318, 15326, 15327, 15329]
+    },
+    "producer_body_matches_assembled_body_before_and_after": true,
+    "transport_and_tex_structure_invariant": true,
+    "explicit_tags_2_through_5_and_notag_unchanged": true,
+    "spurious_automatic_5_removed": true,
+    "published_v018_unchanged": true
+  },
+  "holds_after": [],
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "published_predecessor_mutation": false
+}

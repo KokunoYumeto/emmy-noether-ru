@@ -1,21 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this edition, cite the preferred citation."
-title: "Emmy Noether: Complete Russian Corpus Edition"
+message: "При использовании издания цитируйте предпочтительную библиографическую запись. / If you use this edition, cite the preferred citation."
+title: "Эмми Нётер: полное русское издание корпуса"
 type: dataset
 authors:
   - family-names: Noether
     given-names: Emmy
-version: "2026.08.14-r1"
-date-released: "2026-08-14"
-url: "https://doi.org/10.5281/zenodo.21926367"
+version: "2026.08.22-r2"
+date-released: "2026-08-22"
+url: "https://doi.org/10.5281/zenodo.22052699"
 preferred-citation:
   type: book
-  title: "Emmy Noether: Complete Russian Corpus Edition"
+  title: "Эмми Нётер: полное русское издание корпуса / Emmy Noether: Complete Russian Corpus Edition"
   authors:
     - family-names: Noether
       given-names: Emmy
-  doi: "10.5281/zenodo.21926367"
-  version: "2026.08.14-r1"
-  date-released: "2026-08-14"
+  doi: "10.5281/zenodo.22052699"
+  version: "2026.08.22-r2"
+  date-released: "2026-08-22"
   languages:
     - "ru"

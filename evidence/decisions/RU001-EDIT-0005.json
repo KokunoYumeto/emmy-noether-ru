@@ -1,0 +1,145 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0005",
+  "recorded_at": "2026-08-14T04:25:23+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "bounded_edition_house_register_harmonization",
+  "scope": "Exactly four Primärideal/Primärkomponente renderings in the standalone Paper 45 Russian source component; no Paper 24 producer, assembled base, or other paper is changed.",
+  "summary": "Normalize the four Paper 45 примарн- forms to the Russian edition's established первичн- house register, close only the exact Paper 45 hold, and retain the separate Paper 18/19, Paper 14, and global-replacement holds.",
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0004",
+    "ledger_rows": 4,
+    "ledger_bytes": 4395,
+    "ledger_sha256": "74CC4F8B5242B9690DD9F14BB65EC62BCC989CCA0C8B97BE9FB019E570122A06",
+    "sidecar_bytes": 7257,
+    "sidecar_sha256": "138C8C58405623D001C15DB6EEE795BCAB41D7E2AC5279157F86BBCBD72D0CD5"
+  },
+  "exact_changes": [
+    {
+      "locator": "source/45-ru.tex:132:34",
+      "german_ed0011_line": 23752,
+      "alternate_redaction_line": 120,
+      "before": "примарного идеала $\\mathfrak{q}$",
+      "after": "первичного идеала $\\mathfrak{q}$",
+      "sense": "Primärideal q"
+    },
+    {
+      "locator": "source/45-ru.tex:144:1",
+      "german_ed0011_line": 23767,
+      "alternate_redaction_line": 132,
+      "before": "``примарный идеал''",
+      "after": "``первичный идеал''",
+      "sense": "Primärideal as the analogue of a prime-power"
+    },
+    {
+      "locator": "source/45-ru.tex:494:1",
+      "german_ed0011_line": 23919,
+      "alternate_redaction_line": 483,
+      "before": "примарная компонента $(\\bar{f}_{i}, \\bar{g}_{i})$",
+      "after": "первичная компонента $(\\bar{f}_{i}, \\bar{g}_{i})$",
+      "sense": "Primärkomponente"
+    },
+    {
+      "locator": "source/45-ru.tex:501:1",
+      "german_ed0011_line": 23921,
+      "alternate_redaction_line": 488,
+      "before": "примарных компонент $(\\bar{f}_{i}, \\bar{g}_{i})$",
+      "after": "первичных компонент $(\\bar{f}_{i}, \\bar{g}_{i})$",
+      "sense": "Primärkomponenten"
+    }
+  ],
+  "semantic_decision": {
+    "choice": "Use первичный идеал / первичная компонента for these four Paper 45 primary-ideal contexts.",
+    "reason": "Active ED0011 and the alternate Paper 45 witness agree at all four terminology anchors, and the already-sealed edition house register distinguishes первичный from простой.",
+    "epistemic_boundary": "This is internal edition consistency backed by German source identity, not independent native-Russian validation.",
+    "rejected": [
+      "global примарн- to первичн- replacement",
+      "using this Paper 45 decision to settle the internally consistent Paper 18/19 register",
+      "changing Paper 14 relational primary/secondary, historical-primary, or prime-number senses",
+      "treating generated Russian corpus material as admitted native authority"
+    ]
+  },
+  "hold_disposition": {
+    "superseded": "RU001-HOLD-PAPER45-PRIMARN-REGISTER-0001",
+    "retained": [
+      "RU001-HOLD-PAPER18-19-PRIMARN-REGISTER-0001",
+      "RU001-HOLD-PAPER14-PRIMARY-SENSES-0001",
+      "RU001-HOLD-GLOBAL-PRIMARN-REPLACEMENT-0001"
+    ],
+    "remaining_primarn_tokens": 97,
+    "remaining_scope": "Paper 18/19 base units only; separately adjudicated whole-paper register"
+  },
+  "inputs": {
+    "source/45-ru.tex": {
+      "bytes": 37077,
+      "sha256": "9E69EC613B5A5EBBFB74D2C4515AC909ACDA4AF31D0049A7E2A263AC52F23E97"
+    },
+    "source/base-papers1-43-ru.tex": {
+      "bytes": 2861914,
+      "sha256": "279098511043A9CEEFF9D2EE6854241F92BC1971A0293021DC7787752C7952EA"
+    },
+    "producer_units/P24-through-section07-ru.tex": {
+      "bytes": 157350,
+      "sha256": "BCCCFD588B0F91F88EEB1CA1A94121EB92C25EA8585DA070986CB721291A9E66"
+    }
+  },
+  "outputs": {
+    "source/45-ru.tex": {
+      "bytes": 37077,
+      "sha256": "C8F0722D92B241EC41DC92355808E380A3CAB9A8F0D4CE417542E578913F9453"
+    },
+    "unchanged": {
+      "source/base-papers1-43-ru.tex": "279098511043A9CEEFF9D2EE6854241F92BC1971A0293021DC7787752C7952EA",
+      "source/44-book-ru.tex": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF",
+      "source/bib-ru.tex": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276",
+      "producer_units/P24-through-section07-ru.tex": "BCCCFD588B0F91F88EEB1CA1A94121EB92C25EA8585DA070986CB721291A9E66"
+    }
+  },
+  "authority": {
+    "current_german_authority_pointer": {
+      "bytes": 152755,
+      "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"
+    },
+    "german_ed0011": {
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3"
+    },
+    "german_ed0014": {
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58"
+    },
+    "alternate_p45_witness": {
+      "bytes": 28683,
+      "sha256": "EE787705D719584295D6203BE1E1B4F751DE24127B403560A962792B1DA1572E",
+      "finding": "All four terminology anchors agree with active ED0011; the known redaction conflict is outside this family."
+    },
+    "terminology_logbook": {
+      "bytes": 428819,
+      "sha256": "D2A5C985C7D6636807009D7595691DEB6DEBFB1A535E4C854BC825448B610421"
+    },
+    "categorized_corpus_boundary": {
+      "catalog_bytes": 17705030,
+      "catalog_sha256": "938A51E73A76EF5857443A263626DAF173C06780E85B6726A192EE39A2BCBFF0",
+      "finding": "No admitted native Russian evidence; 291/291 Russian-tagged rows are generated support excluded from native evidence."
+    }
+  },
+  "applicator": {
+    "path": "apply_ru_p45_primary_register_v001.py",
+    "bytes": 32498,
+    "sha256": "BE8DC8C5AE95259742817B488DAF6C11036206D62B45E0340C5AD7BA8038BBEB"
+  },
+  "qa": {
+    "independent_preapply_replay": "PASS",
+    "changed_lines": [132, 144, 494, 501],
+    "paper45_census": "primarn 4 to 0; pervichn 0 to 4",
+    "complete_release_census": "primarn 101 to 97; pervichn 198 to 202",
+    "reverse_replay": "PASS",
+    "double_transform_and_report_identity": "PASS",
+    "structural_and_transport_gates": "PASS",
+    "published_v018_sources_and_pdf_unchanged": true
+  },
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "working_successor_published": false,
+  "native_validation_claim": false
+}

@@ -1,0 +1,190 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0013",
+  "recorded_at": "2026-08-15T22:36:00+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "active_german_authority_bounded_mathematical_notation_source_fidelity_mirror",
+  "scope": "Mirror exactly two d_i(y) and one f_i(0,y) readings from active German ED0015 into the direct Russian Paper45 component.",
+  "summary": "Apply the three accepted indexed-notation repairs, close their bounded Russian dispositions, and preserve the uppercase-P and h_i y^(K) KEEP readings.",
+  "human_companion": {
+    "path": "decision_records/RU001-EDIT-0013.md",
+    "bytes": 3327,
+    "sha256": "FB2657A5A8EE35D069FFCFC7EDFCC31E8492126BF9D1BC1F526B9BB307A01A5D"
+  },
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0012",
+    "ledger_rows": 12,
+    "ledger_bytes": 17157,
+    "ledger_sha256": "930233143393E84B9BAB13496322769EF2D34194A94E03C41683C5794574AFFB",
+    "sidecar_bytes": 4387,
+    "sidecar_sha256": "FB16E6398E070ACCA172AE44BF23B21D373C8B33D0454EF8992D89E5B86E8616",
+    "state_bytes": 9384,
+    "state_sha256": "4655E8E1BAAA8DA7F0443051CB1442883DA2F4810F51BC150330B0A8E162589C"
+  },
+  "mapping": {
+    "d(y)": "d_{i}(y) at lines 487 and 510",
+    "f(0,y)": "f_{i}(0,y) at line 520"
+  },
+  "targets": [
+    {
+      "line": 487,
+      "column_start_1": 2,
+      "byte_column_start_1": 2,
+      "raw_offset_0": 30459,
+      "successor_raw_offset_0": 30459,
+      "old": "d(y)",
+      "new": "d_{i}(y)",
+      "pre_line": {"bytes": 48, "sha256": "8FCAB9B3242B109B2656DFBC0EDEACD9A7C4C5F84E7D8F6FAE81617D18B35133"},
+      "post_line": {"bytes": 52, "sha256": "808BACA8903A214227845241EA7EB7966E54FB1CE23AA98677CF7371D4E6E950"}
+    },
+    {
+      "line": 510,
+      "column_start_1": 41,
+      "byte_column_start_1": 73,
+      "raw_offset_0": 31918,
+      "successor_raw_offset_0": 31922,
+      "old": "d(y)",
+      "new": "d_{i}(y)",
+      "pre_line": {"bytes": 96, "sha256": "ABAF2B95E1C039F933B212995B18A647311E70850268EB04D4855D702843AB82"},
+      "post_line": {"bytes": 100, "sha256": "FCFBDAF905F00A12EA1656B8CE6895117105DB881C647003B0806D269E0EE2B7"}
+    },
+    {
+      "line": 520,
+      "column_start_1": 11,
+      "byte_column_start_1": 11,
+      "raw_offset_0": 32339,
+      "successor_raw_offset_0": 32347,
+      "old": "f(0,y)",
+      "new": "f_{i}(0,y)",
+      "pre_line": {"bytes": 36, "sha256": "4B6D05E015A01C30C424A64572F2D0B30ED868CDEB228C7A530E33675D87DF25"},
+      "post_line": {"bytes": 40, "sha256": "AA94A64771C9C5235717EB4401458DD6C3062A9399A19587E94839CF1FE3EA7F"}
+    }
+  ],
+  "source_inputs": {
+    "source/44-book-ru.tex": {"bytes": 245150, "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"},
+    "source/45-ru.tex": {"bytes": 37148, "sha256": "F80341BF083F6092333F98A4C51CC33E270ACE2535B5CE9188EEA85EF53D7A22"},
+    "source/base-papers1-43-ru.tex": {"bytes": 2861993, "sha256": "F9F8D0E17C2B93A6A8129C8F496A0F5917521498892FEAA69AB30D0D0D3C8C5D"},
+    "source/bib-ru.tex": {"bytes": 13037, "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"}
+  },
+  "source_outputs": {
+    "source/44-book-ru.tex": {"bytes": 245150, "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"},
+    "source/45-ru.tex": {"bytes": 37160, "sha256": "CEADDDF60CC5EFCA200DAA8C5F6F4891023FF71BAE3387B49F3938EFE40BFFD8"},
+    "source/base-papers1-43-ru.tex": {"bytes": 2861993, "sha256": "F9F8D0E17C2B93A6A8129C8F496A0F5917521498892FEAA69AB30D0D0D3C8C5D"},
+    "source/bib-ru.tex": {"bytes": 13037, "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"}
+  },
+  "source_replay": {
+    "component45": {
+      "path": "source/45-ru.tex",
+      "input": {"bytes": 37148, "sha256": "F80341BF083F6092333F98A4C51CC33E270ACE2535B5CE9188EEA85EF53D7A22"},
+      "output": {"bytes": 37160, "sha256": "CEADDDF60CC5EFCA200DAA8C5F6F4891023FF71BAE3387B49F3938EFE40BFFD8"}
+    },
+    "changed_lines": [487, 510, 520],
+    "outside_segment_sha256": [
+      "9B6D2BD0101F2F60F481003AE013B96F31057DC6F56286704AF86D111841A02B",
+      "0FD17FC09214D8F9C6865C4D9A300C474BEACF8733A3DD50FB25B3F3CD75E327",
+      "22382FF016967B6B5B180452F773CE7C91636DE1D861C7267DA4D95CBFBC445D",
+      "4495F363D064ECD75FDB1CB4D28B863A89ED73C347021FB8CD4D295BE900AED7"
+    ],
+    "reverse_result": "PASS exact positional three-site reversal to RU001-EDIT-0012 Paper45 preimage"
+  },
+  "census": {
+    "changed_source_sites": 3,
+    "changed_source_lines": 3,
+    "raw_byte_delta": 12,
+    "pre_d_unindexed": 2,
+    "pre_d_indexed": 3,
+    "post_d_unindexed": 0,
+    "post_d_indexed": 5,
+    "pre_f_unindexed": 1,
+    "pre_f_indexed": 0,
+    "post_f_unindexed": 0,
+    "post_f_indexed": 1
+  },
+  "authority": {
+    "active_german": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "pointer_id": "NOETH-DE-AUTH-v052-20260815",
+      "source_bytes": 2154017,
+      "source_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "activation_version_doi": "10.5281/zenodo.21940320",
+      "current_pointer_bytes": 156949,
+      "current_pointer_sha256": "8F264C42E3639911DFCE651C4911FF87129046A119413DCDA189C906345B54BC",
+      "activation_receipt_bytes": 3561,
+      "activation_receipt_sha256": "55D982B5E8FED2865A5C43A6EAC19185E79DF12ABD50F294D8284A6787CF30AE",
+      "anonymous_readback_files": 56,
+      "readback_receipt_bytes": 30863,
+      "readback_receipt_sha256": "26AF55EE940934217516CF73B7D09A960D4630D6FECE9EFCB99AB66B15BCE287",
+      "role": "project-active editorial authority and source-fidelity control; not native-language or critical-edition certification"
+    },
+    "adjudication": {
+      "path": "../slavic_interslavic/00_lane_control/P45_FOUR_AUTHORITY_UNCERTAINTIES_ADJUDICATION_20260814.json",
+      "bytes": 25915,
+      "sha256": "C9646D4027BE13D3F4DF77343A5D550D1C7605C25D32EEEA66010288E156D5C8",
+      "change_dispositions": 2,
+      "keep_dispositions": 2
+    }
+  },
+  "paper45_authority_transition": {
+    "ED0015_active": true,
+    "version_doi": "10.5281/zenodo.21940320",
+    "russian_three_token_mirror": "APPLIED_AND_CLOSED_RU001_EDIT0013"
+  },
+  "retained_keep_readings": {
+    "overloaded_uppercase_P": {
+      "status": "KEEP_ADJUDICATED_CLOSED_AND_BYTE_PRESERVED",
+      "lines": [401, 505, 508, 509, 510]
+    },
+    "bemerkung_II_h_i_y_order_K": {
+      "status": "KEEP_ADJUDICATED_CLOSED_AND_BYTE_PRESERVED",
+      "lines": [592, 594, 597, 601, 602],
+      "context": {"lines": [588, 602], "bytes": 846, "sha256": "EFCC29A1A34AA4D058E98D3204B4FDE51194CB34B06A2F20087995A80A281DC9"}
+    }
+  },
+  "preservation": {
+    "producers": {"count": 18, "effect": "all byte-exact; no Paper45 producer twin exists"},
+    "base_and_other_sources": "byte-exact",
+    "sealed_asset": "byte-exact",
+    "inherited_RU001_EDIT0012_Paper24_geometry_and_visual_evidence": "byte-exact",
+    "frozen_v018": "byte-exact",
+    "public_r35_russian": "byte-exact",
+    "standalone_russian_record_and_readback": "byte-exact"
+  },
+  "transaction": {
+    "production_apply": {
+      "status": "PASS",
+      "output": {"bytes": 37160, "sha256": "CEADDDF60CC5EFCA200DAA8C5F6F4891023FF71BAE3387B49F3938EFE40BFFD8"},
+      "residue": []
+    }
+  },
+  "applicator": {
+    "path": "apply_ru_ed0015_p45_notation_fidelity_v001.py",
+    "bytes": 59651,
+    "sha256": "72BF4C9F1FF8A0A8801747728CDB3386384BF9A1595509ED12578A2D124E59EE",
+    "default_mode": "strict_no_write_dry_run",
+    "validated_dry_runs": 2
+  },
+  "verifier": {
+    "path": "verify_session_independent_state_ru_v001.py",
+    "bytes": 24891,
+    "sha256": "C34DA2ECAB657C27EE0060C8CED2AB102D41B82E563E12E01C0BE26C45A187B0"
+  },
+  "qa": {
+    "postapply_output_pins": "PASS",
+    "reverse_replay": "PASS exact positional three-site replay",
+    "outside_segment_identity": "PASS",
+    "protected_structure_transport": "PASS",
+    "keep_readings": "PASS",
+    "producer_preservation": "PASS",
+    "independent_raw_offset_oracle": "PASS"
+  },
+  "open_dispositions": [],
+  "explicit_holds_after": 2,
+  "build_effect": "none",
+  "frozen_v018_unchanged": true,
+  "public_r35_unchanged": true,
+  "standalone_record_unchanged": true,
+  "working_successor_published": false,
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "native_validation_claim": false
+}

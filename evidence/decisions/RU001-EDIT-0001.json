@@ -1,0 +1,172 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0001",
+  "recorded_at": "2026-08-14T01:36:28+02:00",
+  "status": "applied_and_verified",
+  "scope": "Paper 24 Russian producer unit and its assembled occurrence in the separate noether_ru_v001 working tree",
+  "summary": "Restore the source-authoritative logical connective in formula (4), suppress a premature explicit product tag, and update the embedded producer identity marker.",
+  "authority_findings": [
+    {
+      "defect_record": "NOETH-DEFREC-0069",
+      "stable_id": "NOETH-DEF-P24-0001",
+      "classification": "later_transcription_omission",
+      "printed_authority": "P24 printed p234/PDF7 contains German 'und folglich'",
+      "russian_repair": "Restore the parenthetical connective as \\text{и, следовательно,} before the unnumbered line break."
+    },
+    {
+      "defect_record": "NOETH-DEFREC-0070",
+      "stable_id": "NOETH-DEF-P24-0002",
+      "classification": "later_transcription_premature_equation_tag",
+      "printed_authority": "P24 printed p236/PDF9 product is unnumbered; genuine (5) occurs at printed p252/PDF25",
+      "russian_repair": "Replace the premature explicit \\tag{5} with \\notag and preserve the genuine later \\tag{5}."
+    }
+  ],
+  "exact_changes": [
+    {
+      "logical_site": "P24 formula (4), second row",
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:119",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15335",
+      "before": "& E^{(n)}\\cdots E^{(i)}\\frakg_{i-1}&\\equiv0\\pmod{\\frakm},\\notag\\\\",
+      "after": "& E^{(n)}\\cdots E^{(i)}\\frakg_{i-1}&\\equiv0\\pmod{\\frakm}\\quad\\text{и, следовательно,}\\notag\\\\"
+    },
+    {
+      "logical_site": "P24 formerly premature product equation (5)",
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:136",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15352",
+      "before": " =\\prod_\\nu (v_{i1}x_1+\\cdots+v_{in}x_n - z_i^{(\\nu)}), \\tag{5}",
+      "after": " =\\prod_\\nu (v_{i1}x_1+\\cdots+v_{in}x_n - z_i^{(\\nu)}), \\notag"
+    },
+    {
+      "logical_site": "assembled producer identity receipt",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15228",
+      "before": "% Identity: 157291 B / SHA-256 8CF1E6765A2CEE69D90D64ECCADE772950921D81E5E47D43B74C3D3FA4E9C054",
+      "after": "% Identity: 157332 B / SHA-256 D1278B0C5EEC6F622822747A77CA8CCC0A0A35ED50EDB05BFEB481892288342F"
+    }
+  ],
+  "input_pins": {
+    "source/base-papers1-43-ru.tex": {
+      "bytes": 2861855,
+      "sha256": "48B2B46DE1735CEC55E0C176294D3C1CF07F9FAF28BE6698BADF62A74779CE45"
+    },
+    "source/44-book-ru.tex": {
+      "bytes": 245150,
+      "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+    },
+    "source/45-ru.tex": {
+      "bytes": 37077,
+      "sha256": "9E69EC613B5A5EBBFB74D2C4515AC909ACDA4AF31D0049A7E2A263AC52F23E97"
+    },
+    "source/bib-ru.tex": {
+      "bytes": 13037,
+      "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    },
+    "producer_units/P24-through-section07-ru.tex": {
+      "bytes": 157291,
+      "sha256": "8CF1E6765A2CEE69D90D64ECCADE772950921D81E5E47D43B74C3D3FA4E9C054"
+    }
+  },
+  "output_pins": {
+    "source/base-papers1-43-ru.tex": {
+      "bytes": 2861896,
+      "sha256": "E272C5649AA4F0E5880170A4DB93FD3FFA38B372B3A920BC148C2386E4EB0006"
+    },
+    "source/44-book-ru.tex": {
+      "bytes": 245150,
+      "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+    },
+    "source/45-ru.tex": {
+      "bytes": 37077,
+      "sha256": "9E69EC613B5A5EBBFB74D2C4515AC909ACDA4AF31D0049A7E2A263AC52F23E97"
+    },
+    "source/bib-ru.tex": {
+      "bytes": 13037,
+      "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    },
+    "producer_units/P24-through-section07-ru.tex": {
+      "bytes": 157332,
+      "sha256": "D1278B0C5EEC6F622822747A77CA8CCC0A0A35ED50EDB05BFEB481892288342F"
+    }
+  },
+  "applicator": {
+    "path": "apply_ru_p24_ed0013_repairs_v001.py",
+    "bytes": 14043,
+    "sha256": "8AEA8390781E26D94DA1B5889C8FD0AA5C71E7FAB7ADD3382382E01096E610E7",
+    "default_mode": "dry_run",
+    "write_mode": "--apply",
+    "source_write_scope": [
+      "producer_units/P24-through-section07-ru.tex",
+      "source/base-papers1-43-ru.tex"
+    ]
+  },
+  "authority_inputs": [
+    {
+      "path": "interlanguage-workspace://03_projects/noether/07_german_canon_control/evidence/P24_primary_20260811/adjudication.json",
+      "bytes": 5785,
+      "sha256": "A29336573793ADE48688F391E14DA5132C29FB9995130B4D945C0075DCA685EB"
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/noether/07_german_canon_control/evidence/P24_primary_20260811/source_delta.json",
+      "bytes": 2778,
+      "sha256": "9D304859118E1171BAD9F541480A7D4F79A0CBCF4DCF9BC705FAA2E40816D426"
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/noether/08_zenodo/r35/20-de.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "relevant_lines": [13727, 13743, 13972]
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/noether/08_zenodo/work/english-language-doi/final-source/generated/Noether_English_ED0014.tex",
+      "bytes": 2855590,
+      "sha256": "9C0A496687F3E92611D922FAE1528AA1F9A0550F0E2AB93DF6F973813C9A7B3C",
+      "use_boundary": "semantic control only for the two adjudicated loci; it retains the separate auto-number defect"
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/noether/08_zenodo/work/english-language-doi/final-source/generated/ED0014_REBASE_LEDGER.json",
+      "bytes": 148395,
+      "sha256": "0720FC2B9BB1128A963FF246E2DD8562D9C2B7E082ED3296F69C3177BEE23D12"
+    }
+  ],
+  "qa": {
+    "independent_preapply_review": "ACCEPT after adding the required closing comma to Russian 'и, следовательно,'",
+    "exact_changed_lines": {
+      "producer": [119, 136],
+      "base": [15228, 15335, 15352]
+    },
+    "producer_body_lines": 519,
+    "producer_body_matches_assembled_body_before_and_after": true,
+    "explicit_tag_5_in_p24": "2 to 1",
+    "notag_in_p24": "2 to 3",
+    "genuine_later_tag_5_preserved": true,
+    "line_counts_unchanged": true,
+    "utf8_nfc_lf_terminal_lf": true,
+    "published_v018_unchanged": true
+  },
+  "explicit_hold": {
+    "hold_id": "RU001-HOLD-P24-AUTO-NUMBER-0001",
+    "location": {
+      "producer": "producer_units/P24-through-section07-ru.tex:110-113",
+      "assembled": "source/base-papers1-43-ru.tex:15326-15329"
+    },
+    "issue": "The individual-norm display uses unstarred equation and therefore renders a spurious automatic (5). German ED0014 uses equation*.",
+    "disposition": "Preserved byte-exact in this bounded two-repair decision; adjudicate and repair separately before release.",
+    "english_control_limitation": "The corrected English ED0014 source carries the same latent issue and is not a clean global numbering control."
+  },
+  "terminology_nonchanges": {
+    "evidence_boundary": "Harvested Russian-language files are unadmitted usage witnesses with native authorship unknown, not native certification.",
+    "retained": [
+      "коммутативное кольцо",
+      "наибольший общий делитель",
+      "простой идеал",
+      "основной идеал for German Grundideal"
+    ],
+    "separate_future_candidates": [
+      "идеальный базис -> базис идеала at two P24 loci",
+      "historical finite-chain terminology",
+      "primary/primar terminology"
+    ]
+  },
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "published_predecessor_mutation": false
+}

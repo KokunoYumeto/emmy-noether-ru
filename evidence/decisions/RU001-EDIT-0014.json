@@ -1,0 +1,144 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0014",
+  "recorded_at": "2026-08-15T23:01:00+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "bounded_TeX_structure_and_cross_reference_fidelity_repair",
+  "defect_id": "RU-P45-MULTIPLE-LABEL-0001",
+  "scope": "Remove only the unreferenced redundant second label from Russian Paper45 relation (4).",
+  "summary": "Preserve eq:kap-4a as the sole label for the printed two-congruence relation (4), eliminating the amsmath multiple-label failure without changing text or mathematics.",
+  "human_companion": {
+    "path": "decision_records/RU001-EDIT-0014.md",
+    "bytes": 3850,
+    "sha256": "282FA31C808D01E0B60BE8DD0FB1F7397A7A2B83D01777E5EE50DA2273FA3341"
+  },
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0013",
+    "ledger_rows": 13,
+    "ledger_bytes": 19170,
+    "ledger_sha256": "05A8FD7C591999974F2DFCA616321830D6158CC9ABA4DDD78AF789E5CEC3FBB7",
+    "sidecar_bytes": 8321,
+    "sidecar_sha256": "0BBFDAA05E7A3338CEB684E1CA6A3897E539B9703770CB5B7998B8B4B65EC375",
+    "state_bytes": 9655,
+    "state_sha256": "0C78C5F013D30A9C5327548B8AD32E8E072665F0D54F7741B9F3ECAE95021FE7"
+  },
+  "build_failure_evidence": {
+    "status": "STRICT_BUILD_STOPPED_AT_SOURCE_DEFECT",
+    "path": "tmp/pdfs/ru_ed0015_heartbeat_20260815/a/paper45/paper45.log",
+    "bytes": 24481,
+    "sha256": "A25E6870D52EA3AF53D1C149B3801ECEB6B44A74556C844370EA232B00BE3F05",
+    "source_line": 453,
+    "error": "Package amsmath Error: Multiple label controls; label eq:kap-4a will be lost",
+    "partial_pdf_disposition": "not accepted as a completed build artifact",
+    "rebuild_disposition": "deferred to the serial build owner after this seal"
+  },
+  "authority_and_primary_evidence": {
+    "active_german": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "pointer_id": "NOETH-DE-AUTH-v052-20260815",
+      "version_doi": "10.5281/zenodo.21940320",
+      "relation_4_semantics": "one equation block tagged (4), containing both congruences"
+    },
+    "primary_pdf": {
+      "path": "../../../../noether/07_german_canon_control/evidence/P45_alt/ma97.pdf",
+      "bytes": 826195,
+      "sha256": "615FC4179839C8F64113DA834020F87E4F6A30FEEA26924BF030E33C55C2E8D2",
+      "printed_page": 565
+    },
+    "primary_page_render": {
+      "path": "../../../../noether/07_german_canon_control/evidence/P45_alt/ma565.png",
+      "bytes": 595322,
+      "sha256": "61FE57C3D4FB4D86B282E59E8A8E8DDDEF104F2EEDB575DE3E0094C35EBAE87D",
+      "visual_finding": "one printed number (4) governs both congruences"
+    },
+    "uk_control": {
+      "bytes": 35081,
+      "sha256": "8437DB33C1A2D42AFFCEA56EECBA74300232D81AB79C808754671E5F6299BBD9",
+      "labels_for_relation_4": 1,
+      "references_to_relation_4": 6
+    },
+    "isv_control": {
+      "bytes": 25556,
+      "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542",
+      "labels_for_relation_4": 1,
+      "references_to_relation_4": 6
+    }
+  },
+  "target": {
+    "path": "source/45-ru.tex",
+    "line": 453,
+    "column_start_1": 34,
+    "byte_column_start_1": 34,
+    "raw_offset_0": 28425,
+    "removed": "\\label{eq:kap-4b}",
+    "pre_line": {"bytes": 51, "sha256": "B11E1B354374166210B4F28447531E230105F9FAE4E7412B0935A42BFD88F74A"},
+    "post_line": {"bytes": 34, "sha256": "B2E717F004F990542DE0DA076E9A0F1401052C2A8414F2939DDCFE696C13C72F"}
+  },
+  "source_replay": {
+    "input": {"bytes": 37160, "sha256": "CEADDDF60CC5EFCA200DAA8C5F6F4891023FF71BAE3387B49F3938EFE40BFFD8"},
+    "output": {"bytes": 37143, "sha256": "06DC908C13904FFF06C6638D6F5DC192E29EFD8C3CFC9C6F6F7A34F61A812F48"},
+    "outside_segment_sha256": [
+      "CFC04EBB0EE54E9DCA30BF07304DB389CF6FBA05E52EAFC9004736C82CFCAD8A",
+      "EC2595A6CA78BF8D1647E4E93CDECC652DBE1CC445D226D939824B203915D97D"
+    ],
+    "reverse_result": "PASS exact insertion at raw offset 28425 restores RU001-EDIT-0013"
+  },
+  "cross_reference_transport": {
+    "labels_before": 10,
+    "labels_after": 9,
+    "removed_label": "eq:kap-4b",
+    "retained_label": "eq:kap-4a",
+    "references_before": 38,
+    "references_after": 38,
+    "eq_kap_4a_references": 6,
+    "eq_kap_4b_references": 0,
+    "dangling_references_after": 0
+  },
+  "preservation": {
+    "logical_lines": 623,
+    "Russian_text_and_mathematics": "byte-exact outside removed label",
+    "ED0015_d_i_f_i_repairs": "preserved",
+    "uppercase_P_and_h_i_y_order_K_KEEP_readings": "preserved",
+    "all_18_producers": "byte-exact",
+    "base_book_bibliography": "byte-exact",
+    "sealed_asset": "byte-exact",
+    "frozen_v018_public_r35_and_standalone_record": "byte-exact"
+  },
+  "transaction": {
+    "production_apply": {
+      "status": "PASS",
+      "output": {"bytes": 37143, "sha256": "06DC908C13904FFF06C6638D6F5DC192E29EFD8C3CFC9C6F6F7A34F61A812F48"},
+      "residue": []
+    }
+  },
+  "applicator": {
+    "path": "apply_ru_p45_redundant_label_v001.py",
+    "bytes": 27548,
+    "sha256": "E0A0D894AA0AE0C696D017C8D2E5F1A66897C46362CA3FC69CA1134EAA0679B3",
+    "default_mode": "strict_no_write_dry_run",
+    "validated_dry_runs": 2,
+    "dry_run_stdout": {"bytes": 3527, "sha256": "20672C8EF89DC8644A0059FAF5CCDDA7E2DC14514FD26962189C8AA1ADF7C7CE"}
+  },
+  "verifier": {
+    "path": "verify_session_independent_state_ru_v001.py",
+    "bytes": 25435,
+    "sha256": "54AAE5A97A118DCABD7838F3C97A452F1CF8D73834AA769213C19C43B9C6AC29"
+  },
+  "qa": {
+    "postapply_output_pin": "PASS",
+    "exact_reverse_replay": "PASS",
+    "independent_reverse_to_RU001_EDIT_0012": {"bytes": 37148, "sha256": "F80341BF083F6092333F98A4C51CC33E270ACE2535B5CE9188EEA85EF53D7A22"},
+    "verifier_runs": {"runs": 2, "result": "MATCH", "stdout_bytes": 714, "stdout_sha256": "EC966840D0D1AF1D9CC9A94F69E4445242033EF1CBF80C787F3844B6155C5A3F", "stderr_bytes_each": 0},
+    "outside_segment_identity": "PASS",
+    "label_and_reference_semantics": "PASS",
+    "protected_structure_transport": "PASS",
+    "primary_ED0015_UK_ISV_agreement": "PASS"
+  },
+  "open_dispositions": [],
+  "explicit_holds_after": 2,
+  "build_effect": "none",
+  "working_successor_published": false,
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "native_validation_claim": false
+}

@@ -1,0 +1,148 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0004",
+  "recorded_at": "2026-08-14T03:42:44+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "bounded_paper_register_harmonization",
+  "scope": "Exactly five isolated Primärideal/primär renderings in the Paper 24 Russian producer and assembled base; no corpus-wide primarn-family replacement.",
+  "summary": "Normalize five Paper 24 примарн- outliers to the established первичн- primary-ideal register while preserving Paper 18/19, Paper 45, and distinct Paper 14 senses as explicit holds.",
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0003",
+    "ledger_rows": 3,
+    "ledger_bytes": 3267,
+    "ledger_sha256": "B7072979C40CA85BB0EF7A35125E785D1FF7986A25B09F5EA84C56B8D72942FB",
+    "sidecar_bytes": 7430,
+    "sidecar_sha256": "28797E5FD0D991D66A650FC7E23BFD1E2E06156A39BD9B44080670453BB4DD71"
+  },
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:229:42",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15445:42",
+      "german_ed0011_ed0014_line": 13836,
+      "before": "Нули простых идеалов и примарных идеалов",
+      "after": "Нули простых идеалов и первичных идеалов"
+    },
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:259:106",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15475:106",
+      "german_ed0011_ed0014_line": 13866,
+      "before": "простого идеала или примарного идеала",
+      "after": "простого идеала или первичного идеала"
+    },
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:282:97",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15498:97",
+      "german_ed0011_ed0014_line": 13887,
+      "before": "нормы простого идеала или примарного идеала",
+      "after": "нормы простого идеала или первичного идеала"
+    },
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:286:1594",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15502:1594",
+      "german_ed0011_ed0014_line": 13891,
+      "before": "в наибольших примарных компонентах одинаковой размерности",
+      "after": "в наибольших первичных компонентах одинаковой размерности"
+    },
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:290:1237",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15506:1237",
+      "german_ed0011_ed0014_line": 13895,
+      "before": "нормы и формы элементарных делителей примарного идеала",
+      "after": "нормы и формы элементарных делителей первичного идеала"
+    }
+  ],
+  "semantic_decision": {
+    "choice": "Primideal remains простой идеал; Primärideal and adjectival primär use первичный идеал / первичная компонента in this Paper 24 register.",
+    "reason": "All five German loci are primary-ideal or primary-component contexts, the same Paper 24 producer already contains 81 accepted первичн- controls, and the master terminology log fixes the Russian distinction.",
+    "rejected": [
+      "global примарн- to первичн- replacement",
+      "treating Paper 18/19 or Paper 45 inherited registers as resolved by this local decision",
+      "folding distinct primary/secondary, historical-primary, or prime-number senses into this edit"
+    ]
+  },
+  "inputs": {
+    "producer": {
+      "bytes": 157350,
+      "sha256": "16CB66093A2CBF946A3EB3CA654B753D4424B8D7FBAEBBB7E7ECF3801181BCF7"
+    },
+    "base": {
+      "bytes": 2861914,
+      "sha256": "64F8E84DD471CA5EE0A908CF7C44819BDCA360092D56D6A70CB131896BC11D3E"
+    }
+  },
+  "outputs": {
+    "producer": {
+      "bytes": 157350,
+      "sha256": "BCCCFD588B0F91F88EEB1CA1A94121EB92C25EA8585DA070986CB721291A9E66"
+    },
+    "base": {
+      "bytes": 2861914,
+      "sha256": "279098511043A9CEEFF9D2EE6854241F92BC1971A0293021DC7787752C7952EA"
+    },
+    "unchanged": {
+      "source/44-book-ru.tex": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF",
+      "source/45-ru.tex": "9E69EC613B5A5EBBFB74D2C4515AC909ACDA4AF31D0049A7E2A263AC52F23E97",
+      "source/bib-ru.tex": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    }
+  },
+  "authority": {
+    "german_ed0011": {
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3"
+    },
+    "german_ed0014": {
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58"
+    },
+    "terminology_logbook": {
+      "bytes": 428819,
+      "sha256": "D2A5C985C7D6636807009D7595691DEB6DEBFB1A535E4C854BC825448B610421"
+    },
+    "categorized_corpus_boundary": {
+      "catalog_bytes": 10642398,
+      "catalog_sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+      "finding": "No non-generated admitted native Russian candidate attested this decision family; generated support was treated as circular usage evidence only."
+    }
+  },
+  "explicit_holds": [
+    {
+      "hold_id": "RU001-HOLD-PAPER18-19-PRIMARN-REGISTER-0001",
+      "scope": "97 primarn-family tokens in base units 090, 091, 093, 095-098, 100-102",
+      "reason": "Internally consistent inherited paper-level register requiring a separate whole-paper adjudication."
+    },
+    {
+      "hold_id": "RU001-HOLD-PAPER45-PRIMARN-REGISTER-0001",
+      "scope": "source/45-ru.tex lines 132, 144, 494, 501",
+      "reason": "Four internally consistent uses requiring a separate Paper 45 decision."
+    },
+    {
+      "hold_id": "RU001-HOLD-PAPER14-PRIMARY-SENSES-0001",
+      "scope": "base unit 076, especially lines 9874, 9880, 9949, 10043, 10047",
+      "reason": "Relational primary/secondary, historical-primary, and prime-number senses are outside the P24 terminology repair."
+    },
+    {
+      "hold_id": "RU001-HOLD-GLOBAL-PRIMARN-REPLACEMENT-0001",
+      "scope": "all Russian sources",
+      "reason": "A global lexical replacement is forbidden until paper-level registers and senses are separately adjudicated."
+    }
+  ],
+  "applicator": {
+    "path": "apply_ru_p24_primary_register_v001.py",
+    "bytes": 27536,
+    "sha256": "5D4B8490AEC0E0A61BFC8DCCD29CFA920E19CFD906F5E9C1C6236FADD9B28BF2"
+  },
+  "qa": {
+    "independent_preapply_review": "ACCEPT; exact defects 0",
+    "changed_producer_lines": [229, 259, 282, 286, 290],
+    "changed_base_lines": [15228, 15445, 15475, 15498, 15502, 15506],
+    "producer_body_matches_assembled_body": true,
+    "reverse_replay": "PASS",
+    "structural_and_protected_gates": "PASS",
+    "p24_census": "81 primary + 5 primarn before; 86 primary + 0 primarn after",
+    "published_v018_unchanged": true
+  },
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "working_successor_published": false,
+  "native_validation_claim": false
+}

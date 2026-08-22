@@ -1,0 +1,192 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0006",
+  "recorded_at": "2026-08-14T05:38:34+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "bounded_edition_house_register_harmonization",
+  "scope": "Complete Paper 18/19 primary-ideal register across ten synchronized producer units: 97 primarn-stem forms plus 11 masculine short forms primaren, 108 semantic sites total.",
+  "summary": "Harmonize the internally mixed Paper 18/19 primary-ideal family to the edition's established pervichn/pervichen register while preserving prime terminology, Paper 14 senses, historical evidence, and every mathematical/protected payload.",
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0005",
+    "ledger_rows": 5,
+    "ledger_bytes": 5495,
+    "ledger_sha256": "F00C107EED45ADD150DC7A377335FB3EBDA6B6CE3A9B76AB0C7ABF315D17C682",
+    "sidecar_bytes": 6563,
+    "sidecar_sha256": "2F888193D8BBB171854F69FD21174E9A92017E09B35F93311C85658B46E3B6C3"
+  },
+  "semantic_decision": {
+    "choice": "Use the primary-ideal house register первичн- / short form первичен throughout Papers 18 and 19.",
+    "reason": "The complete 108-site Russian family aligns one-for-one with 108 German primär- occurrences in both ED0011 and ED0014, while later sealed algebra units already use the chosen house register.",
+    "epistemic_boundary": "This is edition-level consistency, not a finding that примарный is invalid Russian and not native-Russian certification.",
+    "rejected": [
+      "a 97-site stem-only replacement that leaves 11 primaren short forms",
+      "a global Russian replacement",
+      "reversing later pervichn controls to the inherited primarn register",
+      "collapsing primary and prime terminology",
+      "treating generated Russian corpus material as admitted native authority"
+    ]
+  },
+  "census": {
+    "sites": 108,
+    "primarn_stem_sites": 97,
+    "short_form_primaren_sites": 11,
+    "body_lines": 63,
+    "identity_lines": 10,
+    "changed_logical_lines": 73,
+    "per_unit": {
+      "090": 2,
+      "091": 15,
+      "093": 1,
+      "095": 19,
+      "096": 31,
+      "097": 5,
+      "098": 9,
+      "100": 3,
+      "101": 15,
+      "102": 8
+    },
+    "form_histogram": {
+      "примарные": 36,
+      "примарных": 17,
+      "примарным": 12,
+      "примарен": 11,
+      "примарного": 9,
+      "примарны": 6,
+      "примарными": 5,
+      "Примарные": 4,
+      "примарный": 2,
+      "непримарный": 2,
+      "примарно": 2,
+      "Примарный": 1,
+      "примарностью": 1
+    }
+  },
+  "producer_successors": [
+    {
+      "unit": "090",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper18/russian/v001/Noether_Paper18_Russian_v001.tex",
+      "local": "producer_units/P18-ru.tex",
+      "input": {"bytes": 4237, "sha256": "607A72E1304F6536F036E8F7EF75C286F9F1E3314147D98C7966DBD02C97F329"},
+      "output": {"bytes": 4237, "sha256": "69B33581BCF0AC62F7AF3F31F70F4C3AD55DA46F32FC1140B7B9AC1B5ED862A6"}
+    },
+    {
+      "unit": "091",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/russian/v001/Noether_Paper19_Introduction_Russian_v001.tex",
+      "local": "producer_units/P19-introduction-ru.tex",
+      "input": {"bytes": 21515, "sha256": "40BD3D5C19E144580B5D276D747CE6E6DDDC83E91E54D4443F065A59D9F6EA7F"},
+      "output": {"bytes": 21515, "sha256": "5A111D7724A30378A307AAF393D74BB5239B19AF5CF3F16CB68A95036940533E"}
+    },
+    {
+      "unit": "093",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/russian/v001/Noether_Paper19_Section02_Russian_v001.tex",
+      "local": "producer_units/P19-section02-ru.tex",
+      "input": {"bytes": 13459, "sha256": "3B28D609F80BBA6DFC1F6EFCED63AE047A9FCCB44530B05DA35FFAB226C5E8E2"},
+      "output": {"bytes": 13459, "sha256": "EF7C94AB9CA22B62BF5EA56E36811DF0CCBF0BCAA280D0ADC18D6B322A44AD15"}
+    },
+    {
+      "unit": "095",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/russian/v001/Noether_Paper19_Section04_Russian_v001.tex",
+      "local": "producer_units/P19-section04-ru.tex",
+      "input": {"bytes": 18490, "sha256": "A15DFCDA06F441A33C65D743EA5B8E8A4CD099A4535403BCFC8A0DC1CBBC1493"},
+      "output": {"bytes": 18490, "sha256": "3B05FC4C9E553A82609710542F05CE7E58BBD1648A2A30A40CA6516287FA8106"}
+    },
+    {
+      "unit": "096",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/russian/v001/Noether_Paper19_Section05_Russian_v001.tex",
+      "local": "producer_units/P19-section05-ru.tex",
+      "input": {"bytes": 14868, "sha256": "B6DCC6D6691E2F41BA26EB757E0A0F62C921E335067137A21EF21F834453F4AF"},
+      "output": {"bytes": 14868, "sha256": "ECE5916DDCE3A027129838FF0A5B9B218291B71BC02961F7735506DB69FA9512"}
+    },
+    {
+      "unit": "097",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/russian/v001/Noether_Paper19_Section06_Russian_v001.tex",
+      "local": "producer_units/P19-section06-ru.tex",
+      "input": {"bytes": 23379, "sha256": "C48A86D72031732B94660D002953D3AFD937A982F1F256E73D369BB4178BFA5F"},
+      "output": {"bytes": 23379, "sha256": "1A57901BC4ED92EEAA35C980204EB7423A1F6EC22CA69C251F3C7B5A7B6AA9C1"}
+    },
+    {
+      "unit": "098",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/russian/v001/Noether_Paper19_Section07_Russian_v001.tex",
+      "local": "producer_units/P19-section07-ru.tex",
+      "input": {"bytes": 9975, "sha256": "4380BB55316686C9C315702B5AA925DFC8F72751C5FCE555DA8E55C407B02AB8"},
+      "output": {"bytes": 9975, "sha256": "994E34B167F1459984383158C09CAF1EFB80A7E8BE5307839623B19C570EAE4F"}
+    },
+    {
+      "unit": "100",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/russian/v001/Noether_Paper19_Section09_Russian_v001.tex",
+      "local": "producer_units/P19-section09-ru.tex",
+      "input": {"bytes": 17368, "sha256": "4A8B18A3B9DCE3C2B067597A29ED539C9494EC356552E6D66461045AD4A01095"},
+      "output": {"bytes": 17368, "sha256": "F48D16B74D0CB1E0A67E1DE0F375008C62B8567F0B2149B02694B2C6E7F1149C"}
+    },
+    {
+      "unit": "101",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/russian/v001/Noether_Paper19_Section10_Russian_v001.tex",
+      "local": "producer_units/P19-section10-ru.tex",
+      "input": {"bytes": 18851, "sha256": "D48BB32F0A1E30FC612D7EDDFA0DBBD1A612032BB3214E87B008DAFC898A84EF"},
+      "output": {"bytes": 18851, "sha256": "99EC685134012023C1C678289B245A7AE6C0D4E608DF3959A4335425181702F0"}
+    },
+    {
+      "unit": "102",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/russian/v001/Noether_Paper19_Section11_Russian_v001.tex",
+      "local": "producer_units/P19-section11-ru.tex",
+      "input": {"bytes": 10232, "sha256": "B798BFE7ADE965CF79D06A3D6F393181B6DB474743E9214D46131AEA7495B87A"},
+      "output": {"bytes": 10232, "sha256": "1BFC5CC0880750B43352BC1B6439F4E05F56BA77F4ABEA004F8BBB86BBE43D9C"}
+    }
+  ],
+  "source_inputs": {
+    "source/base-papers1-43-ru.tex": {"bytes": 2861914, "sha256": "279098511043A9CEEFF9D2EE6854241F92BC1971A0293021DC7787752C7952EA"},
+    "source/44-book-ru.tex": {"bytes": 245150, "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"},
+    "source/45-ru.tex": {"bytes": 37077, "sha256": "C8F0722D92B241EC41DC92355808E380A3CAB9A8F0D4CE417542E578913F9453"},
+    "source/bib-ru.tex": {"bytes": 13037, "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"}
+  },
+  "source_outputs": {
+    "source/base-papers1-43-ru.tex": {"bytes": 2861914, "sha256": "AF92A2D5CFCBD235509EBF7E5A920D612DEC6BE11606D647867758C42C205EF4"},
+    "unchanged_components": ["source/44-book-ru.tex", "source/45-ru.tex", "source/bib-ru.tex"]
+  },
+  "authority": {
+    "current_german_authority_pointer": {"bytes": 152755, "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"},
+    "german_ed0011": {"bytes": 2153594, "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3"},
+    "german_ed0014": {"bytes": 2154011, "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58"},
+    "terminology_logbook": {"bytes": 428819, "sha256": "D2A5C985C7D6636807009D7595691DEB6DEBFB1A535E4C854BC825448B610421"},
+    "paper18_glossary": {"bytes": 7920, "sha256": "CF3768590ACDC0908C03CA89DA01A05A7F3C730747143C92F25013CA284547AC"},
+    "paper19_glossary": {"bytes": 77082, "sha256": "6E80A8B4686A9193F6B88BC2192E629E8A462CD44E7E9152082F53C86E1C4AD2"}
+  },
+  "hold_disposition": {
+    "superseded": "RU001-HOLD-PAPER18-19-PRIMARN-REGISTER-0001",
+    "retained": [
+      "RU001-HOLD-PAPER14-PRIMARY-SENSES-0001",
+      "RU001-HOLD-GLOBAL-PRIMARN-REPLACEMENT-0001"
+    ]
+  },
+  "negative_controls": {
+    "rejected_97_only_synchronized_sha256": "24371133CAFBDFB117F145F50C5AF53CB7C43C1B30FC78DD4CAA61C4C6E85578",
+    "rejected_108_text_only_sha256": "592504C077E7359945819743947872308EBA72997D48130E4B6C301057062315"
+  },
+  "applicator": {
+    "path": "apply_ru_p18_p19_primary_register_v001.py",
+    "bytes": 44655,
+    "sha256": "AE8EF885BC28020866D9F82509A732DC488C0516B08EE3B54541C8BA2C3CBEDA",
+    "dry_run_receipt_sha256": "29E9C3DAE089A767657E2B54A436FF530DF0A96BCAF88B288D54EEE311B4B218"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT",
+    "independent_108_site_reconstruction": "PASS",
+    "german_108_alignment": "PASS",
+    "all_ten_producer_outputs": "PASS",
+    "producer_identity_synchronization": "PASS",
+    "protected_structure_transport": "PASS",
+    "reverse_replay": "PASS",
+    "double_run_identity": "PASS",
+    "frozen_v018_unchanged": true
+  },
+  "evidence_boundary": {
+    "native_validation_claim": false,
+    "generated_corpus_use": "circular usage context only; excluded from native authority"
+  },
+  "publication": {
+    "published_v018_unchanged": true,
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0003",
+  "recorded_at": "2026-08-14T03:09:07+02:00",
+  "status": "applied_and_independently_verified",
+  "scope": "All three translations of German Idealbasis in the Paper 24 Russian producer unit and assembled base of the separate noether_ru_v001 working tree",
+  "summary": "Replace the ambiguous adjectival phrase ideal basis with explicit finite-basis terminology while preserving the three distinct Russian syntactic frames.",
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0002",
+    "ledger_rows": 2,
+    "ledger_bytes": 2111,
+    "ledger_sha256": "E2F8DEF705C00B52E0D38EFB458CA547BF5F80F3D2E5FB1CF6D337F231EE8094"
+  },
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:93",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15309",
+      "german_ed0011_ed0014_line": 13701,
+      "before": "существования идеального базиса",
+      "after": "существования конечного базиса идеала"
+    },
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:140",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15356",
+      "german_ed0011_ed0014_line": 13747,
+      "before": "каждый идеал имеет идеальный базис",
+      "after": "каждый идеал имеет конечный базис"
+    },
+    {
+      "producer_locator": "producer_units/P24-through-section07-ru.tex:172",
+      "assembled_locator": "source/base-papers1-43-ru.tex:15388",
+      "german_ed0011_ed0014_line": 13778,
+      "before": "существования идеального базиса",
+      "after": "существования конечного базиса идеала"
+    },
+    {
+      "assembled_locator": "source/base-papers1-43-ru.tex:15228",
+      "before": "% Identity: 157330 B / SHA-256 163A426F98F40E93B125AB46632F0969029018B07A8FC0CC508CCA6C81A3912B",
+      "after": "% Identity: 157350 B / SHA-256 16CB66093A2CBF946A3EB3CA654B753D4424B8D7FBAEBBB7E7ECF3801181BCF7"
+    }
+  ],
+  "decision_reason": {
+    "scope_correction": "The initial two-locus proposal was rejected as incomplete because the same Paper 24 unit contains a third live translation of the same German Idealbasis lexeme.",
+    "finiteness": "German authority defines Idealbasis through a finite generating family and makes possession of such a basis equivalent to the finite-chain condition. Explicit конечный preserves that mathematical content.",
+    "terminology": "Russian базис идеала is the unambiguous noun construction; идеальный базис is liable to be read as an ideal or perfect basis rather than a basis of an ideal."
+  },
+  "input_pins": {
+    "producer_units/P24-through-section07-ru.tex": {
+      "bytes": 157330,
+      "sha256": "163A426F98F40E93B125AB46632F0969029018B07A8FC0CC508CCA6C81A3912B"
+    },
+    "source/base-papers1-43-ru.tex": {
+      "bytes": 2861894,
+      "sha256": "28969CF58BE9E16DB759B39FEB0E5E6148E98F81A35AF93E7EB2E138C9ECBBAD"
+    },
+    "source/44-book-ru.tex": {
+      "bytes": 245150,
+      "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+    },
+    "source/45-ru.tex": {
+      "bytes": 37077,
+      "sha256": "9E69EC613B5A5EBBFB74D2C4515AC909ACDA4AF31D0049A7E2A263AC52F23E97"
+    },
+    "source/bib-ru.tex": {
+      "bytes": 13037,
+      "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    }
+  },
+  "output_pins": {
+    "producer_units/P24-through-section07-ru.tex": {
+      "bytes": 157350,
+      "sha256": "16CB66093A2CBF946A3EB3CA654B753D4424B8D7FBAEBBB7E7ECF3801181BCF7"
+    },
+    "source/base-papers1-43-ru.tex": {
+      "bytes": 2861914,
+      "sha256": "64F8E84DD471CA5EE0A908CF7C44819BDCA360092D56D6A70CB131896BC11D3E"
+    },
+    "source/44-book-ru.tex": {
+      "bytes": 245150,
+      "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+    },
+    "source/45-ru.tex": {
+      "bytes": 37077,
+      "sha256": "9E69EC613B5A5EBBFB74D2C4515AC909ACDA4AF31D0049A7E2A263AC52F23E97"
+    },
+    "source/bib-ru.tex": {
+      "bytes": 13037,
+      "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    }
+  },
+  "authority_inputs": [
+    {
+      "path": "interlanguage-workspace://03_projects/noether/07_german_canon_control/candidates/ED0011/noether.tex",
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+      "relevant_lines": [11344, 11346, 11368, 13701, 13747, 13778]
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/noether/08_zenodo/r35/20-de.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "relevant_lines": [11344, 11346, 11368, 13701, 13747, 13778]
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/language_management/slavic_interslavic/multilingual_latex_source_corpus_20260814/02_extracted/undetermined/und/mk/sltex-641ec6de24e5c081968f8d6e__lecture_9.tex",
+      "bytes": 11702,
+      "sha256": "641EC6DE24E5C081968F8D6E9CD90CF8A0363253A24A8D76564CA6D53BD1FB59",
+      "relevant_lines": [19, 21, 35, 82, 92, 109],
+      "use_boundary": "Russian mathematical usage corroboration only; native authorship, translation status, and admission remain unknown."
+    }
+  ],
+  "categorized_corpus": {
+    "catalog": {
+      "bytes": 10642398,
+      "sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC"
+    },
+    "occurrences": {
+      "bytes": 28329084,
+      "sha256": "587CD53E87A82DBC7AF5064A90358BB426FC09EAA7BA2448742C0711AF6B8659"
+    },
+    "boundary": "All 118 ideal-basis adjective hits are generated Noether support and circular. The sole external basis-of-an-ideal usage family has two newline variants of one repository file and is one unadmitted witness, not two independent works and not native certification."
+  },
+  "rejected_alternatives": [
+    "Change only the two genitive sites: rejected as an incomplete same-unit family.",
+    "Use bare базис идеала at every site: rejected because the finite-chain equivalence requires explicit finiteness and line 140 has a different syntactic frame.",
+    "Retain идеальный базис: rejected as semantically ambiguous and unsupported by non-circular admitted evidence.",
+    "Change related Paper 19 or Paper 23 wording: rejected as outside this bounded Paper 24 authority mapping."
+  ],
+  "applicator": {
+    "path": "apply_ru_p24_idealbasis_family_v001.py",
+    "bytes": 11815,
+    "sha256": "07B63699A141EEAB31B00B22C87AB469EA46306EE7F01698D7D92F6AF80A2D63",
+    "default_mode": "dry_run",
+    "write_mode": "--apply"
+  },
+  "qa": {
+    "independent_preapply_review": "ACCEPT; no defects found",
+    "deterministic_dry_runs": 2,
+    "exact_changed_lines": {
+      "producer": [93, 140, 172],
+      "base": [15228, 15309, 15356, 15388]
+    },
+    "producer_body_matches_assembled_body_before_and_after": true,
+    "transport_tex_math_xref_and_comment_structure_invariant": true,
+    "reverse_replay_restores_edit_0002": true,
+    "published_v018_unchanged": true
+  },
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "published_predecessor_mutation": false,
+  "native_validation_claim": false
+}

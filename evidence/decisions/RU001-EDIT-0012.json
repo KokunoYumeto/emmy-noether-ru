@@ -1,0 +1,68 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0012",
+  "recorded_at": "2026-08-14T21:31:00+02:00",
+  "status": "applied_built_visually_verified",
+  "epistemic_type": "project_authority_presentation_fidelity_repair",
+  "defect_id": "NOETH-DEF-P24-0003",
+  "summary": "Restore left equation labels (2)-(5), vertically centering labels (3) and (4) across their two-row displays, without changing Russian wording, mathematics, or citation content.",
+  "human_companion_path": "decision_records/RU001-EDIT-0012.md",
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0011",
+    "ledger_rows": 11,
+    "ledger_bytes": 15127,
+    "ledger_sha256": "C400BD5994EE76959572D1A09BAFFD96CAB6E23BB5520E5D4FD18E843C937C69",
+    "sidecar_bytes": 13527,
+    "sidecar_sha256": "ED9D7F7C58FF030DA06B0BE256D3102015514E674B130E7361767FEEFFB5BF5A",
+    "state_bytes": 9392,
+    "state_sha256": "93D39F03EF797A3D95D367712AE673063EE36311B950CE1D8C5D2FE6573E1458"
+  },
+  "applicator": {
+    "path": "apply_ru_p24_label_geometry_v001.py",
+    "bytes": 13745,
+    "sha256": "E5E5F01329F107A1E0337BC6E0FE6681D64CE64CB4DE64FB81D8D6C42AB2D64F",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_atomic_one_shot"
+  },
+  "source_replay": {
+    "producer": {
+      "path": "producer_units/P24-through-section07-ru-p24-0004.tex",
+      "input": {"bytes": 157361, "sha256": "66FBC8C09B0B809C88330D3EBC82A5099ADB4B8F2C8C0B359743586C22B00953"},
+      "output": {"bytes": 157551, "sha256": "6F5D92747634738882425BEEBBEEC06EB31D5CC5BCDDD7DB69EF640394DB390F"},
+      "changed_lines": [94, 96, 100, 103, 104, 117, 121, 122, 368, 371]
+    },
+    "base": {
+      "path": "source/base-papers1-43-ru.tex",
+      "input": {"bytes": 2861803, "sha256": "620877DBBD0FFE759AD21FEA940D2A6FD2EBC074BD11E273923D8D5E0769328E"},
+      "output": {"bytes": 2861993, "sha256": "F9F8D0E17C2B93A6A8129C8F496A0F5917521498892FEAA69AB30D0D0D3C8C5D"},
+      "changed_lines": [15248, 15330, 15332, 15336, 15339, 15340, 15353, 15357, 15358, 15604, 15607]
+    },
+    "reverse_replay": "PASS",
+    "producer_assembled_body_identity": "PASS"
+  },
+  "authority": {
+    "geometry_adjudication": {"bytes": 12873, "sha256": "7A4B69C63FC12B28D9532E2841CD2547659D0E57C8D0CC293FF2E0AA57374B81"},
+    "geometry_review": {"bytes": 11185, "sha256": "A1DF81CC8BCF368B675CC3F7A047D41DDC7A025A5357980C4C6B2320455A446C"},
+    "prototype_receipt": {"bytes": 13656, "sha256": "ABDFFF97A0953AE3BCED77BC3DFF70596C3527DCB6C12D639722DDD9CD7FDB73"},
+    "official_pdf": {"bytes": 3159565, "sha256": "BB8D15C70DB720BB816E0A10DE738D9DE35E48B1DD32182E1CF83D89AC0CF83C"},
+    "active_german": {"authority_id": "NOETH-DE-ED-0014", "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "activation_version_doi": "10.5281/zenodo.21908301", "anonymous_readback": "PASS_53_OF_53"},
+    "historical_note": "The geometry packet's candidate-only wording is preserved as its creation-time status; later r33 activation and the live pointer establish current project use."
+  },
+  "visual_qa": {
+    "verdict": "ACCEPT; exact defects 0",
+    "producer_pdf": {"path": "00_lane_control/output/pdf/p24_geometry_20260814/ru-paper24-geometry-edit0012.pdf", "bytes": 264226, "sha256": "FBECDE24B409A4F257136C946C9BC9D61559BFAD7DDDE8C2E01C1AEFB4BE8C15", "pages": 22, "inspected_pages": [3, 4, 15]},
+    "assembled_pdf": {"path": "00_lane_control/output/pdf/p24_geometry_20260814/ru-papers1-43-geometry-edit0012.pdf", "bytes": 2521322, "sha256": "B5A99128207605529982535D3AE49F3C35A794C1C717F7E8D9AF5ECCFEBECFA2", "pages": 550, "inspected_pages": [319, 320, 331]},
+    "deterministic_builds": "PASS; A/B PDFs and logs byte-identical",
+    "findings": ["labels (2)-(5) are left-positioned", "labels (3) and (4) are vertically centered", "formula-(4) citation retained", "no clipping or collision"],
+    "warning_boundary": "Two cumulative overfull warnings are inherited and outside Paper24; producer severe/overfull count is zero."
+  },
+  "claim_boundary": "Project-authority presentation fidelity only; no native-language certification and no critical-edition claim.",
+  "remaining_p24_dispositions": [],
+  "retained_holds": 2,
+  "retained_authority_uncertainties": 4,
+  "published_v018_unchanged": true,
+  "public_r35_unchanged": true,
+  "working_successor_published": false,
+  "publication_effect": "none",
+  "doi_effect": "none"
+}

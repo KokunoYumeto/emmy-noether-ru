@@ -1,0 +1,186 @@
+{
+  "schema": "noether-russian-decision-record-v1",
+  "decision_id": "RU001-EDIT-0016",
+  "recorded_at": "2026-08-22T04:32:00+02:00",
+  "status": "applied_and_independently_verified_rebuild_required",
+  "epistemic_type": "bounded_historical_number_theory_terminology_restoration",
+  "scope": "Exactly two Paper 14 renderings of German singuläre Primärzahlen in one local producer shadow and the assembled Russian base; no other primary/prime/primary-ideal surface changes.",
+  "summary": "Replace the paraphrase особые первичные числа with the historically attested Russian term сингулярные примарные числа at the two Furtwängler loci, preserve the relational первичный/вторичный and primary-ideal первичн- surfaces, and close both remaining terminology holds without a global replacement.",
+  "predecessor": {
+    "decision_id": "RU001-EDIT-0015",
+    "ledger_rows": 15,
+    "ledger_bytes": 24177,
+    "ledger_sha256": "BC1A003BF8B37BFF9EAE85D62899E1F008E3D5D530B8570287B66279668AB31B",
+    "base_bytes": 2861852,
+    "base_sha256": "EAC5F03C2749F12F1D6250A2EEDF97C430B4FAFEB7576669AA55EFDC5894018B"
+  },
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/P14-ru.tex:243",
+      "assembled_locator": "source/base-papers1-43-ru.tex:10063",
+      "german_locator": "NOETH-DE-ED-0015:noether.tex:9264",
+      "before": "особых первичных чисел",
+      "after": "сингулярных примарных чисел",
+      "german": "singulären Primärzahlen",
+      "same_sentence_control": "простого числа ell renders German Primzahl l and remains untouched"
+    },
+    {
+      "producer_locator": "producer_units/P14-ru.tex:247",
+      "assembled_locator": "source/base-papers1-43-ru.tex:10067",
+      "german_locator": "NOETH-DE-ED-0015:noether.tex:9268",
+      "before": "особые первичные числа",
+      "after": "сингулярные примарные числа",
+      "german": "singulären Primärzahlen"
+    }
+  ],
+  "retained_paper14_surfaces": [
+    {
+      "assembled_locator": "source/base-papers1-43-ru.tex:9894",
+      "surface": "интегралы ... первичны; функции вторичны",
+      "disposition": "KEEP ordinary relational primary/secondary contrast"
+    },
+    {
+      "assembled_locator": "source/base-papers1-43-ru.tex:9900",
+      "surface": "первичны алгебраические функции; интегралы вторичны",
+      "disposition": "KEEP ordinary relational primary/secondary contrast"
+    },
+    {
+      "assembled_locator": "source/base-papers1-43-ru.tex:9969",
+      "surface": "первичных идеалов; каждого первичного идеала",
+      "disposition": "KEEP the sealed Russian-edition primary-ideal house register"
+    }
+  ],
+  "semantic_decision": {
+    "choice": "Use сингулярные примарные числа for the historical technical term; retain первичный elsewhere according to sense.",
+    "reason": "German ED0015 distinguishes technical Primärzahlen from ordinary Primzahl l in the same sentence. The 1940 Russian Hecke translation names the matching reciprocity-theory topic Сингулярные примарные числа, and an independent Russian research article uses примарное число in the same higher-reciprocity domain. The change therefore restores both technical predicates instead of paraphrasing them as особые and первичные.",
+    "rejected": [
+      "keeping особые первичные числа, because it erases the historical technical register and collides lexically with the separate первичн- house register",
+      "сингулярные первичные числа, because the directly matched Russian terminology uses примарные",
+      "особые примарные числа, because особые remains an unmotivated paraphrase of singulär",
+      "changing relational первичны/вторичны",
+      "changing Paper 14 primary ideals or reversing the sealed primary-ideal house policy",
+      "any global примарн-/первичн- replacement"
+    ],
+    "confidence": 0.96,
+    "native_certification": false
+  },
+  "authority": {
+    "german_ed0015": {
+      "path": "interlanguage-workspace://03_projects/noether/07_german_canon_control/candidates/ED0015/noether.tex",
+      "bytes": 2154017,
+      "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "lines": [
+        9264,
+        9268
+      ],
+      "canonical_claim": false
+    },
+    "hecke_1940_russian_translation": {
+      "rsl_record": "https://search.rsl.ru/ru/record/01005213140",
+      "translators": [
+        "Г. И. Ольшанский",
+        "Д. А. Райков"
+      ],
+      "terminology": "Сингулярные примарные числа",
+      "locator": "table of contents, sections 61-62",
+      "exact_heading_evidence_boundary": "public indexed transcription tied to the RSL-verified edition; the RSL scan page itself was not accessible in this session"
+    },
+    "gritsenko_1973": {
+      "catalog_url": "https://www.mathnet.ru/rus/ppi918",
+      "local_path": "reference_sources/gritsenko_arithmetic_codes_mathnet_ppi_1973_4.pdf",
+      "bytes": 1309998,
+      "sha256": "A73BC7DEBF6AD1BC590D13C55AF6EAFE41D2B5A17F1991DA2A0E3373008A7DE7",
+      "visual_locators": [
+        "printed page 20",
+        "printed page 21"
+      ],
+      "finding": "Independent Russian usage of примарных чисел / примарное число in higher reciprocity laws",
+      "source_witness_for_noether": false
+    },
+    "reference_index": {
+      "path": "reference_sources/INDEX.json",
+      "bytes": 6029,
+      "sha256": "89366DAED44759BA64ECD94F4B458E4A939D15AF004BECF9BB19E5822146BB29"
+    },
+    "parallel_translation_boundary": "Ukrainian and Interslavic surfaces were used only as generated comparison evidence, not as native-Russian authority."
+  },
+  "inputs": {
+    "immutable_origin": {
+      "path": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper14/russian/v001/Noether_Paper14_Russian_v001.tex",
+      "bytes": 99545,
+      "sha256": "3FD6246F702A86117C52154C7AA67CFA3575494C71DDB684DDF3D8DC252D8DCC",
+      "mutated": false
+    },
+    "base": {
+      "bytes": 2861852,
+      "sha256": "EAC5F03C2749F12F1D6250A2EEDF97C430B4FAFEB7576669AA55EFDC5894018B"
+    }
+  },
+  "outputs": {
+    "producer": {
+      "path": "producer_units/P14-ru.tex",
+      "bytes": 99565,
+      "sha256": "EE4A4DF25F6F761B62B307F35F4F4B874794525E469FC79137648A8E35973320",
+      "body_matches_assembled_unit": true,
+      "reverse_to_immutable_origin": "PASS"
+    },
+    "base": {
+      "path": "source/base-papers1-43-ru.tex",
+      "bytes": 2861872,
+      "sha256": "DE0621CD3C773B31603CD9BC743DE19BB266B6973A70865F448E1870604593CD",
+      "reverse_to_RU001_EDIT_0015": "PASS"
+    },
+    "unchanged_sources": {
+      "source/44-book-ru.tex": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF",
+      "source/45-ru.tex": "06DC908C13904FFF06C6638D6F5DC192E29EFD8C3CFC9C6F6F7A34F61A812F48",
+      "source/bib-ru.tex": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    }
+  },
+  "census_after": {
+    "all_four_sources_primarn_family": 2,
+    "all_four_sources_primarn_allowed_loci": [
+      "source/base-papers1-43-ru.tex:10063",
+      "source/base-papers1-43-ru.tex:10067"
+    ],
+    "all_four_sources_unintended_primarn_family": 0,
+    "all_four_sources_pervich_family": 315,
+    "forbidden_global_replacement_performed": false
+  },
+  "hold_closure": [
+    {
+      "hold_id": "RU001-HOLD-PAPER14-PRIMARY-SENSES-0001",
+      "status": "CLOSED_BY_EXACT_SENSE_ADJUDICATION"
+    },
+    {
+      "hold_id": "RU001-HOLD-GLOBAL-PRIMARN-REPLACEMENT-0001",
+      "status": "CLOSED_WITH_EXPLICIT_TWO_LOCUS_HISTORICAL_EXCEPTION_AND_ZERO_UNINTENDED_SURFACES"
+    }
+  ],
+  "applicator": {
+    "path": "apply_ru_p14_singular_primary_numbers_v001.py",
+    "bytes": 12827,
+    "sha256": "09078408356AC623D9C5234450C08DD8EE61D773B8F939B327379A1C51E8289B",
+    "read_only_projection_runs": 2,
+    "read_only_outputs_byte_identical": true,
+    "apply": "PASS",
+    "transaction_residue": []
+  },
+  "qa": {
+    "exact_target_counts": "PASS: one genitive and one nominative target in origin and assembled base",
+    "outside_declared_byte_ranges_identity": "PASS",
+    "producer_body_equals_assembled_body": "PASS",
+    "reverse_replay": "PASS for producer to immutable origin and base to RU001-EDIT-0015",
+    "ordinary_relational_controls": "PASS unchanged at lines 9894 and 9900",
+    "primary_ideal_controls": "PASS unchanged at line 9969",
+    "math_and_TeX_delta": "none; prose tokens only",
+    "build_status": "REQUIRED because the assembled source bytes changed"
+  },
+  "explicit_holds_after": [],
+  "open_dispositions": [],
+  "build_effect": "The RU001-EDIT-0015 PDFs and build manifest are now historical predecessor artifacts; rebuild and visual QA are required before freeze or publication.",
+  "publication_effect": "none yet",
+  "doi_effect": "none yet",
+  "published_v018_unchanged": true,
+  "working_successor_published": false,
+  "critical_edition_claim": false
+}

@@ -1,0 +1,161 @@
+{
+  "schema": "noether-russian-release-audit-visual-qa/1.0",
+  "recorded_at": "2026-08-22T06:42:00+02:00",
+  "status": "PASS",
+  "decision_head": "RU001-EDIT-0017",
+  "source_head": {
+    "base_papers1_43": {
+      "bytes": 2854276,
+      "sha256": "D53F4E0E1D24623B353A562480A53BE8478BB6CB39BBDC36ED0E820D73495B9A"
+    },
+    "book44": {
+      "bytes": 245150,
+      "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+    },
+    "paper45": {
+      "bytes": 37143,
+      "sha256": "06DC908C13904FFF06C6638D6F5DC192E29EFD8C3CFC9C6F6F7A34F61A812F48"
+    },
+    "bibliography": {
+      "bytes": 13037,
+      "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    }
+  },
+  "build": {
+    "driver": {
+      "path": "../../build_ru_release_v001_edit0017.py",
+      "bytes": 12241,
+      "sha256": "1F275836E418252E4D9D2F8D8F7A1C17E1418EB98727E445E8473396D4645696"
+    },
+    "manifest": {
+      "path": "build-manifest.json",
+      "bytes": 12715,
+      "sha256": "9EE862038B5FC71F0EA56010733AD4F3D7E6AE64C54AF11774D8ECEF235BCD9B"
+    },
+    "reader": {
+      "path": "../pdf/emmy-noether-russian-v001-edit0017.pdf",
+      "pages": 609,
+      "bytes": 3419673,
+      "sha256": "976B0AEC3FFAC0E26AFA28C962606A40B94492AB6DCFE3A9454F5362CF969FF4",
+      "page_geometry": "A4 on all 609 pages"
+    },
+    "components": [
+      {
+        "name": "base-papers1-43",
+        "pages": 550,
+        "bytes": 2521305,
+        "sha256": "E12C38A45956C05498D6F76D4D9796380EC8E56BA719765FEA0106603D79EF55"
+      },
+      {
+        "name": "44-book",
+        "pages": 47,
+        "bytes": 371405,
+        "sha256": "23AD9CC1ED62D4B50201EE413E8533789D86CE28090759C5258B63F83D0CB10A"
+      },
+      {
+        "name": "45",
+        "pages": 7,
+        "bytes": 162070,
+        "sha256": "E4689CD998FB772BAAEDD444963AB512A3D62B0655DCAD7ED321575B104013D9"
+      },
+      {
+        "name": "bibliography",
+        "pages": 5,
+        "bytes": 117663,
+        "sha256": "AD716B1BE93C5CF373F9D7C3C143F5E395DC25E35E57A7C5D3EFA82F70DFE950"
+      }
+    ],
+    "strict_gate": {
+      "serial_two_pass_xelatex": true,
+      "shell_escape": false,
+      "final_pass_missing_characters": 0,
+      "final_pass_undefined_references": 0,
+      "final_pass_undefined_citations": 0,
+      "final_pass_multiply_defined_labels": 0,
+      "page_equation": "550 + 47 + 7 + 5 = 609",
+      "result": "PASS"
+    },
+    "determinism": {
+      "method": "two complete cache-cleared authenticated builds; preserved run A compared byte-for-byte with live run B",
+      "all_four_component_pdfs": "MATCH",
+      "cumulative_reader": "MATCH",
+      "build_manifest": "MATCH",
+      "result": "PASS"
+    }
+  },
+  "finite_source_and_reader_audit": {
+    "script": {
+      "path": "../../audit_ru_release_v001_edit0017.py",
+      "bytes": 18681,
+      "sha256": "0FF9C7BBDC6C9BEB95F69C09F8A49A4E1BFDCAC53922C175FEBB7809D9AEFAB1"
+    },
+    "runs": 2,
+    "stdout_chars_each": 2248,
+    "stdout_sha256_each": "68085FC699E292D97E4FDBC20274494801C7E326C4FD9B906F687948F6A57F6A",
+    "stdout_byte_identical": true,
+    "checks": {
+      "strict_utf8_nfc_lf_transport": "PASS all four TeX sources",
+      "brace_environment_math_delimiter_structure": "PASS all four TeX sources",
+      "duplicate_labels": 0,
+      "unresolved_source_references": 0,
+      "source_headers": {
+        "total": 219,
+        "logical_noether_corpus": 211,
+        "relative_producer": 8,
+        "private_absolute": 0
+      },
+      "decision_ledger": "PASS 17 unique monotonic rows through RU001-EDIT-0017",
+      "explicit_holds": 0,
+      "open_dispositions": 0,
+      "exact_reverse_EDIT0017_to_EDIT0016": "PASS",
+      "exact_reverse_EDIT0016_to_EDIT0015": "PASS",
+      "P14_producer_reverse_to_immutable_origin": "PASS",
+      "provenance_only_cross_head_component_pages_compared": 609,
+      "provenance_only_content_stream_mismatches": 0,
+      "provenance_only_extracted_text_mismatches": 0
+    },
+    "result": "PASS"
+  },
+  "font_qa": {
+    "tool": "Poppler pdffonts",
+    "files_checked": 5,
+    "all_fonts_embedded": true,
+    "all_fonts_subset": true,
+    "unicode_boundary": "Traditional CM mathematical symbol/extension fonts may lack ToUnicode maps; Cyrillic/text fonts have Unicode maps. Text extraction and missing-glyph gates pass.",
+    "result": "PASS"
+  },
+  "visual_qa": {
+    "renderer": "Poppler pdftoppm, 120 dpi PNG",
+    "pages_inspected": [1, 200, 201, 202, 550, 551, 597, 598, 604, 605, 609],
+    "coverage": "reader opening; Paper14 repair with both adjacent controls; Papers1-43 to Book44 boundary; Book44 to Paper45 boundary; Paper45 to bibliography boundary; final page",
+    "findings": [
+      "The Russian text, mathematical displays, footnotes, page numbers, and margins are legible without collision or clipping.",
+      "Both restored Paper14 historical terminology loci are visible and correctly typeset on page 201.",
+      "Page 202 is an intentional continuation-tail page, not a missing-content page.",
+      "All four component transitions are intact and preserve the component's own internal pagination.",
+      "The final bibliography page and edition closing line are complete."
+    ],
+    "render_sha256": {
+      "reader-001-001.png": "457B74ACC3411BF5FF2CB68F8C99BEDC13FCA2B9153F2231D482D4960CCB00A1",
+      "reader-200-200.png": "6F8A07535E1CC85413BB5909997FA2BDC1CA8F3DBD04374D4BB486F15C18861A",
+      "reader-201-201.png": "3C267C53BECDF1BEC552BE43AD6FF874EB23F458684AFD439D30C27CBDB61562",
+      "reader-202-202.png": "51A4D752A3A98B83D4EA82F4277BFFD84EB30B6E5F9C3FF10290489B351AA81D",
+      "reader-550-550.png": "42389DB6F3617526808F0C6F7CDE31179ADF27D35E18FDA32CFD6A98C8809901",
+      "reader-551-551.png": "F4F06E47CD187D609C778343ED7D0C7A78513002E216EE4DFC5A69A8EE984B60",
+      "reader-597-597.png": "DF4CA2653CA193AC6FB21C8638141C0857D20AEE2D3C0E99A258BB7ABCB3E7AC",
+      "reader-598-598.png": "823FCCA08966CB70CFD3D91A4CE57B302F3258D9AB3397ABAF899EFBBB08EB0B",
+      "reader-604-604.png": "D56919FDFB58733AC3027C351CF85B9097C12CD4419AE9AE4627EB990DE1D2DA",
+      "reader-605-605.png": "C737995A34197F387E1229A2C1ED4D0866B0A83E58D8FF58A57BC42B12358E03",
+      "reader-609-609.png": "94FA7C57659533DE07D97AC8E6795E18928BD24C38CA243602AF951727461E72"
+    },
+    "result": "PASS"
+  },
+  "limitations_and_nonclaims": {
+    "native_russian_review": "Not performed; this is disclosed and is not a release gate.",
+    "comprehension_study": "Not performed.",
+    "critical_edition_claim": false,
+    "native_language_canon_claim": false,
+    "automated_pdf_text_order": "pdfpages extraction can reorder formula operators; page-content streams plus rendered inspection are the controlling parity evidence."
+  },
+  "publication_effect": "none yet; this receipt authorizes four-file package assembly and public release transaction"
+}
