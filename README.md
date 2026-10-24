@@ -1,34 +1,37 @@
-# Эмми Нётер: полное русское издание корпуса
+# Эмми Нётер — Математические труды на русском языке
 
-[Читать полный 609-страничный PDF](https://zenodo.org/records/22052699/files/00_NOETHER_RUSSIAN_COMPLETE_LINKED_READER.pdf) · [стабильный DOI русского издания](https://doi.org/10.5281/zenodo.21926366) · [DOI этой версии](https://doi.org/10.5281/zenodo.22052699)
+Статьи 1–43, лекции 1929/30 года в записи М. Deuring, работа Kapferer и Noether с дополнением, библиография и заключительные списки.
 
-Это полное поддерживаемое русское издание корпуса работ Эмми Нётер: статьи 1–43, лекции 1929/30 года о гиперкомплексных величинах (работа 44), статья 45 и русская библиография. Редактируемые исходники, решения, инструменты воспроизведения, результаты сборки и проверки опубликованы вместе с книгой.
+[**Читать PDF архивного издания**](https://github.com/KokunoYumeto/emmy-noether-ru/blob/main/reader/00_NOETHER_RUSSIAN_COMPLETE_LINKED_READER.pdf).
 
-## Что содержит версия 2026.08.22-r2
+### Основной текст
 
-- 609 страниц формата A4; четыре самостоятельно собираемых компонента: 550 + 47 + 7 + 5 страниц.
-- Исправления верности немецкому источнику и математической записи, в том числе восстановление исторического термина «сингулярные примарные числа» там, где немецкий текст различает *Primarzahl* и *Primzahl*.
-- 17 последовательных, обратимо воспроизводимых редакционных решений; открытых блокировок и неразрешённых редакционных диспозиций — 0.
-- Две независимые чистые сборки дали побайтно одинаковые PDF; проверены структура TeX, формулы, ссылки, шрифты, извлечённый текст и контрольные страницы.
-- Все внутренние пути заменены переносимыми логическими локаторами; машинная точка входа — [`machine/LANGUAGE_EDITION_INDEX.json`](machine/LANGUAGE_EDITION_INDEX.json).
+- [Редактируемые исходники LaTeX 1](editions/2026-10-24/ru/current/02-01-base-papers1-43-ru.tex).
+- [Редактируемые исходники LaTeX 2](editions/2026-10-24/ru/current/02-02-44-book-ru.tex).
+- [Редактируемые исходники LaTeX 3](editions/2026-10-24/ru/current/02-03-45-ru.tex).
+- [Редактируемые исходники LaTeX 4](editions/2026-10-24/ru/current/02-04-bib-ru.tex).
+- [Полный архив исходников](editions/2026-10-24/ru/current/03-noether-ru-sources.zip).
 
-Это машинно-ассистированное научное рабочее издание, а не рецензированное критическое издание и не свидетельство проверки носителями русского языка. Отсутствие внешней и общественной языковой рецензии раскрыто и не скрывается за техническими тестами.
+### Текст с редакционными исправлениями
 
-## Публичные файлы
+- [Редактируемые исходники LaTeX 1](editions/2026-10-24/ru/corrected/02-01-base-papers1-43-ru.tex).
+- [Редактируемые исходники LaTeX 2](editions/2026-10-24/ru/corrected/02-02-44-book-ru.tex).
+- [Редактируемые исходники LaTeX 3](editions/2026-10-24/ru/corrected/02-03-45-ru.tex).
+- [Редактируемые исходники LaTeX 4](editions/2026-10-24/ru/corrected/02-04-bib-ru.tex).
+- [Полный архив исходников](editions/2026-10-24/ru/corrected/03-noether-ru-sources.zip).
 
-1. `00_...pdf` — полный читательский PDF.
-2. `01_...zip` — редактируемые TeX-исходники, ресурс изображения, инструкции сборки и машинный индекс.
-3. `02_...zip` — журнал решений, доказательства происхождения, методика, инструменты воспроизведения и QA.
-4. `03_...txt` — SHA-256 и размеры первых трёх файлов.
+PDF по ссылке относится к прежнему изданию и не соответствует этим исходникам. Исходники сохраняют весь указанный корпус; редакционные исправления обоснованы в научных примечаниях. Проверка отдельных мест не удостоверяет точность всего корпуса.
 
-Немецкая проектная опора: `NOETH-DE-ED-0015`, [DOI 10.5281/zenodo.21940320](https://doi.org/10.5281/zenodo.21940320). Глобальный многоязычный каталог: [DOI 10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587). Границы прав описаны в [`LICENSE`](LICENSE).
+Сохраните структуру распакованного архива. Каждый главный файл следует дважды собрать XeLaTeX из его каталога. Пакеты и шрифты перечислены в преамбуле.
 
----
+Перевод создан ИИ. Исправления и набор выполнены OpenAI Codex — GPT-6 Astra, уровень рассуждения Ultra. Сохранено авторство Emmy Noether, M. Deuring и соавторов, указанных в каждом труде. Издателю не приписываются человеческий перевод или независимая научная рецензия.
 
-# Emmy Noether: Complete Russian Corpus Edition
+[Авторство и права](editions/2026-10-24/ru/RIGHTS.md).
 
-[Read the complete 609-page PDF](https://zenodo.org/records/22052699/files/00_NOETHER_RUSSIAN_COMPLETE_LINKED_READER.pdf) · [stable Russian concept DOI](https://doi.org/10.5281/zenodo.21926366) · [this version DOI](https://doi.org/10.5281/zenodo.22052699)
 
-This is the complete maintained Russian edition: Papers 1–43, the 1929/30 lectures on hypercomplex quantities (Work 44), Paper 45, and the Russian bibliography. Version 2026.08.22-r2 seals 17 reversible editorial decisions, portable provenance locators, two byte-identical clean builds, source/math/link/font/text checks, and visual review of the changed locus and every component boundary. There are no open editorial holds.
+## Прежние издания
 
-It is a machine-assisted scholarly working edition, not a peer-reviewed critical edition and not a claim of native-speaker certification. Editable sources, replay tools, evidence, and the public machine index accompany the reader. Rights limitations and third-party boundaries remain explicit.
+- [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
+- [10.5281/zenodo.21926366](https://doi.org/10.5281/zenodo.21926366).
+- [10.5281/zenodo.21940320](https://doi.org/10.5281/zenodo.21940320).
+- [10.5281/zenodo.22052699](https://doi.org/10.5281/zenodo.22052699).
