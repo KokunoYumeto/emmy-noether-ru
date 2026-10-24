@@ -2,36 +2,39 @@
 
 Статьи 1–43, лекции 1929/30 года в записи М. Deuring, работа Kapferer и Noether с дополнением, библиография и заключительные списки.
 
-[**Читать PDF архивного издания**](https://github.com/KokunoYumeto/emmy-noether-ru/blob/main/reader/00_NOETHER_RUSSIAN_COMPLETE_LINKED_READER.pdf).
+## Основной текст
 
-### Основной текст
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/01-noether-ru-base.pdf)
+2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/02-noether-ru-base.tex)
+3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/03-noether-ru-base-sources.zip)
 
-- [Редактируемые исходники LaTeX 1](editions/2026-10-24/ru/current/02-01-base-papers1-43-ru.tex).
-- [Редактируемые исходники LaTeX 2](editions/2026-10-24/ru/current/02-02-44-book-ru.tex).
-- [Редактируемые исходники LaTeX 3](editions/2026-10-24/ru/current/02-03-45-ru.tex).
-- [Редактируемые исходники LaTeX 4](editions/2026-10-24/ru/current/02-04-bib-ru.tex).
-- [Полный архив исходников](editions/2026-10-24/ru/current/03-noether-ru-sources.zip).
+## Текст с редакционными исправлениями
 
-### Текст с редакционными исправлениями
-
-- [Редактируемые исходники LaTeX 1](editions/2026-10-24/ru/corrected/02-01-base-papers1-43-ru.tex).
-- [Редактируемые исходники LaTeX 2](editions/2026-10-24/ru/corrected/02-02-44-book-ru.tex).
-- [Редактируемые исходники LaTeX 3](editions/2026-10-24/ru/corrected/02-03-45-ru.tex).
-- [Редактируемые исходники LaTeX 4](editions/2026-10-24/ru/corrected/02-04-bib-ru.tex).
-- [Полный архив исходников](editions/2026-10-24/ru/corrected/03-noether-ru-sources.zip).
-
-PDF по ссылке относится к прежнему изданию и не соответствует этим исходникам. Исходники сохраняют весь указанный корпус; редакционные исправления обоснованы в научных примечаниях. Проверка отдельных мест не удостоверяет точность всего корпуса.
-
-Сохраните структуру распакованного архива. Каждый главный файл следует дважды собрать XeLaTeX из его каталога. Пакеты и шрифты перечислены в преамбуле.
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/04-noether-ru-emendations.pdf)
+2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/05-noether-ru-emendations.tex)
+3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/06-noether-ru-emendations-sources.zip)
 
 Перевод создан ИИ. Исправления и набор выполнены OpenAI Codex — GPT-6 Astra, уровень рассуждения Ultra. Сохранено авторство Emmy Noether, M. Deuring и соавторов, указанных в каждом труде. Издателю не приписываются человеческий перевод или независимая научная рецензия.
 
-[Авторство и права](editions/2026-10-24/ru/RIGHTS.md).
+Точная модель и уровень рассуждения для унаследованного перевода не установлены по сохранившимся записям. Исправления и набор, выполненные ИИ: 23–24 октября 2026 года. Издание: 24 октября 2026 года.
 
+Прямой файл совокупного LaTeX содержит все тексты и преамбулы в редактируемом виде. Программа Python извлекает исходные файлы, компилирует их с помощью XeLaTeX и соединяет PDF частей в порядке чтения. Изображения и страницы PDF не заменяют транскрипцию. ZIP сохраняет исходную структуру, тот же совокупный LaTeX и программу сборки. Нужны Python 3, pypdf, пакеты TeX и шрифты, указанные в преамбулах. Байты PDF могут зависеть от версий TeX и шрифтов. Фиксированная внутренняя дата набора не является датой публикации.
+
+[Python](https://github.com/KokunoYumeto/emmy-noether-ru/blob/main/editions/2026-10-24-r2/ru/build.py) · [SHA-256](https://github.com/KokunoYumeto/emmy-noether-ru/blob/main/editions/2026-10-24-r2/ru/07-noether-ru-SHA256SUMS.txt)
+
+Программа сборки создана ИИ: OpenAI Codex — GPT-6 Astra, Ultra, 24 октября 2026 года.
+
+## Авторство и права
+
+Права сохраняются за соответствующими правообладателями. Бесплатное распространение в некоммерческих, исключительно образовательных целях основано на предположении издателя об отсутствии возражений, а не на установленном разрешении. Свободный доступ сам по себе не разрешает производную публикацию. Правообладатели могут заявить возражение по ссылке ниже; издатель удалит соответствующий материал по их просьбе. Новая лицензия или передача в общественное достояние не предоставляется.
+
+[Возражения правообладателей](https://github.com/KokunoYumeto/emmy-noether-ru/issues/new).
 
 ## Прежние издания
 
-- [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
-- [10.5281/zenodo.21926366](https://doi.org/10.5281/zenodo.21926366).
-- [10.5281/zenodo.21940320](https://doi.org/10.5281/zenodo.21940320).
-- [10.5281/zenodo.22052699](https://doi.org/10.5281/zenodo.22052699).
+- [zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
+- [zenodo.21926366](https://doi.org/10.5281/zenodo.21926366).
+- [zenodo.21940320](https://doi.org/10.5281/zenodo.21940320).
+- [zenodo.22052699](https://doi.org/10.5281/zenodo.22052699).
+
+[GitHub](https://github.com/KokunoYumeto/emmy-noether-ru/releases).
