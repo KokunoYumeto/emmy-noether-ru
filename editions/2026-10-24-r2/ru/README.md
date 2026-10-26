@@ -4,19 +4,19 @@
 
 ## Основной текст
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/01-noether-ru-base.pdf)
-2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/02-noether-ru-base.tex)
-3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/03-noether-ru-base-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/01-noether-ru-base.pdf)
+2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/02-noether-ru-base.tex)
+3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/03-noether-ru-base-sources.zip)
 
 ## Текст с редакционными исправлениями
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/04-noether-ru-emendations.pdf)
-2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/05-noether-ru-emendations.tex)
-3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-24-r2/06-noether-ru-emendations-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/04-noether-ru-emendations.pdf)
+2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/05-noether-ru-emendations.tex)
+3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26/06-noether-ru-emendations-sources.zip)
 
 Перевод создан ИИ. Исправления и набор выполнены OpenAI Codex — GPT-6 Astra, уровень рассуждения Ultra. Сохранено авторство Emmy Noether, M. Deuring и соавторов, указанных в каждом труде. Издателю не приписываются человеческий перевод или независимая научная рецензия.
 
-Точная модель и уровень рассуждения для унаследованного перевода не установлены по сохранившимся записям. Исправления и набор, выполненные ИИ: 23–24 октября 2026 года. Издание: 24 октября 2026 года.
+Точная модель и уровень рассуждения для унаследованного перевода не установлены по сохранившимся записям. Исправления и набор, выполненные ИИ: 23–24 октября 2026 года; Claude Opus 5.5 (Anthropic), 26 октября 2026 года. Издание: 26 октября 2026 года.
 
 Прямой файл совокупного LaTeX содержит все тексты и преамбулы в редактируемом виде. Программа Python извлекает исходные файлы, компилирует их с помощью XeLaTeX и соединяет PDF частей в порядке чтения. Изображения и страницы PDF не заменяют транскрипцию. ZIP сохраняет исходную структуру, тот же совокупный LaTeX и программу сборки. Нужны Python 3, pypdf, пакеты TeX и шрифты, указанные в преамбулах. Байты PDF могут зависеть от версий TeX и шрифтов. Фиксированная внутренняя дата набора не является датой публикации.
 
