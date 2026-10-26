@@ -4,15 +4,15 @@
 
 ## Основной текст
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/01-noether-ru-base.pdf)
-2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/02-noether-ru-base.tex)
-3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/03-noether-ru-base-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r3/01-noether-ru-base.pdf)
+2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r3/02-noether-ru-base.tex)
+3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r3/03-noether-ru-base-sources.zip)
 
 ## Текст с редакционными исправлениями
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/04-noether-ru-emendations.pdf)
-2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/05-noether-ru-emendations.tex)
-3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r2/06-noether-ru-emendations-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r3/04-noether-ru-emendations.pdf)
+2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r3/05-noether-ru-emendations.tex)
+3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-26-r3/06-noether-ru-emendations-sources.zip)
 
 Перевод создан ИИ. Исправления и набор выполнены OpenAI Codex — GPT-6 Astra, уровень рассуждения Ultra. Сохранено авторство Emmy Noether, M. Deuring и соавторов, указанных в каждом труде. Издателю не приписываются человеческий перевод или независимая научная рецензия.
 
