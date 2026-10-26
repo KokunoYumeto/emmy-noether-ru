@@ -53,7 +53,7 @@
 \tocsec{6}{Неприводимые представления коммутативных систем}{8}
 \tocsec{7}{Изоморфизмы поля}{8}
 \tocsec{8}{Поле расщепления}{9}
-\tocsec{9}{Изоморфизмы $Z_1$ на $Z_i$}{9}
+\tocsec{9}{Изоморфизмы $\mathsf{Z}_1$ на $\mathsf{Z}_i$}{9}
 \tocsec{10}{Группа Галуа}{9}
 \tocsec{11}{Основная теорема теории Галуа}{9}
 \tocsec{12}{Формальное значение компонент $e_i$}{11}
@@ -79,7 +79,7 @@
 \tocsec{26}{Умножение скрещенных представлений}{43}
 \medskip
 \tocline{\textbf{Глава VI: Теория скрещенных произведений}}{44}
-\tocsec{27}{Представления $\mathfrak R_r$ как скрещенные произведения}{44}
+\tocsec{27}{Представления $\mathfrak K_r$ как скрещенные произведения}{44}
 \tocsec{28}{Теорема произведения для фактор-систем}{47}
 \tocsec{29}{Теорема о главном роде в минимальном}{50}
 \tocsec{30}{Специализация на циклические поля расщепления}{50}
@@ -132,7 +132,7 @@
 \emph{Прямым представлением} степени \(n\) кольца \(\mathfrak{o}\) в \(\mathsf T\) называется подкольцо \(\mathfrak D\) кольца \(\mathsf T_n\) матриц степени \(n\) с элементами из \(\mathsf T\), на которое \(\mathfrak{o}\) отображается посредством гомоморфизма колец. В обозначениях
 
 \[
-\mathfrak{o}\to\mathfrak D\subseteq\mathsf T_n.
+\mathfrak{o}\to\mathfrak D\subseteqq\mathsf T_n.
 \]
 
 \subsection*{Определение реципрокного представления}\label{definition-der-reziproken-darstellung}
@@ -140,7 +140,7 @@
 \emph{Реципрокным представлением} степени \(n\) кольца \(\mathfrak{o}\) в \(\mathsf T^*\) называется подкольцо \(\mathfrak D^*\) кольца \(\mathsf T_n^*\) матриц степени \(n\) с элементами из \(\mathsf T^*\), на которое \(\mathfrak{o}\) отображается посредством реципрокного гомоморфизма колец. Реципрокная гомоморфность означает следующее: если элементам \(c,d\) кольца \(\mathfrak{o}\) соответствуют элементы \(c^*,d^*\) кольца \(\mathfrak D^*\), то элементу \(cd\) кольца \(\mathfrak{o}\) должен соответствовать элемент \(d^*\cdot c^*\) кольца \(\mathfrak D^*\), а элементу \(c+d\) кольца \(\mathfrak{o}\) --- элемент \(c^*+d^*\) кольца \(\mathfrak D^*\). В обозначениях
 
 \[
-\mathfrak{o}\nrightarrow\mathfrak D^*\subseteq\mathsf T_n^*.
+\mathfrak{o}\nrightarrow\mathfrak D^*\subseteqq\mathsf T_n^*.
 \]
 
 В качестве примера реципрокного гомоморфизма укажем следующее: если каждой матрице порядка \(n\) над коммутативным полем сопоставить транспонированную матрицу, то это соответствие является реципрокным изоморфизмом колец.
@@ -586,7 +586,7 @@ e_j=e_j^2=\sum \varrho_\nu^{(j)}z_\nu e_j
 
 Пусть \(\mathfrak Z=z_1\mathsf P+\cdots+z_n\mathsf P\) --- коммутативная, гиперкомплексная, вполне приводимая система. Пусть \(\mathfrak S\) и \(\mathfrak T\) --- подсистемы \(\mathfrak Z\), которые в этой ситуации также непременно вполне приводимы:
 \[
-\mathsf P\subseteq\mathfrak S\subseteq\mathfrak T\subseteq\mathfrak Z .
+\mathsf P\subseteqq\mathfrak S\subseteqq\mathfrak T\subseteqq\mathfrak Z .
 \]
 Согласно M. Z. § 13, каждая из трех систем имеет единицу. Однако эти три единицы вовсе не обязаны совпадать. (Они заведомо не совпадают, если \(\mathfrak S\) и \(\mathfrak T\) являются отличными от \(\mathfrak Z\) идеалами системы \(\mathfrak Z\).) Пусть \(E\) --- единица системы \(\mathfrak S\). Система \(\mathfrak T\cdot E\) является \(\mathfrak S\)-модулем конечного ранга:
 \[
@@ -699,7 +699,7 @@ a\cdot\mathsf P(a_1+\cdots+a_h)
 \emph{Доказательство.} Группа \(\mathfrak A\) является прямым произведением циклических групп \(\mathfrak Z_i\) порядков \(h_i\):
 \[
 \mathfrak A=\mathfrak Z_1\times\cdots\times\mathfrak Z_t,\qquad
-h=h_1h_2\cdots h_t .
+h=h_1h_2\ldots h_t .
 \]
 Если \(z_i\) --- образующий элемент группы \(\mathfrak Z_i\), то соответствующий ему элемент неприводимого представления (первой степени) должен быть корнем \(\varepsilon_\nu^{(h_i)}\) степени \(h_i\) из единицы. С другой стороны, сопоставляя каждому \(z_i\) некоторый корень \(\varepsilon_\nu^{(h_i)}\) степени \(h_i\) из единицы, мы получаем неприводимое представление кольца \(\mathfrak o\) в \(\Omega\). Поскольку \(h\not\equiv0(p)\), а тем более \(h_i\not\equiv0(p)\), имеется ровно \(h_1h_2\cdots h_t=h\) различных представлений кольца \(\mathfrak o\), что и требовалось доказать.
 
@@ -758,7 +758,7 @@ x=\frac{1}{h},\qquad E=\frac{1}{h}(a_1+\cdots+a_h).
 или, поскольку \(e_1 = (1/h) \sum a_i\),
 
 \[
-\sum_\nu \Theta_i a_\nu=\begin{cases} h & i=1,\\ 0 & i\ne 1, \end{cases}
+\sum_\nu \Theta_i a_\nu=\begin{cases} h & i=1\\ 0 & i\ne 1 \end{cases}
 \]
 
 Это известные соотношения характеров:
@@ -952,7 +952,7 @@ h & \nu=1,\\
 
 Каждый элемент \(c\) пересечения \(\mathfrak c_{\mathsf K}\cap\mathfrak M\) допускает базисное представление как элемент \(\mathfrak c_{\mathsf K}\):
 \[
-c=\sum_{i=1}^{r}y_i\chi_i
+c=\sum_{i=1}^{r}y_i\varkappa_i
 \]
 и базисное представление как элемент \(\mathfrak M\):
 
@@ -990,8 +990,8 @@ c=\sum_{i=1}^{r}y_i\varrho_i
 Отсюда для первых \(r\) элементов \(x_1,\ldots,x_r\) базиса \(\mathfrak M\) следуют равенства
 
 \[
-x_i=z_i-\sum_{j=r+1}^{n}x_j\chi_j^{(i)},\qquad
-z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
+x_i=z_i-\sum_{j=r+1}^{n}x_j\varkappa_j^{(i)},\qquad
+z_i\in\mathfrak C,\quad \varkappa_j^{(i)}\in\mathsf K.
 \]
 
 Поскольку \(z_i\) вместе с \(x_{r+1},\ldots,x_n\), очевидно, образуют базис \(\mathfrak M_{\mathsf K}\), они линейно независимы, и потому \(z_1,\ldots,z_r\) --- базис \(\mathfrak C\). Базис \(z_1,\ldots,z_r\) имеет искомый вид; элементы \(z_i\) принадлежат \(\mathfrak M\).
@@ -1001,8 +1001,8 @@ z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
 \[
 \begin{array}{rcl}
 (1)\qquad \gamma z_i
-&=&\gamma x_i+\displaystyle\sum_{j=r+1}^{n}\gamma x_j\cdot \gamma\chi_j^{(i)}
-=x_i+\displaystyle\sum_{j=r+1}^{n}x_j\gamma\chi_j^{(i)}.
+&=&\gamma x_i+\displaystyle\sum_{j=r+1}^{n}\gamma x_j\cdot \gamma\varkappa_j^{(i)}
+=x_i+\displaystyle\sum_{j=r+1}^{n}x_j\gamma\varkappa_j^{(i)}.
 \end{array}
 \]
 
@@ -1020,7 +1020,7 @@ z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
 \begin{array}{rcl}
 (3)\qquad \gamma z_i
 &=&\displaystyle\sum_{\mu=1}^{r}x_\mu\sigma_\mu^{(i)}
-+\displaystyle\sum_{j=r+1}^{n}x_j\sum_{\mu=1}^{r}\chi_j^{(\mu)}\sigma_\mu^{(i)}
++\displaystyle\sum_{j=r+1}^{n}x_j\sum_{\mu=1}^{r}\varkappa_j^{(\mu)}\sigma_\mu^{(i)}
 \end{array}
 \]
 
@@ -1058,10 +1058,10 @@ z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
 
 \textbf{2.} По только что доказанной вспомогательной теореме каждый двусторонний идеал \(\mathfrak a\) системы \(\mathfrak S_{\mathsf K}\) должен быть расширением некоторого подмодуля \(\mathfrak A\) системы \(\mathfrak S\): \(\mathfrak a=\mathfrak A_{\mathsf K}\). При этом \(\mathfrak A\) --- двусторонний идеал системы \(\mathfrak S\), поскольку из \(\mathfrak A=\mathfrak S\cap\mathfrak a\) получаем
 \[
-\mathfrak S\mathfrak A\subseteq\mathfrak S\mathfrak S\cap\mathfrak S\mathfrak a\subseteq\mathfrak S\cap\mathfrak a=\mathfrak A
+\mathfrak S\mathfrak A\subseteqq\mathfrak S\mathfrak S\cap\mathfrak S\mathfrak a\subseteqq\mathfrak S\cap\mathfrak a=\mathfrak A
 \]
 \[
-\mathfrak A\mathfrak S\subseteq\mathfrak S\mathfrak S\cap\mathfrak a\mathfrak S\subseteq\mathfrak S\cap\mathfrak a=\mathfrak A.
+\mathfrak A\mathfrak S\subseteqq\mathfrak S\mathfrak S\cap\mathfrak a\mathfrak S\subseteqq\mathfrak S\cap\mathfrak a=\mathfrak A.
 \]
 
 Но \(\mathfrak S\) содержит лишь два двусторонних идеала: 0 и \(\mathfrak S\). Поэтому и в \(\mathfrak S_{\mathsf K}\) имеются лишь два двусторонних идеала: 0 и \(\mathfrak S_{\mathsf K}\), что и требовалось доказать.
@@ -1074,16 +1074,16 @@ z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
 \]
 с законом коммутирования
 \[
-s(xm)=x(sm).
+s(\varkappa m)=\varkappa (sm).
 \]
 
 Докажем, что \(\mathfrak M\) можно рассматривать также как левый \(\mathfrak S_{\mathsf K}\)-модуль. Прежде всего следует определить умножение элемента \(\mathfrak S_{\mathsf K}\) на элемент \(\mathfrak M\). Для \(s\in\mathfrak S,\ x\in\mathsf K,\ m\in\mathfrak M\) положим
 \[
-sx\cdot m=s\cdot(x\cdot m)
+s\varkappa \cdot m=s\cdot(\varkappa \cdot m)
 \]
 а для произвольного элемента \(\sum s_ix_i\) системы \(\mathfrak S_{\mathsf K}\) соответственно положим
 \[
-\sum s_ix_i\cdot m=\sum s_i\cdot(x_i\cdot m).
+\sum s_i\varkappa _i\cdot m=\sum s_i\cdot(\varkappa _i\cdot m).
 \]
 
 Убедимся, что это определение однозначно и не зависит от способа представления элемента \(\mathfrak S_{\mathsf K}\) в виде суммы произведений \(s_ix_i\).
@@ -1091,12 +1091,12 @@ sx\cdot m=s\cdot(x\cdot m)
 Иными словами, из
 \[
 \begin{array}{rcl}
-(1)\qquad \displaystyle\sum_{i=1}^{p}s_ix_i&=&0
+(1)\qquad \displaystyle\sum_{i=1}^{p}s_i\varkappa _i&=&0
 \end{array}
 \]
 нужно вывести
 \[
-\sum_{i=1}^{p}s_i(x_i m)=0
+\sum_{i=1}^{p}s_i(\varkappa _i m)=0
 \]
 Предположим, что \(s_1,\ldots,s_q\) линейно независимы, а \(s_{q+1},\ldots,s_p\) выражаются через \(s_1,\ldots,s_q\):
 \[
@@ -1106,31 +1106,31 @@ s_j=\sum_{i=1}^{q}s_i\varrho_i^{(j)},\qquad j=q+1,\ldots,p.
 Коэффициенты должны лежать в \(\mathsf P\), поскольку элемент \(s_j\) выражается единственным способом, а такое представление уже возможно в \(\mathfrak S\). Из (1) следует
 
 \[
-x_i+\sum_{j=q+1}^{p}\varrho_i^{(j)}x_j=0,\qquad i=1,\ldots,q.
+\varkappa _i+\sum_{j=q+1}^{p}\varrho_i^{(j)}\varkappa _j=0,\qquad i=1,\ldots,q.
 \]
 
 Поэтому
 
 \[
 \begin{aligned}
-\sum_{i=1}^{p}s_i(x_i m)
-&=s_1(x_1m)+\cdots+s_q(x_qm)
-  +\left(\sum_i s_i\varrho_i^{(q+1)}\right)(x_{q+1}m)\\
-&\quad+\cdots+\left(\sum_i s_i\varrho_i^{(p)}\right)(x_pm)\\
-&=s_1(x_1m)+\cdots+s_q(x_qm)\\
-&\quad+s_1\varrho_1^{(q+1)}(x_{q+1}m)+\cdots+s_q\varrho_q^{(q+1)}(x_{q+1}m)
+\sum_{i=1}^{p}s_i(\varkappa _i m)
+&=s_1(\varkappa _1m)+\cdots+s_q(\varkappa _qm)
+  +\left(\sum_i s_i\varrho_i^{(q+1)}\right)(\varkappa _{q+1}m)\\
+&\quad+\cdots+\left(\sum_i s_i\varrho_i^{(p)}\right)(\varkappa _pm)\\
+&=s_1(\varkappa _1m)+\cdots+s_q(\varkappa _qm)\\
+&\quad+s_1\varrho_1^{(q+1)}(\varkappa _{q+1}m)+\cdots+s_q\varrho_q^{(q+1)}(\varkappa _{q+1}m)
   \qquad\text{в силу свойства модуля}\\
 &\quad+\cdots\\
 &\quad\cdots\\
-&\quad+s_1\varrho_1^{(p)}(x_pm)+\cdots+s_q\varrho_q^{(p)}(x_pm)\\
-&=s_1(x_1m)+\cdots+s_q(x_qm)\\
-&\quad+s_1(\varrho_1^{(q+1)}x_{q+1}m)+\cdots+s_q(\varrho_q^{(q+1)}x_{q+1}m)\\
+&\quad+s_1\varrho_1^{(p)}(\varkappa _pm)+\cdots+s_q\varrho_q^{(p)}(\varkappa _pm)\\
+&=s_1(\varkappa _1m)+\cdots+s_q(\varkappa _qm)\\
+&\quad+s_1(\varrho_1^{(q+1)}\varkappa _{q+1}m)+\cdots+s_q(\varrho_q^{(q+1)}\varkappa _{q+1}m)\\
 &\quad+\cdots\\
 &\quad\cdots\\
-&\quad+s_1(\varrho_1^{(p)}x_pm)+\cdots+s_q(\varrho_q^{(p)}x_pm)
-  \qquad\begin{gathered}\text{в силу законов}\\ \text{ассоциативности }s'(sm)\\ =s's\cdot m\text{ и}\\ x'(xm)=x'x\cdot m\end{gathered}\\
-&=s_1\left(x_1m+\varrho_1^{(q+1)}x_{q+1}\cdot m+\cdots+\varrho_1^{(p)}x_p\cdot m\right)+\cdots\\
-&=s_1\left(\left(x_1+\varrho_1^{(q+1)}x_{q+1}+\cdots+\varrho_1^{(p)}x_p\right)m\right)+\cdots\\
+&\quad+s_1(\varrho_1^{(p)}\varkappa _pm)+\cdots+s_q(\varrho_q^{(p)}\varkappa _pm)
+  \qquad\begin{gathered}\text{в силу законов}\\ \text{ассоциативности }s'(sm)\\ =s's\cdot m\text{ и}\\ \varkappa '(\varkappa m)=\varkappa '\varkappa \cdot m\end{gathered}\\
+&=s_1\left(\varkappa _1m+\sum\varrho_1^{(q+1)}\varkappa _{q+1}\cdot m\right)+\cdots\\
+&=s_1\left(\left(\varkappa _1+\sum\varrho_1^{(q+1)}\varkappa _{q+1}\right)m\right)+\cdots\\
 &=0.
 \end{aligned}
 \]
@@ -1139,35 +1139,35 @@ x_i+\sum_{j=q+1}^{p}\varrho_i^{(j)}x_j=0,\qquad i=1,\ldots,q.
 Из свойств \(\mathfrak S_{\mathsf K}\)-модуля для \(\mathfrak M\) дистрибутивные законы \((S+S')m=Sm+S'm,\ S(m+m')=Sm+Sm'\) очевидны. Остается проверить закон ассоциативности \(S(S'm)=SS'\cdot m\). Поскольку дистрибутивные законы выполняются, достаточно рассмотреть случай
 
 \[
-sx\cdot(s'x' m)=sx(s'x'\cdot m)
+s\varkappa \cdot(s'\varkappa ' m)=s\varkappa (s'\varkappa '\cdot m)
 \]
 
 С одной стороны, по определению \(sx\cdot m\),
 
 \[
-sx\cdot(s'x'\cdot m)=s\cdot(x\cdot(s'\cdot(x'\cdot m)))
+s\varkappa \cdot(s'\varkappa '\cdot m)=s\cdot(\varkappa \cdot(s'\cdot(\varkappa '\cdot m)))
 \]
 
 а с другой стороны,
 
 \[
-sx s'x'\cdot m=ss'xx'\cdot m=ss'\cdot(xx'\cdot m)
-=s\cdot(s'\cdot(x\cdot(x'\cdot m)))
+s\varkappa  s'\varkappa '\cdot m=ss'\varkappa \varkappa '\cdot m=ss'\cdot(\varkappa \varkappa '\cdot m)
+=s\cdot(s'\cdot(\varkappa \cdot(\varkappa '\cdot m)))
 \]
 
 В силу двух соотношений коммутирования это равно \(=s\cdot(x\cdot(s'\cdot(x'\cdot m)))\):
 
 \[
-x\cdot s'=s'\cdot x
+\varkappa \cdot s'=s'\cdot \varkappa
 \]
 \[
-s'\cdot(x\cdot m)=x\cdot(s'\cdot m)
+s'\cdot(\varkappa \cdot m)=\varkappa \cdot(s'\cdot m)
 \]
 
 Итак, \(\mathfrak M\) действительно является левым \(\mathfrak S_{\mathsf K}\)-модулем, разумеется, конечным. Обратно, каждый конечный левый \(\mathfrak S_{\mathsf K}\)-модуль есть реципрокный модуль представления системы \(\mathfrak S\) в \(\mathsf K\), поскольку он, очевидно, является конечным \(\mathsf K\)-модулем и ввиду
 
 \[
-s(x\cdot m)=sx\cdot m=xs\cdot m=x(s\cdot m)
+s(\varkappa \cdot m)=s\varkappa \cdot m=\varkappa s\cdot m=\varkappa (s\cdot m)
 \]
 
 удовлетворяет также условию коммутирования. (Ср. также более простое доказательство в § 24.)
@@ -1209,13 +1209,13 @@ n=rt.
 Если \(Z=\xi_1\mathsf P+\cdots+\xi_n\mathsf P\) --- гиперкомплексная система над \(\mathsf P\), то две расширенные системы \(\mathfrak K_Z\) и \(Z_{\mathfrak K}\) совпадают. Действительно, для \(\mathfrak K_Z\) можно написать
 
 \[
-\mathfrak K_Z=y_1\xi_1\mathsf P+\cdots+y_m\xi_n\mathsf P
+\mathfrak K_{\mathsf{Z}}=y_1\xi_1\mathsf P+\cdots+y_m\xi_n\mathsf P
 \]
 
 а для \(Z_{\mathfrak K}\)
 
 \[
-Z_{\mathfrak K}=\xi_1y_1\mathsf P+\cdots+\xi_ny_m\mathsf P
+\mathsf{Z}_{\mathfrak K}=\xi_1y_1\mathsf P+\cdots+\xi_ny_m\mathsf P
 \]
 
 оба выражения совпадают в силу \(y_i\xi_j=\xi_jy_i\).
@@ -1253,7 +1253,7 @@ Z_{\mathfrak K}=\xi_1y_1\mathsf P+\cdots+\xi_ny_m\mathsf P
 \emph{Доказательство.} 1. Пусть \(Z\) --- поле расщепления, а \(\mathfrak T\) --- тело автоморфизмов правых идеалов системы \(\mathfrak K_Z\), то есть
 
 \[
-\mathfrak K_Z=\sum\mathfrak T c_{ik}
+\mathfrak K_{\mathsf{Z}}=\sum\mathfrak T c_{ik}
 \]
 
 Отсюда следует
@@ -1267,7 +1267,7 @@ Z_{\mathfrak K}=\xi_1y_1\mathsf P+\cdots+\xi_ny_m\mathsf P
 \textbf{2.} Если \(Z\) --- тело автоморфизмов простых идеалов системы \(\mathfrak K_Z\), то
 
 \[
-\mathfrak K_Z=\sum Zc_{ik}
+\mathfrak K_{\mathsf{Z}}=\sum\mathsf Zc_{ik}
 \]
 
 и, следовательно,
@@ -1293,7 +1293,7 @@ n\leq n^*=r^*t\leq rt=n \qquad\text{следует}\qquad n^*=n.
 2. Пусть неприводимое представление \(\mathfrak Z\) степени \(r\) коммутативного расширения \(Z\) поля \(\mathsf P\) в \(\mathfrak K\) является максимальным коммутативным подполем \(\mathfrak K_r\). Пусть \(\mathfrak T\) --- тело автоморфизмов простых идеалов системы \(\mathfrak K_Z\), то есть
 
 \[
-\mathfrak K_Z=\sum_{1}^{t'}\mathfrak T c_{ik}.
+\mathfrak K_{\mathsf{Z}}=\sum_{1}^{t'}\mathfrak T c_{ik}.
 \]
 
 Тело \(\mathfrak T\) содержит \(Z\). Требуется доказать \(\mathfrak T=Z\). Но простой правый идеал \(\mathfrak r\) кольца \(\mathfrak K_r\) является модулем представления не только поля \(Z\) в \(\mathfrak K\), но и тела \(\mathfrak T\), поскольку
@@ -1343,7 +1343,7 @@ j^{*-1}ij^*=-i.
 Ранг \(\mathfrak Z_1(j^*)\) над \(\mathfrak Z_1\) не меньше 2, поскольку \(j^*\) не может принадлежать \(\mathfrak Z_1\). Следовательно, ранг \(\mathfrak Z_1(j^*)\) над \(R\) равен 4, то есть это поле равно \(\mathfrak K\), и можно написать:
 
 \[
-\mathfrak K=R+Ri+Rj^*+Rij^*.
+\mathfrak K=\mathsf R+\mathsf Ri+\mathsf Rj^*+\mathsf Rij^*.
 \]
 
 В силу
@@ -1397,40 +1397,40 @@ j^{*-2}ij^*j^{*2}&=ij^*
 
 Пусть \(\mathfrak S\) и \(\mathfrak T\) --- тела, лежащие между \(\mathsf P\) и \(\mathfrak K\),
 \[
-\mathsf P \subseteq \mathfrak S \subseteq \mathfrak T \subseteq \mathfrak K.
+\mathsf P \subseteqq \mathfrak S \subseteqq \mathfrak T \subseteqq \mathfrak K.
 \]
 Утверждается, что каждый реципрокный изоморфизм \(\mathfrak S\) на некоторое подтело \(K\) (реципрокное представление первой степени тела \(\mathfrak S\) в \(K\)) продолжается до реципрокных изоморфизмов \(\mathfrak T\) по меньшей мере столькими способами, какова степень \(s\) тела \(\mathfrak T\) над \(\mathfrak S\).
 
 Расширим тела \(\mathsf P\), \(\mathfrak S\), \(\mathfrak T\), \(\mathfrak K\) посредством \(K\):
 \[
-K\subseteq \mathfrak S_K\subseteq \mathfrak T_K\subseteq \mathfrak K_K.
+\mathsf{K}\subseteqq \mathfrak S_{\mathsf{K}}\subseteqq \mathfrak T_{\mathsf{K}}\subseteqq \mathfrak K_{\mathsf{K}}.
 \]
 По теореме 1 на странице 20 каждое \(\mathfrak S_K\) двусторонне просто и вполне приводимо, а его простые левые идеалы, операторно-изоморфные между собой, являются модулями представления единственного неприводимого класса представлений тела \(\mathfrak S\) в \(K\). Этот класс представлений имеет степень 1 --- ведь по построению \(K\) в \(K\) имеются тела, реципрокно изоморфные \(\mathfrak S\). Поэтому все простые левые идеалы имеют ранг 1, то есть получается сумма стольких левых идеалов, какова его степень над \(\mathsf P\):
 \[
-\mathfrak S_K=K E_1+\cdots+K E_p,\qquad K E_\nu=\mathfrak S_K E_\nu.
+\mathfrak S_{\mathsf{K}}=\mathsf K E_1+\cdots+\mathsf K E_p,\qquad \mathsf K E_\nu=\mathfrak S_{\mathsf{K}} E_\nu.
 \]
 
 Тогда
 \[
 \begin{aligned}
-\mathfrak T_K&=\mathfrak T\cdot K=\mathfrak T\cdot \mathfrak S_K,\\
-\mathfrak T_K&=\mathfrak T\mathfrak S_K E_1+\cdots+\mathfrak T\mathfrak S_K E_p
-              =\mathfrak T_K E_1+\cdots+\mathfrak T_K E_p.
+\mathfrak T_{\mathsf{K}}&=\mathfrak T\cdot \mathsf{K}=\mathfrak T\cdot \mathfrak S_{\mathsf{K}},\\
+\mathfrak T_{\mathsf{K}}&=\mathfrak T\mathfrak S_{\mathsf{K}} E_1+\cdots+\mathfrak T\mathfrak S_{\mathsf{K}} E_p
+              =\mathfrak T_{\mathsf{K}} E_1+\cdots+\mathfrak T_{\mathsf{K}} E_p.
 \end{aligned}
 \]
 Каждый идеал \(\mathfrak T_K\cdot E_\nu\) распадается в прямую сумму \(s\) простых идеалов, поскольку
 \[
-[\mathfrak T_K E_\nu:K]=[\mathfrak T_K E_\nu:K E_\nu]=[\mathfrak T_K E_\nu:\mathfrak S_K E_\nu]\leqq[\mathfrak T_K:\mathfrak S_K]=[\mathfrak T:\mathfrak S]=s
+[\mathfrak T_{\mathsf{K}} E_\nu:\mathsf{K}]=[\mathfrak T_{\mathsf{K}} E_\nu:\mathsf K E_\nu]=[\mathfrak T_{\mathsf{K}} E_\nu:\mathfrak S_{\mathsf{K}} E_\nu]\leqq[\mathfrak T_{\mathsf{K}}:\mathfrak S_{\mathsf{K}}]=[\mathfrak T:\mathfrak S]=s
 \]
 и
 \[
-\sum [\mathfrak T_K E_\nu:K]=sp
+\sum [\mathfrak T_{\mathsf{K}} E_\nu:\mathsf{K}]=sp
 \]
 следовательно,
 \[
-[\mathfrak T_K E_\nu:K]=s,
+[\mathfrak T_{\mathsf{K}} E_\nu:\mathsf{K}]=s,
 \qquad
-\mathfrak T_K E_\nu=K e_1^{(\nu)}+\cdots+K e_s^{(\nu)}.
+\mathfrak T_{\mathsf{K}} E_\nu=\mathsf K e_1^{(\nu)}+\cdots+\mathsf K e_s^{(\nu)}.
 \]
 
 Представление \(\mathfrak T\), порожденное идеалом \(K e_i^{(\nu)}\), является продолжением представления \(\mathfrak S\), заданного идеалом \(K E_\nu\). Действительно, если \(\alpha\in \mathfrak S\), то
@@ -1583,29 +1583,29 @@ S(\mathfrak l_j)=\mathfrak l_i,
 
 Модуль представления \(e_i\Gamma\) отображает \(\mathfrak Z\) на подполе \(Z_i\) поля \(\Gamma\). Элемент \(e_i\) уже лежит в \(\mathfrak Z_{Z_i}\), поскольку представление \(Z_i\) системы \(\mathfrak Z\) уже содержится в \(Z_i\), а значит, \(\mathfrak Z_{Z_i}\) должно выделять модуль представления \(e_iZ_i\) в прямое слагаемое. Обозначим через \(\{Z_i,Z_k\}\) композит полей \(Z_i\) и \(Z_k\). Кольцо \(\mathfrak K_{r\{Z_i,Z_k\}}\) выделяет два левых идеала
 \[
-\bar{\mathfrak l}_i=\mathfrak K_{r\{Z_i,Z_k\}}e_i,\qquad
-\bar{\mathfrak l}_k=\mathfrak K_{r\{Z_i,Z_k\}}e_k
+\bar{\mathfrak l}_i=\mathfrak K_{r\{\mathsf{Z}_i,\mathsf{Z}_k\}}e_i,\qquad
+\bar{\mathfrak l}_k=\mathfrak K_{r\{\mathsf{Z}_i,\mathsf{Z}_k\}}e_k
 \]
 которые просты, поскольку \(\mathfrak l_i=\mathfrak K_{r\Gamma}\bar{\mathfrak l}_i\). Поэтому
 \[
-\bar{\mathfrak l}_i=\sum_{\lambda=1}^m\{Z_i,Z_k\}c_{\lambda i}^{(ik)},\qquad
-\bar{\mathfrak l}_k=\sum_{\lambda}\{Z_i,Z_k\}c_{\lambda k}^{(ik)}.
+\bar{\mathfrak l}_i=\sum_{\lambda=1}^m\{\mathsf{Z}_i,\mathsf{Z}_k\}c_{\lambda i}^{(ik)},\qquad
+\bar{\mathfrak l}_k=\sum_{\lambda}\{\mathsf{Z}_i,\mathsf{Z}_k\}c_{\lambda k}^{(ik)}.
 \]
 При этом \(c_{\lambda\rho}^{(ik)}\) --- система матричных единиц кольца \(\mathfrak K_{r\{Z_i,Z_k\}}\).
 
 Каждый изоморфизм \(a_i\mapsto a_k\) идеала \(\bar{\mathfrak l}_i\) на \(\bar{\mathfrak l}_k\) с кольцом операторов \(\mathfrak K_{r\{Z_i,Z_k\}}\) определяется элементом \(p_{ik}\) при \(e_i\mapsto p_{ik}\), поскольку тогда \(a_i=a_ie_i\mapsto a_ip_{ik}\), то есть \(\bar{\mathfrak l}_i\cdot p_{ik}=\bar{\mathfrak l}_k\). Все возможные элементы \(p_{ik}\), очевидно, имеют вид
 \[
-p_{ik}=c_{ik}^{(ik)}\gamma_{ik},\qquad \gamma_{ik}\ne0\quad\text{из}\quad \{Z_i,Z_k\}.
+p_{ik}=c_{ik}^{(ik)}\gamma_{ik},\qquad \gamma_{ik}\ne0\quad\text{из}\quad \{\mathsf{Z}_i,\mathsf{Z}_k\}.
 \]
 Соответствие \(a_i\mapsto a_ip_{ik}\) задает также операторный изоморфизм \(\mathfrak l_i\) на \(\mathfrak l_k\). Теперь выберем определенные системы таких элементов \(p_{ik}\), наложив на них условие сопряженности.
 
 Действие \(S\) на индекс \(i\) определим равенством
 \[
-S(i)=k,\qquad\text{если}\qquad S(Z_i)=Z_k.
+S(i)=k,\qquad\text{если}\qquad S(\mathsf{Z}_i)=\mathsf{Z}_k.
 \]
 Для каждой пары индексов \((\nu,\mu)\) существует по меньшей мере одна сопряженная пара \(S(\nu,\mu)\) вида \(S(\nu,\mu)=(1,k)\). В каждом классе сопряженных пар индексов выберем фиксированную пару \((1,k)\) и для этой пары \((1,k)\) положим
 \[
-p_{1k}=c_{1k}^{(1k)}\gamma_{1k},\qquad \gamma_{1k}\ne0\quad\text{из}\quad \{Z_1,Z_k\},
+p_{1k}=c_{1k}^{(1k)}\gamma_{1k},\qquad \gamma_{1k}\ne0\quad\text{из}\quad \{\mathsf{Z}_1,\mathsf{Z}_k\},
 \]
 выбирая его в остальном произвольно; затем, если \(S(1,k)=(\nu,\mu)\), положим
 \[
@@ -1614,7 +1614,7 @@ p_{\nu\mu}=S(p_{1k}).
 Тогда \(p_{\nu\mu}\) действительно имеет вид
 \[
 p_{\nu\mu}=c_{\nu\mu}^{(\nu\mu)}\gamma_{\nu\mu},\qquad
-\gamma_{\nu\mu}\ne0\quad\text{из}\quad \{Z_\nu,Z_\mu\}.
+\gamma_{\nu\mu}\ne0\quad\text{из}\quad \{\mathsf{Z}_\nu,\mathsf{Z}_\mu\}.
 \]
 Действительно, применение \(S\) к изоморфизму
 \[
@@ -1642,7 +1642,7 @@ c_{ij}c_{jk}=c_{ik}
 \begin{aligned}
 p_{ij}p_{1k}&=0,\quad &&\text{если }j\ne1,\\
 p_{ij}p_{jk}&=\alpha_{ik}^{(j)}p_{ik},\quad
-&&\alpha_{ik}^{(j)}\text{ из }\Gamma\text{ (точнее, из }\{Z_i,Z_j,Z_k\}\text{)}
+&&\alpha_{ik}^{(j)}\text{ из }\Gamma\text{ (точнее, из }\{\mathsf{Z}_i,\mathsf{Z}_j,\mathsf{Z}_k\}\text{)}
 \end{aligned}
 \]
 Величины \(\alpha\), числом \(n^3\), образуют \emph{фактор-систему тела \(\mathfrak K\) относительно поля \(Z\)}, соответствующую системе \(p_{ik}\) «\emph{псевдматричных единиц}».
@@ -1708,7 +1708,7 @@ p'_{ik}=\lambda^{-1}p_{ik}\lambda,
 \mathfrak L_1\mathfrak z_1+\cdots+\mathfrak L_r\mathfrak z_1=\mathfrak K_r\mathfrak z_1
 \]
 \[
-A=\tau^{-1}\mathfrak K_r\tau\cdot\tau^{-1}\mathfrak z_1\tau
+\mathsf{A}=\tau^{-1}\mathfrak K_r\tau\cdot\tau^{-1}\mathfrak z_1\tau
 =\mathfrak K'_r\cdot\mathfrak z'_1.
 \]
 
@@ -1722,7 +1722,7 @@ S(\tau^{-1}\mathfrak l_i\tau\cdot\mathfrak z'_1)
 получаем в
 \[
 \tag{1}
-A_\Gamma=\mathfrak l'_1\mathfrak z'_1+\cdots+\mathfrak l'_n\mathfrak z'_1
+\mathsf{A}_\Gamma=\mathfrak l'_1\mathfrak z'_1+\cdots+\mathfrak l'_n\mathfrak z'_1
 \]
 разложение \(A_\Gamma\) в сопряженные левые идеалы. Здесь
 \[
@@ -1733,7 +1733,7 @@ A_\Gamma=\mathfrak l'_1\mathfrak z'_1+\cdots+\mathfrak l'_n\mathfrak z'_1
 Всякое другое разложение
 \[
 \tag{2}
-A_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n,\qquad
+\mathsf{A}_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n,\qquad
 S\mathfrak q_i=\mathfrak q_k\quad\text{если}\quad
 S\mathfrak l'_i\mathfrak z'_1=\mathfrak l'_k\mathfrak z'_1
 \]
@@ -1749,7 +1749,7 @@ e_i^*=\lambda^{-1}e'_iE'\lambda.
 
 \textbf{Вспомогательная теорема.} \emph{Пусть \(A\) --- левый идеал кольца \(\mathfrak K_n\), и пусть}
 \[
-A=\mathfrak l_1+\cdots+\mathfrak l_n
+\mathsf{A}=\mathfrak l_1+\cdots+\mathfrak l_n
 =\mathfrak K_{n\Gamma}e_1+\cdots+\mathfrak K_{n\Gamma}e_n
 \]
 \emph{--- существующее по предположению разложение в сопряженные левые идеалы; без ограничения общности идеалы \(\mathfrak l_i\) можно считать сопряженными.}
@@ -1795,7 +1795,7 @@ ts=e_1^*+\cdots+e_n^*=\xi^*,
 \]
 причем \(\xi\) и \(\xi^*\) лежат в \(\mathfrak K_n\), и
 \[
-A\xi=A,\qquad \mathfrak z\xi^*=\mathfrak z\quad
+\mathsf{A}\xi=\mathsf{A},\qquad \mathfrak z\xi^*=\mathfrak z\quad
 (\text{поскольку }\mathfrak l_i\xi=\mathfrak l_i\mathfrak l_i=\mathfrak l_i),
 \]
 \[
@@ -1803,7 +1803,7 @@ A\xi=A,\qquad \mathfrak z\xi^*=\mathfrak z\quad
 \]
 Если теперь положить \(e=\overline E+E=\overline E^*+E^*\), а вместе с этим
 \[
-\mathfrak K_n=\overline A+A
+\mathfrak K_n=\overline{\mathsf A}+\mathsf{A}
 =\mathfrak K_n\overline\xi+\mathfrak K_n\xi
 =\overline{\mathfrak z}+\mathfrak z
 =\mathfrak K_n\overline\xi^*+\mathfrak K_n\xi^*,
@@ -1824,8 +1824,8 @@ A\xi=A,\qquad \mathfrak z\xi^*=\mathfrak z\quad
 \mathfrak l_i\lambda=\mathfrak q_i,\qquad
 \lambda^{-1}\mathfrak q_i=\mathfrak q_i
 \quad
-(\lambda^{-1}\mathfrak q_i\subseteq\mathfrak q_i
-=\lambda\cdot\lambda^{-1}\mathfrak q_i\subseteq\lambda^{-1}\mathfrak q_i)
+(\lambda^{-1}\mathfrak q_i\subseteqq\mathfrak q_i
+=\lambda\cdot\lambda^{-1}\mathfrak q_i\subseteqq\lambda^{-1}\mathfrak q_i)
 \]
 и, следовательно,
 \[
@@ -1834,7 +1834,7 @@ A\xi=A,\qquad \mathfrak z\xi^*=\mathfrak z\quad
 
 Для разложения (1) снова можно определить элементы
 \[
-r_{ik}=c_{ik}^{\prime(ik)}\gamma_{ik},\qquad \gamma_{ik}\in\{Z_i,Z_k\},
+r_{ik}=c_{ik}^{\prime(ik)}\gamma_{ik},\qquad \gamma_{ik}\in\{\mathsf{Z}_i,\mathsf{Z}_k\},
 \]
 которые посредством \(e'_iE'\mapsto r_{ik}\) задают операторные изоморфизмы между идеалами \(\mathfrak l'_i\mathfrak z'_1\) и \(\mathfrak l'_k\mathfrak z'_1\) и удовлетворяют условию сопряженности \(S(r_{ik})=r_{\nu\mu}\), если \(S(i,k)=(\nu,\mu)\). Равенства
 \[
@@ -1850,7 +1850,7 @@ r_{ik}=\tau^{-1}p_{ik}\tau\cdot E'
 
 \textbf{Теорема.} \emph{Фактор-системы идеала \(A_\Gamma\), построенные при помощи любого разложения}
 \[
-A_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n
+\mathsf{A}_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n
 \]
 \emph{идеала \(A_\Gamma\) в сопряженные левые идеалы, совпадают с фактор-системами кольца \(\mathfrak K_r\).}
 
@@ -1877,11 +1877,11 @@ A_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n
 
 есть разложение в \(n^2\) ненулевых, а значит, простых идеалов. Следовательно,
 \[
-A_1=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak l_n\mathfrak m_n
+\mathsf{A}_1=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak l_n\mathfrak m_n
 \]
 --- идеал абсолютной длины \(n\). Идеал \(A_1\) инвариантен при всех \(S\), поскольку идеалы \(\mathfrak m_i\) преобразуются так же, как \(\mathfrak l_i\). Поэтому существует идеал \(A\) кольца \(\mathfrak K_r\times\mathfrak S_s\), для которого
 \[
-A_1=A_\Gamma
+\mathsf{A}_1=\mathsf{A}_\Gamma
 \]
 (вспомогательная теорема, страница 18).
 
@@ -1890,7 +1890,7 @@ A_1=A_\Gamma
 Разложением \(A_\Gamma\) в сопряженные идеалы является использованное при определении разложение
 \[
 \tag{3}
-A_\Gamma=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak l_n\mathfrak m_n.
+\mathsf{A}_\Gamma=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak l_n\mathfrak m_n.
 \]
 Если \(\alpha_{ik}^{(j)}\), \(\beta_{ik}^{(j)}\) соответствуют псевдматричным единицам \(p_{ik}\), \(q_{ik}\) тел \(\mathfrak K\), \(\mathfrak S\), то, очевидно, \(r_{ik}=p_{ik}q_{ik}\) есть система псевдматричных единиц идеала \(A_\Gamma\) для разложения (3). Соответствующая фактор-система \(\varepsilon_{ik}^{(j)}=\alpha_{ik}^{(j)}\beta_{ik}^{(j)}\) является тем самым также фактор-системой тела \(\mathfrak M\).
 
@@ -1902,20 +1902,20 @@ A_\Gamma=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak 
 
 Идеал кольца \(\mathfrak K_{r\Gamma}\)
 \[
-\Omega=\mathfrak l_1(p_{11}+\cdots+p_{1n})
+\mathfrak L=\mathfrak l_1(p_{11}+\cdots+p_{1n})
 \]
 ненулевой --- \(e_1\sum_i p_{1i}\ne0\) --- и простой, следовательно, имеет ранг \(n\). Идеал \(\Omega\) инвариантен относительно \(\mathfrak G\):
 \[
-S\Omega
-=\mathfrak l_i\sum_\nu S p_{1\nu}
+S\mathfrak L
+=S\mathfrak l_1\sum_\nu S p_{1\nu}
 =\mathfrak l_i\sum_\mu p_{i\mu}
 =\mathfrak l_i\sum_\mu p_{i1}p_{1\mu}
 \]
 ввиду \(\alpha_{ik}^{(j)}=1\). Поэтому
 \[
-S\Omega=\mathfrak l_ip_{i1}\sum_\mu p_{1\mu}
+S\mathfrak L=\mathfrak l_ip_{i1}\sum_\mu p_{1\mu}
 =\mathfrak l_1\sum_\mu p_{1\mu}
-=\Omega.
+=\mathfrak L.
 \]
 Следовательно, \(\Omega=\mathfrak l_\Gamma\), \emph{где \(\mathfrak l\) --- идеал кольца \(\mathfrak K_r\) ранга \(n\).}
 
@@ -1982,7 +1982,7 @@ P_{ik}P_{kj}=\alpha_{ij}^{(k)}P_{ij}
 \]
 поэтому, поскольку матрицы \(P_{ik}\) регулярны, \(|P_{\nu\mu}|\ne0\),
 \[
-\alpha_{ij}^{(k)n}=\frac{\delta_{ik}\delta_{kj}}{\delta_{ik}},
+\alpha_{ij}^{(k)n}=\frac{\delta_{ik}\delta_{kj}}{\delta_{ij}},
 \]
 где положено \(|P_{\nu\mu}|=\delta_{\nu\mu}\). Далее рассуждаем как в доказательстве Брауэра.
 
@@ -1994,12 +1994,12 @@ P_{ik}P_{kj}=\alpha_{ij}^{(k)}P_{ij}
 \]
 являются реципрокными модулями представления кольца \(\mathfrak K_r\) в \(\Gamma\) (теорема 2 на странице 32). Зафиксируем базис \(k_1,\ldots,k_n\) кольца \(\mathfrak K_r\) относительно \(\mathfrak Z\). Тогда
 \[
-\mathfrak K_{r\Gamma}=k_1\mathfrak Z_r+\cdots+k_n\mathfrak Z_r,
+\mathfrak K_{r\Gamma}=k_1\mathfrak Z_\Gamma+\cdots+k_n\mathfrak Z_\Gamma,
 \]
 и потому
 \[
 \mathfrak l_i=\mathfrak K_{r\Gamma}e_i
-=k_1\mathfrak Z_r e_i+\cdots+k_n\mathfrak Z_r e_i
+=k_1\mathfrak Z_\Gamma e_i+\cdots+k_n\mathfrak Z_\Gamma e_i
 =k_1e_i\Gamma+\cdots+k_ne_i\Gamma.
 \]
 Отсюда следует
@@ -2056,7 +2056,7 @@ P_{ik}P_{kj}(k_\varrho e_j)
 \[
 \{\mathfrak K\}^{\lambda}=\{\mathsf P\},
 \qquad
-\{\mathfrak K_T\}^{\lambda}=\{T\}
+\{\mathfrak K_{\mathsf{T}}\}^{\lambda}=\{\mathsf{T}\}
 \]
 следует \(\lambda\equiv0\pmod {p^\alpha}\), что и требовалось доказать. (Брауэр привел примеры, показывающие, что равенство \(\lambda=t\) не обязательно\srcfn{1}{Brauer: Untersuchungen über die arithmetischen Eigenschaften von Gruppen linearer Substitutionen II. Math. Zeitschr. 31, S. 733 § 5, (1930).}).
 
@@ -2064,7 +2064,7 @@ P_{ik}P_{kj}(k_\varrho e_j)
 
 \emph{Доказательство.} По теоремам 3 и 4 порядок \(\lambda\) класса \(\{\mathfrak K\}\) равен
 \[
-\lambda=\prod_i p_i^{\alpha_i},\qquad 1\le\alpha_i\le\varrho_i.
+\lambda=\prod_i p_i^{\alpha_i},\qquad 1\leqq\alpha_i\leqq\varrho_i.
 \]
 Циклическая подгруппа \(\mathfrak Z\) группы \(\mathscr K\), порожденная классом \(\{\mathfrak K\}\), является прямым произведением подгрупп \(\mathfrak Z_i\) порядков \(p_i^{\alpha_i}\); следовательно,
 \[
@@ -2073,14 +2073,14 @@ P_{ik}P_{kj}(k_\varrho e_j)
 
 откуда следует, что каждое поле расщепления \(Z\) тела \(\mathfrak K\) является также полем расщепления тела \(\mathfrak K^{(i)}\). Поэтому абсолютное число компонент \(p_i^{\sigma_i}\) тела \(\mathfrak K^{(i)}\) делит \(t\), так что \(\sigma_i\le\varrho_i\). Пусть \(\prod_i \mathfrak K^{(i)}=\mathfrak K_m\). Тогда
 \[
-\prod_i p_i^{\varrho_i}=\prod_i p_i^{\sigma_i}\cdot m,
+\prod p_i^{\varrho_i}=\prod p_i^{\sigma_i}\cdot m,
 \qquad
-\sigma_i\ge\varrho_i,
+\sigma_i\geqq\varrho_i,
 \]
 и потому
 \[
 \sigma_i=\varrho_i,\qquad m=1,\qquad
-\mathfrak K=\prod_i \mathfrak K^{(i)},
+\mathfrak K=\prod \mathfrak K^{(i)},
 \quad\text{что и требовалось доказать.}
 \]
 % END BOOK_S24
@@ -2092,7 +2092,7 @@ P_{ik}P_{kj}(k_\varrho e_j)
 
 Пусть максимальное коммутативное подполе \(\mathfrak Z\) кольца \(\mathfrak K_r\) является полем Галуа. По теореме 7 на странице 25 его \(n\) автоморфизмов \(H_i\) поля \(\mathfrak Z/\mathsf P\) являются внутренними автоморфизмами \(\mathfrak K_r\), то есть существуют элементы \(u_i\), для которых
 \[
-H_i z=u_i^{-1}zu_i\quad\text{для всех }z\text{ из }\mathfrak Z.
+\mathsf{H}_i z=u_i^{-1}zu_i\quad\text{для всех }z\text{ из }\mathfrak Z.
 \]
 Каждый \(u_i\) определен с точностью до ненулевого множителя \(y\) из \(\mathfrak Z\). Действительно, если \(u^{-1}zu=u'^{-1}zu'\) для всех \(z\) из \(\mathfrak Z\), то \((u^{-1}u')^{-1}z(u^{-1}u')=z\) для всех \(z\in\mathfrak Z\). Поэтому присоединение \(u^{-1}u'\) к \(\mathfrak Z\) дает коммутативное подполе \(\mathfrak K_r\), которое ввиду максимальности \(\mathfrak Z\) совпадает с \(\mathfrak Z\). Следовательно, \(u^{-1}u'\) лежит в \(\mathfrak Z\).
 
@@ -2102,9 +2102,9 @@ H_i z=u_i^{-1}zu_i\quad\text{для всех }z\text{ из }\mathfrak Z.
 \]
 Для этого, очевидно, достаточно линейной независимости элементов \(u_i\) над \(\mathfrak Z\). Докажем ее, непосредственно задав \(u_i\). Пусть
 \[
-\mathfrak Z_Z=e_1Z+\cdots+e_nZ,\qquad
-\mathfrak K_{rZ}=\mathfrak l_1+\cdots+\mathfrak l_n,\quad
-\mathfrak l_i=\mathfrak K_{rZ}e_i
+\mathfrak Z_{\mathsf{Z}}=e_1\mathsf{Z}+\cdots+e_n\mathsf{Z},\qquad
+\mathfrak K_{r\mathsf{Z}}=\mathfrak l_1+\cdots+\mathfrak l_n,\quad
+\mathfrak l_i=\mathfrak K_{r\mathsf{Z}}e_i
 \]
 и пусть \(p_{ik}\) --- система псевдматричных единиц для этого разложения. На странице 8 мы обозначили через \(\Theta_i\) изоморфизм \(\mathfrak Z\) на \(Z\), порожденный модулем представления \(e_iZ\), так что
 \[
@@ -2117,11 +2117,11 @@ p_{ik}=p_{S_iS_k}.
 
 Автоморфизмы \(\mathfrak Z\), числом \(n\), имеют вид (\(E\) --- тождественная подстановка)
 \[
-H=\Theta_E^{-1}\Theta.
+\mathsf{H}=\Theta_E^{-1}\Theta.
 \]
 Теперь нумерацию автоморфизмов \(H\) выберем так:
 \[
-H_S=\Theta_E^{-1}\Theta_{S^{-1}}.
+\mathsf{H}_S=\Theta_E^{-1}\Theta_{S^{-1}}.
 \]
 
 При этих условиях можно положить
@@ -2147,7 +2147,7 @@ R(u_T)=\sum_S RS(p_{E,T})=\sum_{S'} S'(p_{E,T})=u_T.
 
 3. Элемент \(u_T\) порождает \(H_T\), то есть если \(z\in\mathfrak Z\), то \(u_T^{-1}zu_T=H_T(z)\), или
 \[
-z u_T=u_T H_T(z).
+z u_T=u_T \mathsf{H}_T(z).
 \]
 
 Действительно,
@@ -2173,21 +2173,21 @@ u_T=\sum_S S(p_{E,T}e_T)=\sum_S S(p_{E,T})e_{ST}
 а на элементах \(\mathfrak Z\) справедливо равенство
 
 \[
-\Theta_S H_T=\Theta_S\Theta_E^{-1}\Theta_{T^{-1}}
+\Theta_S \mathsf{H}_T=\Theta_S\Theta_E^{-1}\Theta_{T^{-1}}
 =S\Theta_{T^{-1}}=ST^{-1}\Theta_E=\Theta_{ST^{-1}}
 \]
 
 следовательно,
 
 \[
-H_T(z)=\sum_S e_S\Theta_S H_T(z)=\sum_S e_S\Theta_{ST^{-1}}(z)
+\mathsf{H}_T(z)=\sum_S e_S\Theta_S \mathsf{H}_T(z)=\sum_S e_S\Theta_{ST^{-1}}(z)
 \]
 
 То есть
 
 \[
 \begin{aligned}
-u_TH_T(z)
+u_T\mathsf{H}_T(z)
 &=\sum_{S,S'} S(p_{E,T})e_{ST}\cdot e_{S'}\Theta_{S'T^{-1}}(z)\\
 &=\sum_S S(p_{E,T})\Theta_S(z)
 \end{aligned}
@@ -2196,7 +2196,7 @@ u_TH_T(z)
 Таким образом,
 
 \[
-z\cdot u_T=u_T\cdot H_T(z).
+z\cdot u_T=u_T\cdot \mathsf{H}_T(z).
 \]
 
 4. Элементы \(u_S\) линейно независимы над \(\mathfrak Z\).
@@ -2371,13 +2371,13 @@ u_Ru_T
 Степень этого неприводимого представления равна \(t\), где \(t\) --- индекс (абсолютное число показателя) тела \(\mathfrak K\). Это следует из простого подсчета рангов. Действительно, степень равна рангу \((\mathfrak r:\mathfrak Z)\) простого правого идеала над \(\mathfrak Z\). На странице 22 установлено:
 
 \[
-(\mathfrak Z:P)=n=rt;\qquad (\mathfrak K_r:P)=n^2;\qquad (\mathfrak r:P)=n\cdot t
+(\mathfrak Z:\mathsf{P})=n=rt;\qquad (\mathfrak K_r:\mathsf{P})=n^2;\qquad (\mathfrak r:\mathsf{P})=n\cdot t
 \]
 
 Последнее равенство следует из \(\mathfrak K_r = \mathfrak{r}_1 + \cdots + \mathfrak{r}_r\).
 
 Из
-\[(\mathfrak{r}: P) = (\mathfrak{r}: \mathfrak Z) \cdot (\mathfrak Z: P)\]
+\[(\mathfrak{r}: \mathsf{P}) = (\mathfrak{r}: \mathfrak Z) \cdot (\mathfrak Z: \mathsf{P})\]
 или \(n \cdot t = (\mathfrak{r}: \mathfrak Z) \cdot n\) следует \((\mathfrak{r}: \mathfrak Z) = t\).
 % END BOOK_S25
 
@@ -2456,7 +2456,7 @@ A\times B=B\times A
 \[
 \mathfrak G\cong\mathfrak G^*/\mathfrak T^*
 \quad\text{при}\quad
-\mathfrak T^*\supseteq\mathfrak Z^*,
+\mathfrak T^*\supseteqq\mathfrak Z^*,
 \]
 (равенство \(\mathfrak T^*=\mathfrak Z^*\) будет доказано ниже; еще не установлено, что \(\mathfrak Z\) является также максимальным коммутативным подкольцом. Это можно доказать и независимо).
 
@@ -2481,7 +2481,7 @@ zt=zz_0+\cdots+zz_{n-1}u_T
 и
 \[
 tz=z_0z+\cdots+z_{n-1}u_Tz
-=z_0z+z^{S^{-1}}z_1u_S+\cdots+z^{T^{-1}}z_{n-1}u_T,
+=zz_0+z^{S^{-1}}z_1u_S+\cdots+z^{T^{-1}}z_{n-1}u_T,
 \]
 В силу прямоты суммы отсюда следует
 \[
@@ -2589,8 +2589,8 @@ u_Ra_{S,T}u_{ST}
 (\(\mathfrak Z\) и \(\overline{\mathfrak Z}\) --- изоморфные поля Галуа, а \(\mathfrak G\), \(\overline{\mathfrak G}\) --- их группы). Тогда
 \[
 \mathfrak K_r\times\overline{\mathfrak K}_r
-=\widetilde{\mathfrak Z}\,\widetilde{\mathfrak G}\times P_n
-=\mathfrak A_f\times P_n
+=\widetilde{\mathfrak Z}\,\widetilde{\mathfrak G}\times \mathsf{P}_n
+=\mathfrak A_f\times \mathsf{P}_n
 =\mathfrak A_j
 \]
 с \(\tilde u_S\tilde u_T=\tilde u_{ST}\tilde c_{S,T}\) (поле \(\widetilde{\mathfrak Z}\) изоморфно \(\mathfrak Z\) и \(\overline{\mathfrak Z}\)). Это следует из подсчёта рангов и из того, что \(\mathfrak Z\) также является полем расщепления.
@@ -2615,20 +2615,20 @@ u_Ra_{S,T}u_{ST}
 
 \noindent\emph{Доказательство.} Действительно, \(c_{11}\) поэлементно перестановочен с \(\mathfrak K_r\), и никакой элемент из \(\mathfrak K_r\) не аннулируется, поскольку \(c_{11}\) --- порождающий идемпотент \(\mathfrak K_r\times P_s\), и
 \[
-c_{11}\cdot\mathfrak K_r\times P_s\cdot c_{11}
-=\mathfrak K_r\times c_{11}P_sc_{11}
+c_{11}\cdot\mathfrak K_r\times \mathsf{P}_s\cdot c_{11}
+=\mathfrak K_r\times c_{11}\mathsf Pc_{11}
 =\mathfrak K_rc_{11}.
 \]
 Из этих вспомогательных лемм непосредственно следует теорема 1.
 
 \noindent\textbf{2. Определение и разложение \(\mathfrak K_r\times\overline{\mathfrak K}_r\) в левые идеалы абсолютной длины \(n\).} По определению
 \[
-\mathfrak A_f=\mathfrak K_r\times\overline{\mathfrak K}_r
+\mathfrak A_j=\mathfrak K_r\times\overline{\mathfrak K}_r
 =\mathfrak Z\cdot\mathfrak G\times\overline{\mathfrak Z}\cdot\overline{\mathfrak G},
 \]
 причём элементы с чертой и без черты поэлементно перестановочны. Поэтому
 \[
-\mathfrak A_f
+\mathfrak A_j
 =(\mathfrak G\times\overline{\mathfrak G})\cdot(\mathfrak Z\times\overline{\mathfrak Z})
 =\mathfrak G\times\overline{\mathfrak G}\cdot(\mathfrak Ze_1+\cdots+\mathfrak Ze_n)
 \]
@@ -2669,7 +2669,7 @@ ze_1\cdot e_1u_S\bar u_Se_1
 =zu_S\bar u_Se_1\quad(\text{вспомогательная лемма 1})
 =u_Sz^S\bar u_Se_1
 =u_S\bar u_Se_1\cdot z^Se_1
-=b=e_1b,
+\equiv b=e_1b,
 \]
 (\(z\) перестановочно с \(\bar u\) и \(e_1\)). --- Пусть \(u'=u_S\bar u_Se_1\). Вспомогательная лемма 2 утверждает, что \(u'\) индуцирует подстановки поля \(\mathfrak Ze_1\), так что указанное в теореме скрещённое представление имеет место.
 
@@ -2772,7 +2772,7 @@ u^\nu\cdot u^\mu=au^\varrho\quad(\nu+\mu=n+\varrho,\ 0\leq\varrho\leq n-2).
 v=uc,\qquad v^2=u^2\cdot c^S\cdot c;
 \]
 \[
-v^r=u^r c^{S^{r-1}}c^{S^{r-2}}\cdots c;
+v^r=u^r c^{S^{r-1}}c^{S^{r-2}}\ldots c;
 \qquad
 v^n=u^nN(c).
 \]
@@ -2799,7 +2799,7 @@ v^n=u^nN(c).
  \cong N(\mathfrak Z^*)\\
 &=\text{группа классов }\{\mathfrak K\}\text{, относящихся к }\mathfrak Z
  =\mathscr K_{\mathfrak Z}
- \cong P^*/N(\mathfrak Z^*).
+ \cong \mathsf{P}^*/N(\mathfrak Z^*).
 \end{aligned}
 \]
 % END BOOK_S30
