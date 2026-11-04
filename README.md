@@ -1,40 +1,66 @@
 # Эмми Нётер — Математические труды на русском языке
 
-Статьи 1–43, лекции 1929/30 года в записи М. Deuring, работа Kapferer и Noether с дополнением, библиография и заключительные списки.
+Русский перевод собрания математических трудов Эмми Нётер (Emmy Noether, 1882–1935): статьи 1–43, лекции «Алгебра
+гиперкомплексных величин» (зимний семестр 1929/30 года) в обработке М. Дойринга (M. Deuring), статья Г. Капферера
+(H. Kapferer) с дополнением, написанным совместно с Э. Нётер, а также библиография и списки кратких сообщений,
+рецензий и книг, в подготовке которых участвовала Эмми Нётер. Издание выходит в PDF и в редактируемом LaTeX.
 
-## Основной текст
+[**Читать основной текст — PDF, 523 страницы**](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/01-noether-ru-base.pdf) ·
+[Текст с редакционными исправлениями — PDF, 528 страниц](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/04-noether-ru-emendations.pdf) ·
+[Все файлы издания от 27 октября 2026 года](https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-27-r4)
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/01-noether-ru-base.pdf)
-2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/02-noether-ru-base.tex)
-3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/03-noether-ru-base-sources.zip)
+## Как создано издание
 
-## Текст с редакционными исправлениями
+Русский текст переведён ИИ — моделями OpenAI Codex (какая модель выполнила перевод, не записано). Исправления и
+набор выполнили OpenAI Codex — GPT-6 Astra, уровень рассуждения Ultra, 23–24 октября 2026 года, и Claude Opus 5.5
+(Anthropic) 26–27 октября 2026 года; Claude Opus 5.5 сверил формулы с немецким текстом, прочитанным по печатным
+страницам Нётер. Программу сборки создал OpenAI Codex — GPT-6 Astra, Ultra, 24 октября 2026 года.
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/04-noether-ru-emendations.pdf)
-2. [Редактируемые исходники LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/05-noether-ru-emendations.tex)
-3. [Полный архив исходников](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/06-noether-ru-emendations-sources.zip)
+## Состояние
 
-Перевод создан ИИ. Исправления и набор выполнены OpenAI Codex — GPT-6 Astra, уровень рассуждения Ultra. Сохранено авторство Emmy Noether, M. Deuring и соавторов, указанных в каждом труде. Издателю не приписываются человеческий перевод или независимая научная рецензия.
+Издание содержит все перечисленные труды, но статья 43 дана в сокращении (около трети полного текста), а статьи 41
+и 42 — примерно в четырёх пятых объёма. Статьи 23, 24, 30, 31, 32, 34, 37 и 41–43, а также части статей 35 и 40
+следуют более раннему английскому переводу, формулы которого местами расходятся с немецким текстом. В статье 2 три
+сноски немецкого текста (примечание о Σ₃ и ссылки на Гордана — Кершенштейнера, с. 92 и 134) отмечены только
+звёздочкой или присоединены к соседнему предложению. У PDF нет закладок. Перевод не проверялся человеком, и в нём
+могут оставаться ошибки; кое-где формулы ещё могут следовать прежней немецкой транскрипции. Исправления принимаются
+через [страницу issues](https://github.com/KokunoYumeto/emmy-noether-ru/issues).
 
-Точная модель и уровень рассуждения для унаследованного перевода не установлены по сохранившимся записям. Исправления и набор, выполненные ИИ: 23–24 октября 2026 года; Claude Opus 5.5 (Anthropic), 26–27 октября 2026 года, включая сверку формул с немецким текстом, прочитанным по печатным страницам Noether. Издание: 27 октября 2026 года.
+## Содержание и с чего начать
 
-Прямой файл совокупного LaTeX содержит все тексты и преамбулы в редактируемом виде. Программа Python извлекает исходные файлы, компилирует их с помощью XeLaTeX и соединяет PDF частей в порядке чтения. Изображения и страницы PDF не заменяют транскрипцию. ZIP сохраняет исходную структуру, тот же совокупный LaTeX и программу сборки. Нужны Python 3, pypdf, пакеты TeX и шрифты, указанные в преамбулах. Байты PDF могут зависеть от версий TeX и шрифтов. Фиксированная внутренняя дата набора не является датой публикации.
+Издание выходит в двух вариантах текста; у каждого есть PDF, один файл LaTeX и архив исходников:
 
-[Python](https://github.com/KokunoYumeto/emmy-noether-ru/blob/main/editions/2026-10-24-r2/ru/build.py) · [SHA-256](https://github.com/KokunoYumeto/emmy-noether-ru/blob/main/editions/2026-10-24-r2/ru/07-noether-ru-SHA256SUMS.txt)
+| Вариант | PDF | LaTeX | Исходники |
+|---|---|---|---|
+| Основной текст: сохраняет чтения первых публикаций; редакционные примечания обсуждают эти чтения | [PDF, 523 с.](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/01-noether-ru-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/02-noether-ru-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/03-noether-ru-base-sources.zip) |
+| Текст с редакционными исправлениями: исправления внесены в текст, каждое объяснено в редакционном примечании | [PDF, 528 с.](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/04-noether-ru-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/05-noether-ru-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/06-noether-ru-emendations-sources.zip) |
 
-Программа сборки создана ИИ: OpenAI Codex — GPT-6 Astra, Ultra, 24 октября 2026 года.
+[Контрольные суммы SHA-256](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/07-noether-ru-SHA256SUMS.txt).
+Те же файлы лежат в [`editions/2026-10-24-r2/ru/`](editions/2026-10-24-r2/ru/).
 
-## Авторство и права
+Сборка: файл LaTeX содержит все исходные файлы с их преамбулами. Программа Python
+[`build.py`](editions/2026-10-24-r2/ru/build.py) извлекает их, компилирует с помощью XeLaTeX и соединяет PDF частей в
+порядке чтения; нужны Python 3, pypdf, а также пакеты TeX и шрифты, указанные в преамбулах. Архив ZIP содержит те же
+исходники в исходной структуре вместе с программой сборки.
 
-Труды Emmy Noether находятся в общественном достоянии. В той мере, в какой издатель обладает правами на перевод, исправления и набор, выполненные ИИ, он передаёт их в общественное достояние по [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ru). Лекции в записи M. Deuring, работа H. Kapferer и вклад названных соавторов сохраняют собственный правовой статус.
+Издание августа 2026 года (v2026.08.22-r2) хранится в [`reader/`](reader/) (PDF) и [`source/`](source/) (LaTeX);
+методика его редакции описана в [METHODOLOGY.md](METHODOLOGY.md), сборка — в [BUILD.md](BUILD.md), записи проверок
+лежат в [`evidence/`](evidence/). Немецкий текст, издания на других языках и известные различия между изданиями
+перечислены на [центральной странице](https://kokunoyumeto.github.io/emmy-noether/).
 
-[Возражения правообладателей](https://github.com/KokunoYumeto/emmy-noether-ru/issues/new).
+## Авторы и источники
 
-## Прежние издания
+- Математические труды принадлежат Эмми Нётер и соавторам, названным в них: Вернер Шмейдлер (Werner Schmeidler,
+  статья 17), Р. Брауэр (R. Brauer, статья 32), Р. Брауэр и Х. Хассе (H. Hasse, статья 38). Лекции 1929/30 года
+  обработал М. Дойринг. Работа 45 принадлежит Г. Капфереру, дополнение к ней написано совместно с Э. Нётер. Сведения
+  о первых публикациях, подписи и ссылки приводятся в текстах.
+- Редакция августа 2026 года опиралась на немецкий проектный корпус NOETH-DE-ED-0015. Формулы нынешнего издания
+  сверены с немецким текстом, сличённым постранично с первыми публикациями
+  ([выпуск noether-de-2026-10-26](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-de-2026-10-26)).
 
-- [zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
-- [zenodo.21926366](https://doi.org/10.5281/zenodo.21926366).
-- [zenodo.21940320](https://doi.org/10.5281/zenodo.21940320).
-- [zenodo.22052699](https://doi.org/10.5281/zenodo.22052699).
+## Права
 
-[GitHub](https://github.com/KokunoYumeto/emmy-noether-ru/releases).
+Труды Эмми Нётер находятся в общественном достоянии. В той мере, в какой издатель обладает правами на перевод,
+исправления и набор, выполненные ИИ, он передаёт их в общественное достояние по
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ru). Лекции в обработке М. Дойринга, работа
+Г. Капферера и вклад названных соавторов сохраняют собственный правовой статус.

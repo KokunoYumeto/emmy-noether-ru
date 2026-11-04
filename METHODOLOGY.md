@@ -12,7 +12,7 @@
 
 ### 3. Роль ИИ
 
-OpenAI Codex помогал находить расхождения, формулировать кандидаты, собирать доказательства, выполнять детерминированные преобразования и технические проверки. ИИ не заменён ярлыком «проверено человеком»: внешняя, общественная и носительская рецензия не проводилась. Поэтому публикация честно называет себя машинно-ассистированным рабочим изданием.
+OpenAI Codex находил расхождения, формулировал варианты правок, собирал доказательства, выполнял детерминированные преобразования и технические проверки. Внешняя, общественная и носительская рецензия не проводилась: это рабочее издание, созданное ИИ.
 
 ### 4. Воспроизводимость
 
@@ -32,6 +32,6 @@ PDF — производный результат, а не независимы�
 
 The project German authority is `NOETH-DE-ED-0015`; it controls structure, formulas, and intended meaning but is not claimed as a critical German edition. Every substantive Russian change has a monotonic `RU001-EDIT-....` record with exact locators, before/after payloads, evidence roles, rejected alternatives, uncertainty, and reverse replay. Domain terminology sources are used only within their evidentiary scope; other translation lanes are comparators, not native-Russian authority.
 
-OpenAI Codex assisted with discrepancy detection, candidate formulation, evidence assembly, deterministic transformation, and technical QA. No external, community, or native-speaker review is claimed. Four pinned TeX sources and one pinned image build serially with two XeLaTeX passes and no shell escape. Two clean builds are byte-identical; structural, math, reference, citation, label, font, text-extraction, cross-head page, and targeted visual gates pass. The public machine index makes the edition discoverable and replayable without private filesystem paths. The PDF is a derived artifact, not an independent translation witness, and the rights boundary above remains controlling.
+OpenAI Codex carried out the discrepancy detection, candidate formulation, evidence assembly, deterministic transformation, and technical QA. No external, community, or native-speaker review is claimed. Four pinned TeX sources and one pinned image build serially with two XeLaTeX passes and no shell escape. Two clean builds are byte-identical; structural, math, reference, citation, label, font, text-extraction, cross-head page, and targeted visual gates pass. The public machine index makes the edition discoverable and replayable without private filesystem paths. The PDF is a derived artifact, not an independent translation witness, and the rights boundary above remains controlling.
 
 Public copies of early decision sidecars replace local custody roots with logical URIs. `PUBLIC_COPY_TRANSFORMATIONS.json` pins canonical and public-copy hashes. Historical applicators that embed local custody paths are represented by exact source hashes rather than misrepresented as portable executables; the current builder and package assembler are portable.

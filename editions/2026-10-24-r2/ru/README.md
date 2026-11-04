@@ -32,9 +32,4 @@
 
 ## Прежние издания
 
-- [zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
-- [zenodo.21926366](https://doi.org/10.5281/zenodo.21926366).
-- [zenodo.21940320](https://doi.org/10.5281/zenodo.21940320).
-- [zenodo.22052699](https://doi.org/10.5281/zenodo.22052699).
-
 [GitHub](https://github.com/KokunoYumeto/emmy-noether-ru/releases).
