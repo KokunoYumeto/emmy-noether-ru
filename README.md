@@ -5,9 +5,9 @@
 (H. Kapferer) с дополнением, написанным совместно с Э. Нётер, а также библиография и списки кратких сообщений,
 рецензий и книг, в подготовке которых участвовала Эмми Нётер. Издание выходит в PDF и в редактируемом LaTeX.
 
-[**Читать основной текст — PDF, 523 страницы**](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/01-noether-ru-base.pdf) ·
-[Текст с редакционными исправлениями — PDF, 528 страниц](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/04-noether-ru-emendations.pdf) ·
-[Все файлы издания от 27 октября 2026 года](https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-10-27-r4)
+[**Читать основной текст — PDF, 523 страницы**](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-11-15/01-noether-ru-base.pdf) ·
+[Текст с редакционными исправлениями — PDF, 528 страниц](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-11-15/04-noether-ru-emendations.pdf) ·
+[Все файлы издания от 27 октября 2026 года](https://github.com/KokunoYumeto/emmy-noether-ru/releases/tag/noether-ru-2026-11-15)
 
 ## Как создано издание
 
@@ -32,10 +32,10 @@
 
 | Вариант | PDF | LaTeX | Исходники |
 |---|---|---|---|
-| Основной текст: сохраняет чтения первых публикаций; редакционные примечания обсуждают эти чтения | [PDF, 523 с.](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/01-noether-ru-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/02-noether-ru-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/03-noether-ru-base-sources.zip) |
-| Текст с редакционными исправлениями: исправления внесены в текст, каждое объяснено в редакционном примечании | [PDF, 528 с.](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/04-noether-ru-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/05-noether-ru-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/06-noether-ru-emendations-sources.zip) |
+| Основной текст: сохраняет чтения первых публикаций; редакционные примечания обсуждают эти чтения | [PDF, 523 с.](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-11-15/01-noether-ru-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-11-15/02-noether-ru-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-11-15/03-noether-ru-base-sources.zip) |
+| Текст с редакционными исправлениями: исправления внесены в текст, каждое объяснено в редакционном примечании | [PDF, 528 с.](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-11-15/04-noether-ru-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-11-15/05-noether-ru-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-11-15/06-noether-ru-emendations-sources.zip) |
 
-[Контрольные суммы SHA-256](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-10-27-r4/07-noether-ru-SHA256SUMS.txt).
+[Контрольные суммы SHA-256](https://github.com/KokunoYumeto/emmy-noether-ru/releases/download/noether-ru-2026-11-15/07-noether-ru-SHA256SUMS.txt).
 Те же файлы лежат в [`editions/2026-10-24-r2/ru/`](editions/2026-10-24-r2/ru/).
 
 Сборка: файл LaTeX содержит все исходные файлы с их преамбулами. Программа Python
